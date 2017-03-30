@@ -166,7 +166,8 @@ body {
 }
 .logo {
 	font-size: 3.626rem;
-	text-decoration: none;	
+	text-decoration: none;
+	margin-right: 110px;
 }
 .menu {
 }
