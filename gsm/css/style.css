@@ -142,6 +142,10 @@ body {
 .tel-cont a {
 	color: #1e1e1e;
 }
+.tel-cont span {
+	font-size: 2rem;
+	font-weight: 700
+}
 /* Middle
 -----------------------------------------------------------------------------*/
 .content {
