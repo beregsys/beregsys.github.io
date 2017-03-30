@@ -131,6 +131,9 @@ body {
     line-height: 106px;
     height: 106px;
 }
+.tel-list__item:first-of-type {
+	margin-right: 60px;
+}
 .tel-cont {
 	line-height: normal;
 	display: inline-block;
