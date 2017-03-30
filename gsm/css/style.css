@@ -80,6 +80,9 @@ body {
 .header-top {
 	height: 106px;
 }
+.left-side {
+	float: left;
+}
 
 
 /* Middle
