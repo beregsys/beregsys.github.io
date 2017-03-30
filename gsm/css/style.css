@@ -155,8 +155,8 @@ body {
 	background: url(../images/header-bottom-bg.jpg) center center no-repeat;
 	height: 642px;
 }
-.logo {
-	
+.logo, .main-nav a {
+	color: #f9f8f5;
 }
 /*End header bottom*/
 /* Middle
