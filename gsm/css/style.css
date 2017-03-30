@@ -190,6 +190,9 @@ body {
 .bottom-text {
 	margin-top: 80px;
 }
+.bottom-text img {
+	position: absolute;
+}
 /*End header bottom*/
 /* Middle
 -----------------------------------------------------------------------------*/
