@@ -291,6 +291,9 @@ h2 {
 .temperature {
 	background: url(../images/temperature-bg.jpg) no-repeat left center;
 }
+.temperature .slogan {
+	color: #fff;
+}
 /*End section temperatura*/
 
 
