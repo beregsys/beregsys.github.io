@@ -290,6 +290,7 @@ h2 {
 /*Section temperatura*/
 .temperature {
 	background: url(../images/temperature-bg.jpg) no-repeat left center;
+	
 }
 .temperature .temp-text {
 	font-size: 3.2rem;
