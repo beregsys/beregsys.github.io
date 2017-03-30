@@ -133,6 +133,8 @@ body {
 }
 .tel-cont {
 	line-height: normal;
+	display: inline-block;
+	vertical-align: middle;
 }
 /* Middle
 -----------------------------------------------------------------------------*/
