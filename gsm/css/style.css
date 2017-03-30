@@ -216,6 +216,12 @@ body {
     float: left;
     margin: 120px 0 0 7px;
 }
+.round-shadow {
+	width: 363px;
+    height: 363px;
+    float: right;
+    margin: 60px 5px 0 0;
+}
 /*End header bottom*/
 /* Middle
 -----------------------------------------------------------------------------*/
