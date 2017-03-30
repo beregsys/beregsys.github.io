@@ -81,11 +81,11 @@ body {
 -----------------------------------------------------------------------------*/
 .header {
 	height: 750px;
+	font-family: 'Ubuntu', sans-serif;
 }
 /* header top */
 .header-top {
 	height: 106px;
-	font-family: 'Ubuntu', sans-serif;
 }
 .left-side {
 	float: left;
@@ -162,7 +162,7 @@ body {
 	float: left;
 }
 .logo {
-	
+	font-size: 36.26rem;
 }
 
 /*End header bottom*/
