@@ -70,6 +70,11 @@ body {
 	width: 1170px;
 	margin: 0 auto;
 }
+.after:after {
+	content: '';
+	display: table;
+	clear: both;
+}
 
 
 /* Header
@@ -83,6 +88,7 @@ body {
 .left-side {
 	float: left;
 }
+
 
 
 /* Middle
