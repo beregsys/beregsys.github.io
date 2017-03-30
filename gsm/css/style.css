@@ -124,7 +124,10 @@ body {
 .tel-list {
 	font-size: 0;
 }
-
+.tel-list__item {
+	font-size: 1.7rem;
+	display: inline-block;
+}
 /* Middle
 -----------------------------------------------------------------------------*/
 .content {
