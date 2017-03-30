@@ -97,7 +97,7 @@ body {
 	display: inline-block;
 	line-height: 106px;
 	height: 106px;
-	bg-url
+	background: #000;
 }
 .header-top__text {
 	line-height: normal;
