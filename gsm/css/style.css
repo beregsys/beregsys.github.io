@@ -295,11 +295,12 @@ h2 {
 .temperature h2 {
 	padding-left: 17px;
 }
-.temperature .temp-text {
+.temp-text {
 	font-size: 3.2rem;
 	color: #fff;
 	text-align: center;
-	padding-top: 20px;
+	padding-top: 13px;
+    padding-left: 33px;
 }
 .temperature .container > img {
 	margin: 65px 0 0 120px;
