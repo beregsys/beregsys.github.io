@@ -199,8 +199,8 @@ body {
 }
 .bottom-text img {
 	position: absolute;
-	top: 0;
-	left: 90px;
+	top: 9px;
+	left: 84px;
 }
 .bottom-text p {
 	font-size: 5rem;
