@@ -131,6 +131,9 @@ body {
     line-height: 106px;
     height: 106px;
 }
+.tel-cont {
+	line-height: normal;
+}
 /* Middle
 -----------------------------------------------------------------------------*/
 .content {
