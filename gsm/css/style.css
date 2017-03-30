@@ -168,6 +168,9 @@ body {
 	font-size: 3.626rem;
 	text-decoration: none;	
 }
+.menu {
+	line-height: normal;
+}
 
 /*End header bottom*/
 /* Middle
