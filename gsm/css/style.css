@@ -176,7 +176,7 @@ body {
 	display: inline-block;
 	font-size: 2rem;
 	font-weight: 700;
-	margin-right: 75px;
+	margin-right: 50px;
 }
 .menu__item:last-of-type {
 	margin-right: 0;
