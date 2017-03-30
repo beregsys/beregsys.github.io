@@ -70,7 +70,7 @@ body {
 	width: 1170px;
 	margin: 0 auto;
 }
-.after:after {
+.clear:after {
 	content: '';
 	display: table;
 	clear: both;
