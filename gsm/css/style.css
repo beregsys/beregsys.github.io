@@ -212,6 +212,10 @@ body {
 	line-height: 60px;
 	padding-bottom: 17px;
 }
+.smartphone {
+    float: left;
+    margin: 120px 0 0 7px;
+}
 /*End header bottom*/
 /* Middle
 -----------------------------------------------------------------------------*/
