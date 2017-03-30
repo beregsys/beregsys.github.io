@@ -298,7 +298,7 @@ h2 {
 	text-align: center;
 	padding-top: 20px;
 }
-.temperature > img {
+.temperature .container > img {
 	margin: 65px 0 0 120px;
 }
 /*End section temperatura*/
