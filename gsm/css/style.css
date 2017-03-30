@@ -189,6 +189,7 @@ body {
 }
 .bottom-text {
 	padding-top: 80px;
+	float: left;
 }
 .bottom-text img {
 	position: absolute;
