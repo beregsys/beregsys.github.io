@@ -4,6 +4,6 @@ $(document).ready(function(){
 		var id = $(this).prev().attr("id"),
 			tel = $(this).prev(),
 			fullTel = id == "free-tel" : "888" ? "999";
-		tel.text()
+		tel.text(fullTel);
 	});
 });
