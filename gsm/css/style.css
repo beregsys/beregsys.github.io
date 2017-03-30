@@ -287,7 +287,11 @@ h2 {
 	vertical-align: middle;
 }
 /*End Section gsm*/
-
+/*Section temperatura*/
+.temperature {
+	background: url(../images/temperatura-bg.jpg) no-repeat ;
+}
+/*End section temperatura*/
 
 
 /* Footer
