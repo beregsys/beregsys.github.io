@@ -103,7 +103,7 @@ body {
 	background: url(../images/header-top1.png) no-repeat 37px center;
 }
 .left-list__item:nth-of-type(2) {
-	background: url(../images/header-top2.png) no-repeat 30px center;
+	background: url(../images/header-top2.png) no-repeat 45px 23px;
 }
 .header-top__text {
 	line-height: normal;
