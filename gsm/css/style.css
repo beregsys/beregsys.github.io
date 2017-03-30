@@ -82,6 +82,7 @@ body {
 .header {
 	height: 750px;
 }
+/* header top */
 .header-top {
 	height: 106px;
 	font-family: 'Ubuntu', sans-serif;
@@ -148,6 +149,10 @@ body {
 	font-size: 2rem;
 	font-weight: 700
 }
+/* End header top */
+/*header bottom*/
+
+/*End header bottom*/
 /* Middle
 -----------------------------------------------------------------------------*/
 .content {
