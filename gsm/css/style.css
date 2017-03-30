@@ -189,7 +189,7 @@ body {
 }
 .bottom-text {
 	padding-top: 80px;
-	float: left;
+	/*float: left;*/
 	position: relative;
 	color: #fffffe;
 	font-size: 1.8rem;
