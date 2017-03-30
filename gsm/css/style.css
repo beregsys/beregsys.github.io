@@ -155,7 +155,9 @@ body {
 	background: url(../images/header-bottom-bg.jpg) center center no-repeat;
 	height: 642px;
 }
-.logo
+.logo {
+	
+}
 /*End header bottom*/
 /* Middle
 -----------------------------------------------------------------------------*/
