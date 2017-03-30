@@ -91,7 +91,9 @@ body {
 .left-list {
 	font-size: 0;
 }
-
+.left-list__item {
+	font-size: 1.8rem;
+}
 
 
 /* Middle
