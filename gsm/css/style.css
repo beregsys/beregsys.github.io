@@ -280,6 +280,9 @@ h2 {
 	background: url(../images/gsm-phone.png) 0 center no-repeat;
 	margin-bottom: 53px;
 }
+.gsm-list__item span {
+	line-height: normal;
+}
 /*End Section gsm*/
 
 
