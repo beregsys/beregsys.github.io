@@ -158,6 +158,10 @@ body {
 .logo, .main-nav a {
 	color: #f9f8f5;
 }
+.logo, .main-nav {
+	float: left;
+}
+
 /*End header bottom*/
 /* Middle
 -----------------------------------------------------------------------------*/
