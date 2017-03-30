@@ -191,7 +191,8 @@ body {
 	padding-top: 80px;
 	float: left;
 	position: relative;
-	color: #fff;
+	color: #fffffffe;
+	font-size: 1.8rem;
 }
 .bottom-text img {
 	position: absolute;
