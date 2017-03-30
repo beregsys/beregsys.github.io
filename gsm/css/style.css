@@ -139,6 +139,9 @@ body {
 	display: inline-block;
 	vertical-align: middle;
 }
+.tel-cont a {
+	color: #1e1e1e;
+}
 /* Middle
 -----------------------------------------------------------------------------*/
 .content {
