@@ -187,7 +187,10 @@ body {
 .menu-link:hover {
 	text-decoration: underline;
 }
-
+.bottom-text {
+	margin-top: 80px;
+	background: url(../images/vertical-lines.png) no-repeat 50px top;
+}
 /*End header bottom*/
 /* Middle
 -----------------------------------------------------------------------------*/
