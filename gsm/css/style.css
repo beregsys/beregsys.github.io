@@ -117,7 +117,10 @@ body {
 .header-top__text span {
 	font-size: 1.8rem;
 }
-
+.right-side {
+	float: right;
+	width: 45%;
+}
 /* Middle
 -----------------------------------------------------------------------------*/
 .content {
