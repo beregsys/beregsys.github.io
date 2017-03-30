@@ -195,6 +195,7 @@ body {
 	font-size: 1.8rem;
 	width: 360px;
 	font-family: Arial, sans-serif;
+	line-height: 24px;
 }
 .bottom-text img {
 	position: absolute;
