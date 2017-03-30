@@ -233,6 +233,7 @@ h2 {
 	font-weight: 900;
 	color: #fdcf27;
 	text-align: center;
+	line-height: 42.86px;
 	
 }
 /*Section gsm*/
@@ -243,6 +244,9 @@ h2 {
 .gsm-text-wrap {
 	float: left;
 	padding: 37px 0 0 45px;
+}
+.gsm-text-wrap h2 {
+	text-align: left;
 }
 /*End Section gsm*/
 
