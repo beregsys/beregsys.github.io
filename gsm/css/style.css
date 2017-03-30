@@ -171,6 +171,9 @@ body {
 .menu {
 	line-height: normal;
 }
+.menu__item {
+	display: inline-block;
+}
 
 /*End header bottom*/
 /* Middle
