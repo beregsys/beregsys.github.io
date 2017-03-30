@@ -291,7 +291,7 @@ h2 {
 .temperature {
 	background: url(../images/temperature-bg.jpg) no-repeat left center;
 }
-.temperature .slogan {
+.temperature .temp-text {
 	font-size: 3.2rem;
 	color: #fff;
 }
