@@ -111,6 +111,9 @@ body {
 	display: inline-block;
 	vertical-align: middle;
 }
+.left-list__item:nth-of-type(2) .header-top__text {
+	padding-left: 150px;
+}
 .header-top__text p {
 	font-size: 2.1rem;
 	font-weight: 700;
