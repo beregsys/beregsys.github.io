@@ -170,9 +170,16 @@ body {
 	margin-right: 110px;
 }
 .menu {
+	font-size: 0;
 }
 .menu__item {
 	display: inline-block;
+	font-size: 2rem;
+	font-weight: 700;
+	margin-right: 75px;
+}
+.menu__item:last-of-type {
+	margin-right: 0;
 }
 
 /*End header bottom*/
