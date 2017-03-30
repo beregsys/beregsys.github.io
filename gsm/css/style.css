@@ -307,6 +307,7 @@ h2 {
 	width: 406px;
 	height: 406px;
 	border-radius: 50%;
+	overflow: hidden;
 }
 /*End section temperatura*/
 
