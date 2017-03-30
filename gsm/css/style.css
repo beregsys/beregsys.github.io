@@ -240,7 +240,10 @@ h2 {
 	float: left;
     margin: 37px 0 0 25px;
 }
-
+.gsm-wrapper {
+	float: left;
+	padding: 37px 0 0 45px;
+}
 /*End Section gsm*/
 
 
