@@ -141,6 +141,7 @@ body {
 }
 .tel-cont a {
 	color: #1e1e1e;
+	margin-left: 5px;
 }
 .tel-cont span {
 	font-size: 2rem;
