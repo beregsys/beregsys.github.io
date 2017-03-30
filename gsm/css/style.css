@@ -294,6 +294,8 @@ h2 {
 .temperature .temp-text {
 	font-size: 3.2rem;
 	color: #fff;
+	text-align: center;
+	
 }
 /*End section temperatura*/
 
