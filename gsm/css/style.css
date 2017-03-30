@@ -188,7 +188,7 @@ body {
 	text-decoration: underline;
 }
 .bottom-text {
-	margin-top: 80px;
+	padding-top: 80px;
 }
 .bottom-text img {
 	position: absolute;
