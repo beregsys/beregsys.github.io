@@ -94,6 +94,7 @@ body {
 }
 .left-list__item {
 	font-size: 1.8rem;
+	color: #1e1e1e;
 	display: inline-block;
 	line-height: 106px;
 	height: 106px;
