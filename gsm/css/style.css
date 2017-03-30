@@ -88,6 +88,9 @@ body {
 .left-side {
 	float: left;
 }
+.left-list {
+	font-size: 0;
+}
 
 
 
