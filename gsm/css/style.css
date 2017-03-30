@@ -151,7 +151,9 @@ body {
 }
 /* End header top */
 /*header bottom*/
-
+.header-bottom {
+	background: url(../images/header-bottom-bg.jpg) center center no-repeat;
+}
 /*End header bottom*/
 /* Middle
 -----------------------------------------------------------------------------*/
