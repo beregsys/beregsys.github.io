@@ -96,10 +96,13 @@ body {
 	font-size: 1.8rem;
 	display: inline-block;
 	line-height: 106px;
+	height: 106px;
 }
 .header-top__text {
 	line-height: normal;
 	padding-left: 110px;
+	display: inline-block;
+	vertical-align: middle;
 }
 
 /* Middle
