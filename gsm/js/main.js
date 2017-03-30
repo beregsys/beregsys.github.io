@@ -3,7 +3,7 @@ $(document).ready(function(){
 		event.preventDefault();
 		var id = $(this).prev().attr("id"),
 			tel = $(this).prev(),
-			fullTel = (id == "free-tel") ? "888" : "999";
+			fullTel = (id == "free-tel") ? "8 800 555-1" : "999";
 		tel.text(fullTel);
 		$(this).hide();
 	});
