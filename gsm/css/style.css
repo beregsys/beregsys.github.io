@@ -159,7 +159,9 @@ body {
 	color: #f9f8f5;
 }
 .logo, .main-nav {
-	float: left;
+	display: inline-block;
+	height: 70px;
+	line-height: 70px;
 }
 .logo {
 	font-size: 3.626rem;
