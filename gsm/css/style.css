@@ -163,6 +163,9 @@ body {
 }
 .logo {
 	font-size: 3.626rem;
+	text-decoration: none;
+	display: block;
+	
 }
 
 /*End header bottom*/
