@@ -77,6 +77,9 @@ body {
 .header {
 	height: 750px;
 }
+.header-top {
+	height: 106px;
+}
 
 
 /* Middle
