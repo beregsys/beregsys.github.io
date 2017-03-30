@@ -200,6 +200,10 @@ body {
 	top: 0;
 	left: 30px;
 }
+.bottom-text p {
+	font-size: 5rem;
+	color: #fff;
+}
 /*End header bottom*/
 /* Middle
 -----------------------------------------------------------------------------*/
