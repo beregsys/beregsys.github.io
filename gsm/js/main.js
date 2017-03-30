@@ -5,5 +5,6 @@ $(document).ready(function(){
 			tel = $(this).prev(),
 			fullTel = (id == "free-tel") ? "888" : "999";
 		tel.text(fullTel);
+		$(this).hide();
 	});
 });
