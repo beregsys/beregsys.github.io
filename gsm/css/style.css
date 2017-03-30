@@ -271,6 +271,7 @@ h2 {
 	margin: 63px 0 0 97px;
 	font-size: 0;
 	color: #2d2d2d;
+	width: 330px;
 }
 .gsm-list__item {
 	font-size: 2.069rem;
@@ -278,10 +279,12 @@ h2 {
 	line-height: 70px;
 	height: 70px;
 	background: url(../images/gsm-phone.png) 0 center no-repeat;
-	margin-bottom: 53px;
+	margin-bottom: 50px;
 }
 .gsm-list__item span {
 	line-height: normal;
+	display: inline-block;
+	vertical-align: middle;
 }
 /*End Section gsm*/
 
