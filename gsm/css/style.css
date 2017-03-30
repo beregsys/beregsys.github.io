@@ -84,6 +84,7 @@ body {
 }
 .header-top {
 	height: 106px;
+	font-family: 'Ubuntu', sans-serif;
 }
 .left-side {
 	float: left;
