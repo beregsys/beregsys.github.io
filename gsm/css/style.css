@@ -194,6 +194,8 @@ body {
 }
 .bottom-text img {
 	position: absolute;
+	top: 0;
+	left: 30px;
 }
 /*End header bottom*/
 /* Middle
