@@ -292,6 +292,7 @@ h2 {
 	background: url(../images/temperature-bg.jpg) no-repeat left center;
 }
 .temperature .slogan {
+	font-size: 3.2rem;
 	color: #fff;
 }
 /*End section temperatura*/
