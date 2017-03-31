@@ -315,6 +315,7 @@ h2 {
 	height: 406px;
 	border-radius: 50%;
 	overflow: hidden;
+	box-shadow: 0 0 15px 2px rgba(0,0,0,.67);
 }
 /*End section temperatura*/
 /*Section technical*/
