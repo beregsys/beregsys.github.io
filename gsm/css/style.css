@@ -519,6 +519,7 @@ h2 {
 }
 @media (max-width: 1050px) {
 	.container { width: 90%; }
+	.temperature .container > img { width: 200px; }
 }
 @media (max-width: 875px) {
 	.header-top { height: auto; }
