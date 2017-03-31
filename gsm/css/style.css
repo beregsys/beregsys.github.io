@@ -364,7 +364,9 @@ h2 {
 .price h2 {
 	margin-top: 60px;
 }
-.price h2 span
+.price h2 span {
+	
+}
 .price-list {
 	font-size: 0;
 }
