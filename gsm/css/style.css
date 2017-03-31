@@ -502,9 +502,6 @@ h2 {
 	.round-shadow { display: none; }
 	.gsm-main-img { width: 320px; }
 }
-@media (max-width: 1050px) {
-	.container { width: 90%; }
-}
 @media (max-width: 1130px) {
 	.logo, .main-nav { display: block; text-align: center; }
 	.bottom-text img { height: 495px; }
@@ -519,6 +516,9 @@ h2 {
 	.gsm { padding-bottom: 0; }
 	.temperature {background-size: cover; padding-bottom: 0;}
 	.temperature .container > img {margin-left: 0;}
+}
+@media (max-width: 1050px) {
+	.container { width: 90%; }
 }
 @media (max-width: 875px) {
 	.header-top { height: auto; }
