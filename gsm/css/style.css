@@ -511,6 +511,7 @@ h2 {
 	.smartphone { display: none; }
 	.round-shadow { display: block; }
 	.gsm-text-wrap, .gsm-main-img { float: none; }
+	.gsm-main-img { padding-left: 0; }
 }
 @media (max-width: 875px) {
 	.header-top { height: auto; }
