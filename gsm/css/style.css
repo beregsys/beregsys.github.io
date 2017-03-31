@@ -357,7 +357,15 @@ h2 {
 	margin-right: 0;
 }
 /*End section technical*/
-
+/*Section Price*/
+.price-list {
+	font-size: 0;
+}
+.price-list__item {
+	font-size: 2.5rem;
+	color: #8a8989;
+}
+/*End section price*/
 /* Footer
 -----------------------------------------------------------------------------*/
 .footer {
