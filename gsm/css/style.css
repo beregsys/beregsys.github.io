@@ -360,6 +360,7 @@ h2 {
 /*Section Price*/
 .price {
 	background-color: #eeecec;
+	padding-bottom: 70px;
 }
 .price h2 {
 	padding-top: 60px;
