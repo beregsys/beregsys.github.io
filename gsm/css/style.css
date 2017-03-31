@@ -366,6 +366,7 @@ h2 {
 }
 .price h2 span {
 	color: #272727;
+	font-weight: 400;
 }
 .price-list {
 	font-size: 0;
