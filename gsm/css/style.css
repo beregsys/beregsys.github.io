@@ -327,7 +327,8 @@ h2 {
 }
 .tech-table {
 	display: table;
-	width: 100%
+	width: 100%;
+	margin-top: 57px;
 }
 .tech-row {
 	display: table-row;
