@@ -351,7 +351,7 @@ h2 {
 	display: inline-block;
 	vertical-align: top;
 	margin-right: 30px;
-	box-shadow: 0 0 5px 5px rgba(0,0,0,.36);
+	box-shadow: 2px 3px 10px 3px rgba(0,0,0,.24);
 }
 .roz-list__item:last-of-type {
 	margin-right: 0;
