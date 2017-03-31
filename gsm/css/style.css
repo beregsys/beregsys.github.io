@@ -433,4 +433,6 @@ h2 {
 	.left-list__item:nth-of-type(2) { background: url(../images/header-top2.png) no-repeat 30px 30px; }
 	.left-list__item:nth-of-type(2) .header-top__text { padding-left: 100px; }
 	.right-side { width: auto; }
+	.right-side { margin: -8px 55px 0 30px; }
+	.menu__item { margin-right: 25px; }
 }
