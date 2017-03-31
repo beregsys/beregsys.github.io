@@ -466,4 +466,5 @@ h2 {
 }
 @media (max-width: 765px) {
 	.header-top { display: none; }
+	.logo { position: relative; background-color: rgba(0, 0, 0,.1) }
 }
