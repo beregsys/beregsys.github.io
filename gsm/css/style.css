@@ -452,5 +452,6 @@ h2 {
 	.smartphone { display: none; }
 }
 @media (max-width: 875px) {
-
+	.header-top { height: auto; }
+	
 }
