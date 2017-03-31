@@ -315,6 +315,9 @@ h2 {
 }
 /*End section temperatura*/
 /*Section technical*/
+.technical {
+	padding-bottom: 60px;
+}
 .tech-wrap {
 	max-width: 1140px;
 	margin: 0 auto;
