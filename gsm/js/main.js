@@ -7,12 +7,12 @@ $(document).ready(function(){
 		tel.text(fullTel);
 		$(this).hide();
 	});
-	if ($(window).width() <= 760) {
+	if ($(window).width() <= 690) {
         $('.menu').css('display', "none");
         console.log($(window).width());
     } else $('.menu').css('display', "block");
     $(window).resize(function() {
-        if ($(window).width() <= 760) {
+        if ($(window).width() <= 690) {
             $('.menu').css('display', "none");
             console.log($(window).width());
         } else $('.menu').css('display', "block");
