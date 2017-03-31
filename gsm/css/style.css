@@ -315,7 +315,10 @@ h2 {
 }
 /*End section temperatura*/
 /*Section technical*/
-
+.tech-wrap {
+	max-width: 1140px;
+	
+}
 /*End section technical*/
 
 /* Footer
