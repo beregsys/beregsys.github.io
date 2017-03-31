@@ -510,6 +510,7 @@ h2 {
 	.bottom-text img { height: 495px; }
 	.smartphone { display: none; }
 	.round-shadow { display: block; }
+	
 }
 @media (max-width: 875px) {
 	.header-top { height: auto; }
