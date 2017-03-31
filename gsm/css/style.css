@@ -427,5 +427,5 @@ h2 {
 	color: #fff;
 }
 @media (max-width: 1366px) {
-	.container {width: 1035px;}
+	.container {width: 75%;}
 }
