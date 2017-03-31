@@ -461,4 +461,5 @@ h2 {
 	.round-shadow { display: none; }
 	.bottom-text { float: none; width: 320px; text-align: center; margin: 0 auto; }
 	.bottom-text img { left: 50%; }
+	.left-list__item, .tel-list__item {line-height: 60px; height: 60px; }
 }
