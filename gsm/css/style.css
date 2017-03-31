@@ -441,6 +441,7 @@ h2 {
 	.gsm-text-wrap { float: right; }
 	.gsm-main-img { width: 480px; margin-left: 0; }
 	.roz-list__item img { width: 200px; }
+	.tel-list__item:first-of-type { margin-right: 20px; }
 }
 @media (max-width: 1100px) {
 
