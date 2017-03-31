@@ -525,7 +525,7 @@ h2 {
 	.left-side, .right-side { float: none; text-align: center; }
 	.left-list__item, .tel-list__item { text-align: left; line-height: 80px; height: 80px; }
 	.left-list__item:nth-of-type(2) { background: url(../images/header-top2.png) no-repeat 30px 15px; }
-	.tech-wrap { padding: 58px 0 58px 0; }
+	.tech-wrap { padding: 58px 0; }
 }
 @media (max-width: 765px) {
 	.round-shadow { display: none; }
