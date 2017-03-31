@@ -336,11 +336,12 @@ h2 {
 }
 .tech-cell {
 	display: table-cell;
-	padding: 22px 27px;
-	background: #eeecec;
-	border: 2px solid #fff;
-	font-size: 2rem;
-	color: #343434;
+    padding: 21px 41px;
+    background: #eeecec;
+    border: 2px solid #fff;
+    font-size: 2rem;
+    color: #343434;
+    width: 50%;
 }
 .roz-list {
 	margin-top: 90px;
