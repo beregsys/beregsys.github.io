@@ -342,6 +342,19 @@ h2 {
 	font-size: 2rem;
 	color: #343434;
 }
+.roz-list {
+	margin-top: 90px;
+	font-size: 0;
+	text-align: center;
+}
+.roz-list__item {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 30px;
+}
+.roz-list__item:last-of-type {
+	margin-right: 0;
+}
 /*End section technical*/
 
 /* Footer
