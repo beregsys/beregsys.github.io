@@ -395,6 +395,8 @@ h2 {
 	font-size: 3rem;
 	color: #fff;
 	text-align: center;
+	display: block;
+	text-decoration: none;
 }
 /*End section price*/
 /* Footer
