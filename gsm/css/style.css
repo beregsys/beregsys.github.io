@@ -506,7 +506,7 @@ h2 {
 	.temp-roz { margin-right: 0; }
 }
 @media (max-width: 1190px) {
-	
+	.roz-list__item { margin: 15px; }
 }
 @media (max-width: 1130px) {
 	.logo, .main-nav { display: block; text-align: center; }
