@@ -407,6 +407,7 @@ h2 {
 	min-width: 320px;
 	max-width: 1920px;
 	height: 80px;
+	line-height: 80px;
 	background: #332b2e;
 	position: relative;
 }
