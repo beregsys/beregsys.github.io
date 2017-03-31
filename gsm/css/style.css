@@ -386,6 +386,14 @@ h2 {
 	padding: 0 45px 0 15px;
 	line-height: 48px;
 }
+.order {
+	width: 360px;
+	height: 85px;
+	margin: 0 auto;
+	line-height: 85px;
+	background-color: #fdcf27;
+	
+}
 /*End section price*/
 /* Footer
 -----------------------------------------------------------------------------*/
