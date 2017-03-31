@@ -361,6 +361,9 @@ h2 {
 .price {
 	background-color: #eeecec;
 }
+.price h2 {
+	margin-top: 60px;
+}
 .price-list {
 	font-size: 0;
 }
