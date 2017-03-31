@@ -467,5 +467,5 @@ h2 {
 @media (max-width: 690px) {
 	.container { width: 100%; }
 	.header-top { display: none; }
-	.logo { position: relative; background-color: rgba(0, 0, 0,.1); text-align: left; }
+	.logo { position: relative; background-color: rgba(0, 0, 0,.1); text-align: left; margin: 0; }
 }
