@@ -515,7 +515,7 @@ h2 {
 	.gsm-wrapper { text-align: center; }
 	.gsm-text-wrap h2 { text-align: center; }
 	.control {margin-top: 30px;}
-	.gsm-list { text-align: left; m }
+	.gsm-list { text-align: left; margin-left: 0; }
 }
 @media (max-width: 875px) {
 	.header-top { height: auto; }
