@@ -498,7 +498,7 @@ h2 {
 	.roz-list__item img { width: 200px; }
 	.tel-list__item:first-of-type { margin-right: 20px; }
 }
-@media (max-width: 1366px) {
+@media (max-width: 1325px) {
 	.round-shadow { display: none; }
 }
 @media (max-width: 1050px) {
