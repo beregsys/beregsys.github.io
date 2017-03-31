@@ -458,5 +458,5 @@ h2 {
 	.left-list__item:nth-of-type(2) { background: url(../images/header-top2.png) no-repeat 30px 15px; }
 }
 @media (max-width: 765px) {
-	.round-shadow {}
+	.round-shadow { display: none; }
 }
