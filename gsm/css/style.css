@@ -454,5 +454,5 @@ h2 {
 @media (max-width: 875px) {
 	.header-top { height: auto; }
 	.left-side, .right-side { float: none; text-align: center; }
-	.left-list__item, .tel-list__item { text-align: left; }
+	.left-list__item, .tel-list__item { text-align: left; line-height: 80px; height: 80px; }
 }
