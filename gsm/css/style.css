@@ -359,7 +359,7 @@ h2 {
 /*End section technical*/
 /*Section Price*/
 .price {
-	bg
+	background-color: #fff;
 }
 .price-list {
 	font-size: 0;
