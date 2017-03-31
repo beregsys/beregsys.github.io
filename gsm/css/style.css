@@ -412,3 +412,7 @@ h2 {
 	background: #332b2e;
 	position: relative;
 }
+.footer-tel {
+	font-size: 3rem;
+	color: #fff;
+}
