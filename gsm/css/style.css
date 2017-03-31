@@ -512,6 +512,7 @@ h2 {
 	.round-shadow { display: block; }
 	.gsm-text-wrap, .gsm-main-img { float: none; }
 	.gsm-main-img { padding-left: 0; }
+	.gsm-wrapper { text-align: center; }
 }
 @media (max-width: 875px) {
 	.header-top { height: auto; }
