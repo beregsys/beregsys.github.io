@@ -505,6 +505,9 @@ h2 {
 	.temp-roz, .temp-roz img { width: 200px; height: 200px; }
 	.temp-roz { margin-right: 0; }
 }
+@media (max-width: 1190px) {
+
+}
 @media (max-width: 1130px) {
 	.logo, .main-nav { display: block; text-align: center; }
 	.bottom-text img { height: 495px; }
