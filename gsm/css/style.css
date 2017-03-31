@@ -517,6 +517,7 @@ h2 {
 	.control {margin-top: 30px;}
 	.gsm-list { text-align: left;width: 320px; margin: 60px auto 0px; }
 	.gsm { padding-bottom: 0; }
+	.temperature {background-size: cover; padding-bottom: 0;}
 }
 @media (max-width: 875px) {
 	.header-top { height: auto; }
