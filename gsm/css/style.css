@@ -436,4 +436,5 @@ h2 {
 	.logo { margin: -8px 55px 0 30px; }
 	.menu__item { margin-right: 25px; }
 	.smartphone { margin: 209px 0 0 7px; width: 300px; }
+	.round-shadow, .round-shadow img { width: 320px; height: 320px; }
 }
