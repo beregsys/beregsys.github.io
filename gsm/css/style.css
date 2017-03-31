@@ -448,6 +448,7 @@ h2 {
 }
 @media (max-width: 1130px) {
 	.logo, .main-nav { display: block; text-align: center; }
+	.logo, .main-nav { height: 495px; }
 }
 @media (max-width: 875px) {
 
