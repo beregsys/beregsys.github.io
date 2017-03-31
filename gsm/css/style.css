@@ -479,6 +479,7 @@ h2 {
   top: 12px;
 }
 .logo-mob { display: none; }
+
 @media (max-width: 1366px) {
 	html { font-size: 8px; }
 	.container {width: 75%;}
