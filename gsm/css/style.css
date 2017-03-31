@@ -390,6 +390,9 @@ h2 {
 	padding: 0 45px 0 20px;
 	line-height: 48px;
 }
+.price-list__item p {
+	line-height: 36px;
+}
 .order {
 	width: 360px;
 	height: 85px;
