@@ -442,3 +442,6 @@ h2 {
 	.gsm-main-img { width: 480px; margin-left: 0; }
 	.roz-list__item img { width: 200px; }
 }
+@media (max-width: 1100px) {
+
+}
