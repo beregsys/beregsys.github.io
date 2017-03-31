@@ -7,4 +7,25 @@ $(document).ready(function(){
 		tel.text(fullTel);
 		$(this).hide();
 	});
+	if ($(window).width() <= 760) {
+        $('.menu').css('display', "none");
+        console.log($(window).width());
+    } else $('.menu').css('display', "block");
+    $(window).resize(function() {
+        if ($(window).width() <= 760) {
+            $('.menu').css('display', "none");
+            console.log($(window).width());
+        } else $('.menu').css('display', "block");
+        console.log($(window).width());
+    });
+    $("#toggle").on("click", function() {
+        if ($('.menu').css('display') == 'none') {
+            $(".menu").slideToggle("slow");
+            $("nav").css("height", "auto");
+        } else {
+            $(".menu").slideToggle("slow");
+            $("nav").css("min-height", "48px");
+        }
+
+    });
 });
