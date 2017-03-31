@@ -428,4 +428,6 @@ h2 {
 }
 @media (max-width: 1366px) {
 	.container {width: 75%;}
+	.left-list__item { background: url(../images/header-top1.png) no-repeat 0 center; }
+	.header-top__text { padding-left: 50px; }
 }
