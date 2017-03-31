@@ -459,4 +459,6 @@ h2 {
 }
 @media (max-width: 765px) {
 	.round-shadow { display: none; }
+	.bottom-text { float: none; width: 320px; text-align: center; margin: 0 auto; }
+	.bottom-text img { left: 50%; }
 }
