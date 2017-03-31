@@ -362,7 +362,7 @@ h2 {
 	background-color: #eeecec;
 }
 .price h2 {
-	margin-top: 60px;
+	padding-top: 60px;
 }
 .price h2 span {
 	color: #272727;
