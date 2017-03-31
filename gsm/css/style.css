@@ -434,6 +434,7 @@ h2 {
 	height: 36px;
 	right: 10px;
 	top: 10px;
+	text-align: left;
 }
 #toggle input {
   position: absolute;
