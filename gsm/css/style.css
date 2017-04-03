@@ -426,6 +426,50 @@ h2 {
 	font-size: 3rem;
 	color: #fff;
 }
+/* Popup form */
+.form__title {
+	width: 80%;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+
+.form__title h3 {
+	font: 2rem 'ProximaNovaBold', sans-serif;
+    line-height: 2.2rem;
+}
+
+.mfp-inline-holder .mfp-content {
+	max-width: 400px;
+}
+
+.white-popup-block {
+	padding: 30px 0;
+	background-color: #FFBF00;
+	border-radius: 15px;
+}
+
+.white-popup-block input,
+.white-popup-block textarea {
+	display: block;
+	margin: 0 auto 15px;
+	width: 80%;
+	padding: 10px;
+	font: 600 1.4rem 'Open Sans', sans-serif;
+	resize: none;
+	outline: none;
+}
+
+.white-popup-block .product__button {
+	position: static;
+	width: 175px;
+	text-transform: uppercase;;
+	margin-bottom: 0;
+	cursor: pointer;
+	font: 700 1.8rem 'Open Sans',sans-serif;
+	border: none;
+}
+
+/* End Popup form */
 /*Humburger*/
 #toggle {
 	display: none;
