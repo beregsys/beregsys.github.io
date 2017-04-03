@@ -554,5 +554,5 @@ h2 {
 	.menu { display: none; }
 	.bottom-text { padding-left: 0; }
 	.order {width: 300px;}
-	.tech-cell {padding-left: 0;}
+	.tech-cell {padding-left: 10px;}
 }
