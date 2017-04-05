@@ -544,6 +544,7 @@ h2 {
 	.tel-list__item:first-of-type { margin-right: 20px; }
 	.tech-cell {line-height: normal;vertical-align: middle;}
 	.control {margin-top: 50px;}
+	.temperature .container>img {margin: 88px 0 0 173px;}
 }
 @media (max-width: 1325px) {
 	.round-shadow { display: none; }
