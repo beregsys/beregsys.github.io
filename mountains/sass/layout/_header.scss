@@ -1,6 +1,57 @@
 /* Header
 -----------------------------------------------------------------------------*/
+
 .header {
-	height: 698px;
-	background: #FFE680;
+    height: 698px;
+    @include bg-img('header-bg.jpg');
+}
+
+.header-top {
+    height: 88px;
+    background-color: rgba(255, 255, 255, .23)
+}
+
+.logo {
+    float: left;
+    margin-top: 30px;
+    font: 400 2.9rem/4.4rem $bringin;
+    color: #95a5ad;
+    text-decoration: none;
+    span {
+        color: #36aeea;
+    }
+}
+
+.main-nav {
+    float: left;
+    margin: 30px 0 0 60px;
+    a {
+        &:first-child {
+            margin-left: 0;
+        }
+        text-transform: uppercase;
+        text-decoration: none;
+        font: 700 1.2rem/4.4rem $open-sans;
+        color: #9daeb6;
+        margin-left: 22px;
+        padding: 10px 0;
+        &:hover {
+        	border-bottom: 2px solid #36aeea;
+        }
+    }
+}
+
+.call_us {
+    float: right;
+    margin-top: 22px;
+    text-decoration: none;
+    width: 153px;
+    height: 46px;
+    border-radius: 4px;
+    border: 3px solid #36aeea;
+    font: 700 1.2rem/4.4rem $raleway;
+    color: #36aeea;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
 }
