@@ -20,6 +20,9 @@
     span {
         color: #36aeea;
     }
+    &:hover {
+    	transform: translateX(10px);
+    }
 }
 
 .main-nav {
