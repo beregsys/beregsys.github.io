@@ -6,5 +6,5 @@
 /* About us section
 -----------------------------------------------------------------------------*/
 .about-us {
-	@include bg-img;
+	@include bg-img('about-us-map.png', '#f6f4f4');
 }
