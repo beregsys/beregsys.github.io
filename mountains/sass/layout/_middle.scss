@@ -1,32 +1,39 @@
 /* Middle
 -----------------------------------------------------------------------------*/
+
 .content {
-	padding: 0 0 85px;
+    padding: 0 0 85px;
 }
+
+
 /* About us section
 -----------------------------------------------------------------------------*/
+
 .about-us {
-	@include bg-img('about-us-map.png', #f6f4f4, 50%, 50%);
-	height: 667px;
-	.container {
-		position: relative;
-	}
-	img {
-		position: absolute;
-	}
-	&-big {
-		top: -36px;
-		right: -200px;
-	}
-	&-small {
-		right: 345px;
-		top: 270px;
-	}
-	&-content {
-		padding-top: 200px;
-		h2 {
-			padding-top: 45px;
-			@include bg-img('h2-bg.png');
-		}
-	}
+    @include bg-img('about-us-map.png', #f6f4f4, 50%, 50%);
+    height: 667px;
+    .container {
+        position: relative;
+    }
+    img {
+        position: absolute;
+    }
+    &-big {
+        top: -36px;
+        right: -200px;
+    }
+    &-small {
+        right: 345px;
+        top: 270px;
+    }
+    &-content {
+        padding-top: 200px;
+        h2 {
+            padding-top: 45px;
+            @include bg-img('h2-bg.png');
+            font: 700 2rem/4.3rem $open-sans;
+            color: #2c2e37;
+            text-transform: uppercase;
+        }
+    }
 }
