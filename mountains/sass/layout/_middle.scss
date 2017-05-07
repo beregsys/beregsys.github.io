@@ -7,4 +7,10 @@
 -----------------------------------------------------------------------------*/
 .about-us {
 	@include bg-img('about-us-map.png', #f6f4f4, 50%, 50%);
+	.about-us-content {
+		float: left;
+	}
+	.about-us-images {
+		float: right;
+	}
 }
