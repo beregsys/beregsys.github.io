@@ -52,6 +52,10 @@
             display: inline-block;
             text-align: center;
             margin-top: 25px;
+            &:hover {
+                background-color: #36aeea;
+                color: #fff;
+            }
         }
     }
 }
