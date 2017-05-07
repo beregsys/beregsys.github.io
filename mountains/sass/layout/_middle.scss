@@ -26,7 +26,7 @@
 		padding-top: 200px;
 		h2 {
 			padding-top: 45px;
-			@include bg-img();
+			@include bg-img('h2-bg.png');
 		}
 	}
 }
