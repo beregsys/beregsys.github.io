@@ -7,8 +7,10 @@
 -----------------------------------------------------------------------------*/
 .about-us {
 	@include bg-img('about-us-map.png', #f6f4f4, 50%, 50%);
-	position: relative;
 	height: 667px;
+	.container {
+		position: relative;
+	}
 	img {
 		position: absolute;
 	}
