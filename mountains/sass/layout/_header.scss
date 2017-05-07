@@ -73,10 +73,12 @@
 		padding: 43px 0 0 37px;
 		font: 700 5rem/4rem $open-sans;
 		color: #fff;
+        letter-spacing: 3px;
         span {
             font: 400 6.6rem/4rem $bringin;
             color: #56c7ff;
             display: block;
+            letter-spacing: normal;
         }
 	}
 }
