@@ -74,4 +74,9 @@
     	margin-top: 40px;
 		@include bg-img('mail-icon.png', null, 0, center);
     }
+    .social {
+    	width: 200px;
+    	margin: 0 auto;
+    	display: flex;
+    }
 }
