@@ -20,6 +20,7 @@
 			color: #000;
 			padding-left: 26px;
 			margin-left: 60px;
+			@include bg-img('phone.png', null, 0, center);
 		}
 		.main__nav {
 			float: right;
