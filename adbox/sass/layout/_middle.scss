@@ -20,6 +20,9 @@
             width: 220px;
             height: 253px;
             display: inline-block;
+            &:hover {
+            	@include bg-img('services-hover.png');
+            }
         }
     }
 }
