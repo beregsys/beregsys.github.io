@@ -66,13 +66,27 @@ h2 { font: 400 6rem "Open Sans", sans-serif; color: #fff; text-align: center; }
 -----------------------------------------------------------------------------*/
 .content { padding: 0 0 50px; }
 
-.services { background: url(../images/services-bg.png) 0 0 no-repeat; }
+.services { background: url(../images/services-bg.png) 0 0 no-repeat; min-height: 857px; }
 
-.services h2 { padding-top: 183px; }
+.services h2 { padding-top: 160px; }
 
 .services .services-list:first-of-type { padding-top: 61px; }
 
-.services .services-list li { width: 220px; height: 253px; display: inline-block; }
+.services .services-list { text-align: center; }
+
+.services .services-list li { width: 220px; height: 253px; display: inline-block; vertical-align: top; transition: background .3s ease-in; }
+
+.services .services-list li::after { content: ""; background: url(../images/services-hover.png) 0 0 no-repeat; opacity: 0; }
+
+.services .services-list li:hover::after { background: url(../images/services-hover.png) 0 0 no-repeat; cursor: pointer; }
+
+.services .services-list li .image-wrap { height: 120px; width: 220px; position: relative; }
+
+.services .services-list li .image-wrap img { margin: auto; position: absolute; bottom: 0; left: 0; right: 0; max-height: 100%; max-width: 100%; }
+
+.services .services-list li .service-text { padding-top: 19px; }
+
+.services .services-list li .service-text p { font: 400 1.8rem/2.4rem "Open Sans", sans-serif; color: #fff; }
 
 /* Footer
 -----------------------------------------------------------------------------*/

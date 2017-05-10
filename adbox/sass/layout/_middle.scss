@@ -30,6 +30,7 @@
             &:hover::after {
                 @include bg-img('services-hover.png');
                 cursor: pointer;
+                opacity: 1;
             }
             .image-wrap {
                 height: 120px;
