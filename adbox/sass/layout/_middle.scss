@@ -79,6 +79,12 @@
     	height: 30px;
     	margin: 46px auto 0;
     	display: flex;
-    	li {}
+    	li {
+    		width: 30px;
+
+    	}
+    	li:first-of-type {
+    		margin-left: 0;
+    	}
     }
 }
