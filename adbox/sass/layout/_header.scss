@@ -26,6 +26,9 @@
 		}
 		.main__nav {
 			float: right;
+			ul li {
+				display: inline-block;
+			}
 		}
 	}
 }
