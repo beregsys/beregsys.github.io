@@ -40,6 +40,8 @@ body { height: 100%; }
 
 .header .header-top .logo { margin: 13px 0; display: block; }
 
+.header .header-top .phone { font: 400 1.8rem "Open Sans", sans-serif; color: #000; padding-left: 26px; margin-left: 60px; }
+
 .header .header-top .main__nav { float: right; }
 
 /* Middle
