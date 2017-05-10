@@ -28,7 +28,7 @@
             	opacity: 0;
             	transition: background .3s ease-in;
             }
-            &:hover::after {
+            &:hover {
                 @include bg-img('services-hover.png');
                 cursor: pointer;
                 opacity: 1;

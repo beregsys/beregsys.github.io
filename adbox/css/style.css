@@ -74,11 +74,11 @@ h2 { font: 400 6rem "Open Sans", sans-serif; color: #fff; text-align: center; }
 
 .services .services-list { text-align: center; }
 
-.services .services-list li { width: 220px; height: 253px; display: inline-block; vertical-align: top; transition: background .3s ease-in; }
+.services .services-list li { width: 220px; height: 253px; display: inline-block; vertical-align: top; }
 
-.services .services-list li::after { content: ""; background: url(../images/services-hover.png) 0 0 no-repeat; opacity: 0; }
+.services .services-list li::after { content: ""; background: url(../images/services-hover.png) 0 0 no-repeat; opacity: 0; transition: background .3s ease-in; }
 
-.services .services-list li:hover::after { background: url(../images/services-hover.png) 0 0 no-repeat; cursor: pointer; }
+.services .services-list li:hover::after { background: url(../images/services-hover.png) 0 0 no-repeat; cursor: pointer; opacity: 1; }
 
 .services .services-list li .image-wrap { height: 120px; width: 220px; position: relative; }
 
