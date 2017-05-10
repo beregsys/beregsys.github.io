@@ -86,8 +86,7 @@
 				display: block;
 				width: 30px;
 				height: 30px;
-				@include bg-img('social-sprite.png');
-				transiton: all .8s ease-in;
+				@include bg-img('social-sprite.png');			
 				&:hover {
 				    background-position: 0 -40px;
 				}

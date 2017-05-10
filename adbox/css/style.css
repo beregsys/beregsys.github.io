@@ -98,7 +98,7 @@ h2 { font: 400 6rem "Open Sans", sans-serif; color: #fff; text-align: center; }
 
 .contact .social li { width: 30px; }
 
-.contact .social li a { display: block; width: 30px; height: 30px; background: url(../images/social-sprite.png) 0 0 no-repeat; }
+.contact .social li a { display: block; width: 30px; height: 30px; background: url(../images/social-sprite.png) 0 0 no-repeat; transiton: all .8s ease-in; }
 
 .contact .social li a:hover { background-position: 0 -40px; }
 
