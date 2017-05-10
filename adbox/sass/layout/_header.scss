@@ -2,5 +2,5 @@
 -----------------------------------------------------------------------------*/
 .header {
 	height: 796px;
-	@include bg-img('header-bg.png');
+	@include bg-img('header-bg.png','left','top');
 }
