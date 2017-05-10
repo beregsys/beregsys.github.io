@@ -71,6 +71,6 @@
         text-decoration: none;
     }
     .contact-mail {
-		@include bg-img('mail.', null, 0, center);
+		@include bg-img('mail-icon', null, 0, center);
     }
 }
