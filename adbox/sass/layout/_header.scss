@@ -33,7 +33,9 @@
                     display: inline-block;
                     height: 50px;
                     line-height: 50px;
-                    &:last
+                    &:last-of-type {
+                    	margin-right: 0;
+                    }
                     a {
                     	text-decoration: none;
                     	font: 400 1.8rem $open-sans;
