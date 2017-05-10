@@ -36,7 +36,7 @@ body { height: 100%; }
 
 .header .header-top { height: 50px; box-shadow: 0 2px 6px #a9a9a9; background-color: #fcfcfc; }
 
-.header .header-top .logo, .header .header-top .phone { float: left; }
+.header .header-top .logo, .header .header-top .phone { float: left; text-decoration: none; }
 
 .header .header-top .logo { margin: 13px 0; display: block; }
 
