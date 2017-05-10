@@ -68,8 +68,6 @@
         width: 195px;
         margin: 0 auto
         @include bg-img('phone.png', null, 0, center);
-        height: 50px;
-        line-height: 50px;
         text-decoration: none;
     }
 }
