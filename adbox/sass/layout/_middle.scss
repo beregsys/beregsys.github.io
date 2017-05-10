@@ -20,7 +20,7 @@
             width: 220px;
             height: 253px;
             display: inline-block;
-            ve
+            vertical-align: top;
             &:hover {
             	@include bg-img('services-hover.png');
             }
