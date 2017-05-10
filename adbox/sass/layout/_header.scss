@@ -8,7 +8,7 @@
 		box-shadow: 0 2px 6px #a9a9a9;
 		background-color: #fcfcfc;
 		.logo {
-			
+			@include bg-img('logo.png');
 		}
 	}
 }
