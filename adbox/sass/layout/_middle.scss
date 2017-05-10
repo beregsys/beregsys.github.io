@@ -4,10 +4,10 @@
 .content {
     padding: 0 0 50px;
 }
-.services {
-    	@include bg-img('services.png');
-        h2 {
-            padding-top: 183px;
-        }
-    }
 
+.services {
+    @include bg-img('services.png');
+    h2 {
+        padding-top: 183px;
+    }
+}
