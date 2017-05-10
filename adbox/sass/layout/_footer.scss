@@ -30,6 +30,7 @@
         		width: 47px;
         		height: 24px;
         		@include bg-img('arrow.png');
+        		font: 300 1.3rem/2.4rem $open-sans;
         	}
         }
     }
