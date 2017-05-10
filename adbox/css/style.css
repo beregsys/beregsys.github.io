@@ -40,6 +40,8 @@ body { height: 100%; }
 
 .header .header-top .logo { margin: 13px 0; display: block; }
 
+.header .header-top .main__nav { float: right; }
+
 /* Middle
 -----------------------------------------------------------------------------*/
 .content { padding: 0 0 50px; }
