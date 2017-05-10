@@ -1,36 +1,40 @@
 /* Header
 -----------------------------------------------------------------------------*/
+
 .header {
-	height: 796px;
-	@include bg-img('header-bg.png', null, right, top);
-	.header-top {
-		height: 50px;
-		box-shadow: 0 2px 6px #a9a9a9;
-		background-color: #fcfcfc;
-		.logo, .phone {
-			float: left;
-			text-decoration: none;
-		}
-		.logo {
-			margin: 13px 0;
-			display: block;
-		}
-		.phone {
-			font: 400 1.8rem $open-sans;
-			color: #000;
-			padding-left: 26px;
-			margin-left: 60px;
-			@include bg-img('phone.png', null, 0, center);
-			height: 50px;
-			line-height: 50px;
-		}
-		.main__nav {
-			float: right;
-			ul li {
-				display: inline-block;
-				height: 50px;
-				line-height: 50px;
-			}
-		}
-	}
+    height: 796px;
+    @include bg-img('header-bg.png', null, right, top);
+    .header-top {
+        height: 50px;
+        box-shadow: 0 2px 6px #a9a9a9;
+        background-color: #fcfcfc;
+        .logo,
+        .phone {
+            float: left;
+            text-decoration: none;
+        }
+        .logo {
+            margin: 13px 0;
+            display: block;
+        }
+        .phone {
+            font: 400 1.8rem $open-sans;
+            color: #000;
+            padding-left: 26px;
+            margin-left: 60px;
+            @include bg-img('phone.png', null, 0, center);
+            height: 50px;
+            line-height: 50px;
+        }
+        .main__nav {
+            float: right;
+            ul {
+                li {
+                    display: inline-block;
+                    height: 50px;
+                    line-height: 50px;
+                }
+            }
+        }
+    }
 }
