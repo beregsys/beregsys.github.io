@@ -94,6 +94,12 @@ h2 { font: 400 6rem "Open Sans", sans-serif; color: #fff; text-align: center; }
 
 .contact .contact-mail { margin-top: 40px; background: url(../images/mail-icon.png) 0 center no-repeat; }
 
+.contact .social { width: 200px; height: 30px; margin: 46px auto 0; display: -webkit-flex; display: -ms-flexbox; display: flex; }
+
+.contact .social li { width: 30px; }
+
+.contact .social li:first-of-type { margin-left: 0; }
+
 /* Footer
 -----------------------------------------------------------------------------*/
 .footer { margin: -50px auto 0; min-width: 320px; max-width: 1920px; height: 50px; background: #BFF08E; position: relative; }
