@@ -68,7 +68,7 @@
     .phone {
         margin-top: 63px;        
         @include bg-img('contact-phone.png', null, 0, center);
-        text-decoration: none;
+        
     }
     .contact-mail {
 		@include bg-img('mail-icon.png', null, 0, center);
