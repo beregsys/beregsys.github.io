@@ -59,12 +59,13 @@
     .contact-mail {
         display: block;
         text-align: center;
-    }
-    .phone {
-        margin-top: 63px;
         font: 400 1.8rem/2.4rem $open-sans;
         color: #000;
         padding-left: 42px;
+    }
+    .phone {
+        margin-top: 63px;
+        
         width: 195px;
         margin: 0 auto;
         @include bg-img('contact-phone.png', null, 0, center);

@@ -86,7 +86,7 @@ h2 { font: 400 6rem "Open Sans", sans-serif; color: #fff; text-align: center; }
 
 .services .services-list li .service-text p { font: 400 1.8rem/2.4rem "Open Sans", sans-serif; color: #fff; }
 
-.contact h2 { padding-top: 153px; color: #343434; }
+.contact h2 { padding: 153px 0 63px; color: #343434; }
 
 .contact .phone, .contact .contact-mail { display: block; text-align: center; }
 
