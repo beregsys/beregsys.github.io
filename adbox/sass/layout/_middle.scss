@@ -21,13 +21,6 @@
             height: 253px;
             display: inline-block;
             vertical-align: top;
-            
-            &::after {
-            	content: "";
-            	@include bg-img('services-hover.png');
-            	opacity: 0;
-            	transition: background .3s ease-in;
-            }
             &:hover {
                 @include bg-img('services-hover.png');
                 cursor: pointer;
