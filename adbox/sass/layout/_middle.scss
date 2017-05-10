@@ -71,6 +71,7 @@
         @include bg-img('contact-phone.png', null, 0, center);        
     }
     .contact-mail {
+    	margin-top: 40px;
 		@include bg-img('mail-icon.png', null, 0, center);
     }
 }
