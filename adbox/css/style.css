@@ -126,4 +126,6 @@ h2 { font: 400 6rem "Open Sans", sans-serif; color: #fff; text-align: center; }
 
 .footer .footer-bottom .footer-wrap .copyright { font: 400 1.3rem/2.4rem "Roboto", sans-serif; color: #918e90; }
 
+.footer .footer-bottom .footer-wrap .up { width: 47px; height: 24px; background: url(../images/arrow.png) 0 0 no-repeat; font: 300 1.3rem/2.4rem "Open Sans", sans-serif; color: #bdbdbd; }
+
 /*# sourceMappingURL=style.css.map */
