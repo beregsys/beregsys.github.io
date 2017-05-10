@@ -38,7 +38,10 @@
                 }
             }
             .service-text {
-            	
+            	padding-top: 19px;
+            	p {
+            		font: 400 1.8rem/2.4rem $open-sans;
+            	}
             }
         }
     }
