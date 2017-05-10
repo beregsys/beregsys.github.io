@@ -65,7 +65,8 @@
         font: 400 1.8rem $open-sans;
         color: #000;
         padding-left: 42px;
-        margin-left: 60px;
+        width: 195px;
+        margin: 0 auto
         @include bg-img('phone.png', null, 0, center);
         height: 50px;
         line-height: 50px;
