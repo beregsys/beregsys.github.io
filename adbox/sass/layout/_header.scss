@@ -9,6 +9,8 @@
 		background-color: #fcfcfc;
 		.logo {
 			@include bg-img('logo.png');
+			width: 90px;
+			height: 24px;
 		}
 	}
 }
