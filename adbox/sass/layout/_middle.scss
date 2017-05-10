@@ -21,11 +21,12 @@
             height: 253px;
             display: inline-block;
             vertical-align: top;
-            transition: background .3s ease-in;
+            
             &::after {
             	content: "";
             	@include bg-img('services-hover.png');
             	opacity: 0;
+            	transition: background .3s ease-in;
             }
             &:hover::after {
                 @include bg-img('services-hover.png');
