@@ -108,11 +108,11 @@ h2 { font: 400 6rem "Open Sans", sans-serif; color: #fff; text-align: center; }
 
 .contact .social li .facebook { background-position: -112px 0; }
 
-.contact .social li .facebook:hover { background-position: -56px 0; }
+.contact .social li .facebook:hover { background-position: -112px -40px; }
 
 .contact .social li .skype { background-position: -168px 0; }
 
-.contact .social li .skype:hover { background-position: -56px 0; }
+.contact .social li .skype:hover { background-position: -168px -40px; }
 
 /* Footer
 -----------------------------------------------------------------------------*/
