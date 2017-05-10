@@ -20,7 +20,7 @@
             height: 253px;
             display: inline-block;
             vertical-align: top;
-            transition: all 0.2sec ease-in;
+            transition: all .3s ease-in;
             &:hover {
                 @include bg-img('services-hover.png');
             }
