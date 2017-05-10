@@ -23,6 +23,7 @@
             transition: all .3s ease-in;
             &:hover {
                 @include bg-img('services-hover.png');
+                cursor: pointer;
             }
             .image-wrap {
                 height: 120px;
