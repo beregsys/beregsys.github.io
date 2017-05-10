@@ -26,6 +26,11 @@
             }
             .image-wrap {
             	height: 120px;
+            	position: relative;
+            	img {
+            		position: absolute;
+            		bottom: 0;
+            	}
             }
         }
     }
