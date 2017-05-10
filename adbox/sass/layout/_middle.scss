@@ -65,8 +65,7 @@
     }
     .phone {
         margin-top: 63px;
-        width: 195px;
-        margin: 0 auto;
+        
         @include bg-img('contact-phone.png', null, 0, center);
         text-decoration: none;
     }
