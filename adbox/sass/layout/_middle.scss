@@ -54,7 +54,10 @@
 		padding-top: 153px;
 		color: #343434;
 	}
-	.phone, 
+	.phone, .contact-mail {
+		display: block;
+		
+	}
 	.phone {
 		margin-top: 63px;
 	}
