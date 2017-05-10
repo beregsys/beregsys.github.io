@@ -22,6 +22,11 @@
             display: inline-block;
             vertical-align: top;
             transition: background .3s ease-in;
+            &::after {
+            	content: "";
+            	@include bg-img('services-hover.png');
+            	opacity: 0;
+            }
             &:hover {
                 @include bg-img('services-hover.png');
                 cursor: pointer;
