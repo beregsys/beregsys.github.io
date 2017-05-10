@@ -37,7 +37,8 @@
         	.footer-phone {
         		padding-left: 23px;
         		@include bg-img('footer-phone.png');
-        		font: ;
+        		font: 300 1.5rem/2.4rem $open-sans;
+        		color: #fff;
         	}
         }
     }
