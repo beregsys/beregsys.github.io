@@ -3,4 +3,7 @@
 .header {
 	height: 796px;
 	@include bg-img('header-bg.png', null, right, top);
+	.header-top {
+		height: 50px;
+	}
 }
