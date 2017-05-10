@@ -27,7 +27,7 @@
             	@include bg-img('services-hover.png');
             	opacity: 0;
             }
-            &:hover {
+            &:hover::after {
                 @include bg-img('services-hover.png');
                 cursor: pointer;
             }
