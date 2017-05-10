@@ -11,26 +11,27 @@
         padding-top: 183px;
     }
     .services-list:first-of-type {
-    	padding-top: 61px;
+        padding-top: 61px;
     }
     .services-list {
-    	text-align: center;
-    	
+        text-align: center;
         li {
             width: 220px;
             height: 253px;
             display: inline-block;
             vertical-align: top;
             &:hover {
-            	@include bg-img('services-hover.png');
+                @include bg-img('services-hover.png');
             }
             .image-wrap {
-            	height: 120px;
-            	position: relative;
-            	span {
-            		position: absolute;
-            		bottom: 0;
-            	}
+                height: 120px;
+                position: relative;
+                span {
+                    width: 100%;
+                    text-align: center;
+                    position: absolute;
+                    bottom: 0px;
+                }
             }
         }
     }
