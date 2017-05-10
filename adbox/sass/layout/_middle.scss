@@ -88,7 +88,7 @@
 				height: 30px;
 				@include bg-img('social-sprite.png');
 				&:hover {
-					background-position: -56px 0;
+				    background-position: 0 -40px;
 				}
 			}
 			.instagram {
