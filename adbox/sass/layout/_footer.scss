@@ -10,7 +10,7 @@
     position: relative;
     @include bg-img('footer-bg.png', null, center, 0);
     .footer-bottom {
-    	position: fixed;
+    	position: absolute;
     	bottom: 0;
         height: 50px;
         background-color: #000000;
