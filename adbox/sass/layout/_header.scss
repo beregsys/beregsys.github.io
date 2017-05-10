@@ -33,21 +33,21 @@
                     display: inline-block;
                     height: 50px;
                     line-height: 50px;
-                    a {
-                        text-decoration: none;
-                        font: 400 1.8rem $open-sans;
-                        color: #4b4b4b;
-                        padding-bottom: 6px;
-                        &:hover {
-                            color: #3366cc;
-                            border-bottom: 1px solid #3366cc;
-                        }
-                    }
+                   &:last-child: {
+    margin-right: 0;
+}
 
-                &:last-child: {
-                    margin-right: 0;
+                    a {
+                    	text-decoration: none;
+                    	font: 400 1.8rem $open-sans;
+                    	color: #4b4b4b;
+                    	padding-bottom: 6px;                    	
+                    	&:hover {
+                    		color: #3366cc;
+                    		border-bottom: 1px solid #3366cc;
+                    	}
+                    }
                 }
-            }
             }
         }
     }
