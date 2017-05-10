@@ -30,7 +30,7 @@
                 width: 220px;
                 position: relative;
                 img {
-                    margin: auto;   
+                    margin: auto;
                     position: absolute;
                     bottom: 0;
                     left: 0;
@@ -40,25 +40,34 @@
                 }
             }
             .service-text {
-            	padding-top: 19px;
-            	p {
-            		font: 400 1.8rem/2.4rem $open-sans;
-            		color: #fff;
-            	}
+                padding-top: 19px;
+                p {
+                    font: 400 1.8rem/2.4rem $open-sans;
+                    color: #fff;
+                }
             }
         }
     }
 }
+
 .contact {
-	h2 {
-		padding-top: 153px;
-		color: #343434;
-	}
-	.phone, .contact-mail {
-		display: block;
-		text-align: center;
-	}
-	.phone {
-		margin-top: 63px;
-	}
+    h2 {
+        padding-top: 153px;
+        color: #343434;
+    }
+    .phone,
+    .contact-mail {
+        display: block;
+        text-align: center;
+    }
+    .phone {
+        margin-top: 63px;
+        font: 400 1.8rem $open-sans;
+        color: #000;
+        padding-left: 26px;
+        margin-left: 60px;
+        @include bg-img('phone.png', null, 0, center);
+        height: 50px;
+        line-height: 50px;
+    }
 }
