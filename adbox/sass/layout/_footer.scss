@@ -7,4 +7,5 @@
 	height: 175px;
 	background: #BFF08E;
 	position: relative;
+	@include bg-img('footer-bg.png');
 }
