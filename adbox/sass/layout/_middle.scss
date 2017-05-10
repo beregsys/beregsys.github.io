@@ -88,7 +88,9 @@
 				height: 30px;
 				@include bg-img('social-sprite.png');
 			}
-			
+			.instagram {
+				background-position: 0 0;
+			}
 		}
 		
     }
