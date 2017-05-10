@@ -120,6 +120,6 @@ h2 { font: 400 6rem "Open Sans", sans-serif; color: #fff; text-align: center; }
 -----------------------------------------------------------------------------*/
 .footer { margin: -175px auto 0; min-width: 320px; max-width: 1920px; height: 175px; background: #BFF08E; position: relative; background: url(../images/footer-bg.png) center 0 no-repeat; }
 
-.footer .footer-bottom { height: 50px; background-color: #000000; opacity: 0.6; }
+.footer .footer-bottom { margin-top: 125px; height: 50px; background-color: #000000; opacity: 0.6; }
 
 /*# sourceMappingURL=style.css.map */
