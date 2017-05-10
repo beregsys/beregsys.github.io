@@ -64,11 +64,11 @@
         padding-left: 42px;
         width: 195px;
         margin: 0 auto;
+        text-decoration: none;
     }
     .phone {
         margin-top: 63px;        
-        @include bg-img('contact-phone.png', null, 0, center);
-        
+        @include bg-img('contact-phone.png', null, 0, center);        
     }
     .contact-mail {
 		@include bg-img('mail-icon.png', null, 0, center);
