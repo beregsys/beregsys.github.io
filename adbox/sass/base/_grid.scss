@@ -1,0 +1,27 @@
+html {
+	height: 100%;
+	font: 10px/10px Arial, sans-serif;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	height: 100%;
+}
+.wrapper {
+	min-width: 320px;
+	max-width: 1920px;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+.container {
+	max-width: 1170px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+.clear:after {
+	content: '';
+	display: table;
+	clear: both;
+}
