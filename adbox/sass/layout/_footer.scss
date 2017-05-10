@@ -26,6 +26,11 @@
         		font: 400 1.3rem/2.4rem $roboto;
         		color: #918e90;
         	}
+        	.up {
+        		width: 47px;
+        		height: 24px;
+        		@include bg-img('arrow.png');
+        	}
         }
     }
 }
