@@ -90,7 +90,7 @@ h2 { font: 400 6rem "Open Sans", sans-serif; color: #fff; text-align: center; }
 
 .contact .phone, .contact .contact-mail { display: block; text-align: center; }
 
-.contact .phone { margin-top: 63px; }
+.contact .phone { margin-top: 63px; font: 400 1.8rem/2.4rem "Open Sans", sans-serif; color: #000; padding-left: 42px; width: 195px; margin: 0 auto; background: url(../images/contact-phone.png) 0 center no-repeat; text-decoration: none; }
 
 /* Footer
 -----------------------------------------------------------------------------*/
