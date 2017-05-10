@@ -30,6 +30,8 @@ body { height: 100%; }
 
 .clear:after { content: ''; display: table; clear: both; }
 
+h2 { font: 400 6rem "Open Sans", sans-serif; color: #fff; text-align: center; }
+
 /* Header
 -----------------------------------------------------------------------------*/
 .header { height: 796px; background: url(../images/header-bg.png) right top no-repeat; }
@@ -40,13 +42,37 @@ body { height: 100%; }
 
 .header .header-top .logo { margin: 13px 0; display: block; }
 
-.header .header-top .phone { font: 400 1.8rem "Open Sans", sans-serif; color: #000; padding-left: 26px; margin-left: 60px; }
+.header .header-top .phone { font: 400 1.8rem "Open Sans", sans-serif; color: #000; padding-left: 26px; margin-left: 60px; background: url(../images/phone.png) 0 center no-repeat; height: 50px; line-height: 50px; }
 
 .header .header-top .main__nav { float: right; }
+
+.header .header-top .main__nav ul li { display: inline-block; height: 50px; line-height: 50px; margin-right: 38px; }
+
+.header .header-top .main__nav ul li:last-of-type { margin-right: 0; }
+
+.header .header-top .main__nav ul li a { text-decoration: none; font: 400 1.8rem "Open Sans", sans-serif; color: #4b4b4b; padding-bottom: 6px; }
+
+.header .header-top .main__nav ul li a:hover { color: #3366cc; border-bottom: 1px solid #3366cc; }
+
+.header .header-bottom .title-image { margin: 164px 0 0 -145px; }
+
+.header .header-bottom .title { font: 700 2.7rem "Open Sans", sans-serif; margin-top: 43px; }
+
+.header .header-bottom p { font: 400 1.8rem/2.7rem "Open Sans", sans-serif; color: #585858; width: 450px; margin-top: 30px; }
+
+.header .header-bottom p span { font-weight: 600; }
 
 /* Middle
 -----------------------------------------------------------------------------*/
 .content { padding: 0 0 50px; }
+
+.services { background: url(../images/services-bg.png) 0 0 no-repeat; }
+
+.services h2 { padding-top: 183px; }
+
+.services .services-list:first-of-type { padding-top: 61px; }
+
+.services .services-list li { width: 220px; height: 253px; display: inline-block; }
 
 /* Footer
 -----------------------------------------------------------------------------*/
