@@ -74,6 +74,7 @@
     .contact-mail {
     	margin-top: 40px;
 		@include bg-img('mail-icon.png', null, 0, center);
+        pl25px;
     }
     .social {
     	width: 200px;
