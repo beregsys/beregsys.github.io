@@ -36,7 +36,7 @@ h2 { font: 400 6rem "Open Sans", sans-serif; color: #fff; text-align: center; }
 -----------------------------------------------------------------------------*/
 .header { height: 796px; background: url(../images/header-bg.png) right top no-repeat; }
 
-.header .header-top { height: 50px; box-shadow: 0 2px 6px #a9a9a9; background-color: #fcfcfc; }
+.header .header-top { height: 50px; box-shadow: 0 -2px 10px #000; background-color: #fcfcfc; position: fixed; width: 100%; }
 
 .header .header-top .logo, .header .header-top .phone { float: left; text-decoration: none; }
 
