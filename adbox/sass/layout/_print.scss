@@ -4,7 +4,10 @@
             left: 0;
             opacity: 1;
         }
-        li:
+        li:nth-of-type(2):hover {
+        	border-left: 1px solid #d1d1d1;
+        	border-right: 1px solid #d1d1d1;
+        }
         .service__list {
             list-style: none;
             position: absolute;
