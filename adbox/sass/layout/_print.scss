@@ -11,6 +11,8 @@
 			height: 4px;
 			@include bg-img('service-arrows.png');
 			position: absolute;
+			top: 50%;
+			right: 10px;
         }
         .service__item:hover {
         	border-left: 1px solid #d1d1d1;
