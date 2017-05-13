@@ -7,7 +7,9 @@
         li:nth-of-type(2):after {
 			content: '';
 			display: inline-block;
-			
+			width: 7px;
+			height: 4px;
+			@include bg-img('service-arrows.png');
         }
         li:nth-of-type(2):hover {
         	border-left: 1px solid #d1d1d1;
