@@ -1,15 +1,12 @@
 #print {
     .main__nav {
         li:hover .service__list {
-            left: 0;
+            left: -1;
             opacity: 1;
         }
         li:nth-of-type(2):hover {
         	border-left: 1px solid #d1d1d1;
         	border-right: 1px solid #d1d1d1;
-        	// a {
-        	// 	padding: 0 19px;
-        	// }
         }
         .service__list {
             list-style: none;
