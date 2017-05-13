@@ -8,5 +8,9 @@
         /* Устанавливаем начальное состояние прозрачности */
         -webkit-transition: 0.25s linear opacity;
         /* В Webkit выпадающие пункты будут проявляться */
+        a {
+        	display: block;
+        	white-space:nowrap;
+        }
     }
 }
