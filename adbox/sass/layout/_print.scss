@@ -1,7 +1,7 @@
 #print {
 	@include bg-img('print-bg.jpg');
 	.header {
-		@include bg-img('print-header-bg.png', null, right, top);
+		@include bg-img('print-header-bg.jpg', null, right, top);
 	}
     .main__nav {
     	
