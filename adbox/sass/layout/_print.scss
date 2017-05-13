@@ -1,7 +1,9 @@
 .main__nav {
-	ul li:nth-of-type(2) {
-		position: relative;
-	}
+	ul {
+		li:nth-of-type(2) {
+    		position: relative;
+    	}
+	} 
     .service__link:hover + .service__list {
         left: 0;
         /* Приносим его обратно на экран, когда нужно */
