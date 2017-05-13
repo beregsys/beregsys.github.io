@@ -20,7 +20,7 @@
 			display: inline-block;
 			width: 7px;
 			height: 4px;
-			@include bg-img('service-arrows.png');
+			background-color: #4b4b4b;
 			position: absolute;
 			top: 50%;
 			right: 10px;
