@@ -1,5 +1,5 @@
 .main__nav {
-	&:li:nth-of-type(2) {
+	& ul li:nth-of-type(2) {
 		position: relative;
 	}
     .service__link:hover + .service__list {
