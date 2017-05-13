@@ -1,19 +1,19 @@
-.main__nav {
-    li:hover .service__list {
-        left: 0;        
-        opacity: 1;
-    }
-    .service__list {
-        list-style: none;
-        position: absolute;
-        left: -9999px;
-        opacity: 0;        
-        -webkit-transition: 0.25s linear opacity;
-        li {
-        	
+#print {
+    .main__nav {
+        li:hover .service__list {
+            left: 0;
+            opacity: 1;
         }
-        a {
-            display: block;
+        .service__list {
+            list-style: none;
+            position: absolute;
+            left: -9999px;
+            opacity: 0;
+            -webkit-transition: 0.25s linear opacity;
+            li {}
+            a {
+                display: block;
+            }
         }
     }
 }
