@@ -49,13 +49,11 @@
                     a {
                         &:before {
                             content: '';
-                            display: inline-block;
                             width: 69px;
                             height: 1px;
                             position: absolute;
-                            @include bg-img('services_underline.png');
+                            background-color: #3366cc;
                             bottom: 10px;
-                            right: 10px;
                         }
                         text-decoration: none;
                         font: 400 1.8rem $open-sans;
