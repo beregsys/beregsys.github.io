@@ -7,9 +7,11 @@
         list-style: none;
         position: absolute;
         left: -9999px;
-        opacity: 0;
-        padding: 0 18px;
+        opacity: 0;        
         -webkit-transition: 0.25s linear opacity;
+        li {
+        	padding: 0 18px;
+        }
         a {
             display: block;
             white-space: nowrap;
