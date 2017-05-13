@@ -5,7 +5,7 @@
             left: -1px;
             opacity: 1;
         }
-        >li:before, .service__item:before {
+        .service__item:before {
 			content: '';
 			display: inline-block;
 			width: 69px;
