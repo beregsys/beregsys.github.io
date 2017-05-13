@@ -1,5 +1,5 @@
 .main__nav {
-    .service__link:hover > .service__list {
+    .service__link:hover + .service__list {
         left: 0;
         /* Приносим его обратно на экран, когда нужно */
         opacity: 1;
