@@ -1,17 +1,17 @@
 #print {
     .main__nav {
-        li:hover .service__list {
+        .service__item:hover .service__list {
             left: -1px;
             opacity: 1;
         }
-        >li:nth-of-type(2):after {
+        .service__item:after {
 			content: '';
 			display: inline-block;
 			width: 7px;
 			height: 4px;
 			@include bg-img('service-arrows.png');
         }
-        >li:nth-of-type(2):hover {
+        .service__item:hover {
         	border-left: 1px solid #d1d1d1;
         	border-right: 1px solid #d1d1d1;
         	>a {
