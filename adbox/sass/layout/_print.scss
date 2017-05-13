@@ -3,6 +3,7 @@
 	.header {
 		@include bg-img('print-header-bg.jpg', null, right, top);
 	}
+
     .main__nav {
     	
         .service__item:hover .service__list {
