@@ -55,9 +55,7 @@
                             background-color: #3366cc;
                             bottom: 10px;
                             opacity: 0;
-                            &:hover {
-                                opacity: 1;
-                            }
+
                         }
                         text-decoration: none;
                         font: 400 1.8rem $open-sans;
@@ -66,8 +64,8 @@
                         height: 50px;
                         line-height: 50px;
                         display: inline-block;
-                        &:hover {
-                            
+                        &:hover:before {
+                            opacity: 1;
                             //color: #3366cc;
                             //border-bottom: 1px solid #3366cc;
                         }
