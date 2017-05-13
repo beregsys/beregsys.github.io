@@ -64,11 +64,11 @@
                         height: 50px;
                         line-height: 50px;
                         display: inline-block;
-                        &:hover:
-                            &:before {
-                            opacity: 1;
+                        &:hover{
                             color: #3366cc;
-                            //border-bottom: 1px solid #3366cc;
+                            &:before {
+                                opacity: 1;                           
+                            }
                         }
                     }
                 }
