@@ -39,6 +39,7 @@
                 >li {
                     display: inline-block;
                     margin-right: 18px;
+                    position: relative;
                     &:last-of-type {
                         margin-right: 0;
                     }
