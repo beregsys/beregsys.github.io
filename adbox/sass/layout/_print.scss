@@ -22,7 +22,7 @@
             border-left: 1px solid #d1d1d1;
             border-right: 1px solid #d1d1d1;
             box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.5);
-            @include bg-img('submenu-bg.png', null, right, top);
+            @include bg-img('submenu-bg.png', #fcfcfc, right, top);
             li:nth-of-type(2):hover {
             	border: none;
             	padding: 0;
