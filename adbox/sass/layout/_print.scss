@@ -1,6 +1,10 @@
 .main__nav {
 	.service__link {
 		position: relative;
+		&:hover .service__list {
+			left:0; /* Приносим его обратно на экран, когда нужно */
+	opacity:1; /* Делаем непрозрачным */
+		}
 	}
     .service__list {
         list-style: none;
