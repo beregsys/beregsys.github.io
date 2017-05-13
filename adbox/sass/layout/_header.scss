@@ -46,7 +46,17 @@
                     &:last-of-type {
                         margin-right: 0;
                     }
-                    a {                        
+                    a {
+                        &:before {
+                            content: '';
+                            width: 66%;
+                            height: 1px;
+                            position: absolute;
+                            background-color: #3366cc;
+                            bottom: 10px;
+                            opacity: 0;
+
+                        }
                         text-decoration: none;
                         font: 400 1.8rem $open-sans;
                         color: #4b4b4b;
@@ -54,12 +64,12 @@
                         height: 50px;
                         line-height: 50px;
                         display: inline-block;
-                        // &:hover{
-                        //     color: #3366cc;
-                        //     &:before {
-                        //         opacity: 1;                           
-                        //     }
-                        // }
+                        &:hover{
+                            color: #3366cc;
+                            &:before {
+                                opacity: 1;                           
+                            }
+                        }
                     }
                 }
             }
