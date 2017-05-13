@@ -1,5 +1,5 @@
 .main__nav {
-    .service__link:hover + .service__list {
+    li:hover .service__list {
         left: 0;        
         opacity: 1;
     }
