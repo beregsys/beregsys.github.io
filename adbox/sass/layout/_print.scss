@@ -22,7 +22,7 @@
         	}
         	&:after {
         		right: 9px;
-        		@include bg-img('service-arrows.png', null, );
+        		@include bg-img('service-arrows.png', null, 0, bottom;);
         	}
         }
         .service__list {
