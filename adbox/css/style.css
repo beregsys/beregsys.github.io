@@ -46,13 +46,13 @@ h2 { font: 400 6rem "Open Sans", sans-serif; color: #fff; text-align: center; }
 
 .header .header-top .main__nav { float: right; }
 
-.header .header-top .main__nav > ul li { display: inline-block; height: 50px; line-height: 50px; margin-right: 38px; }
+.header .header-top .main__nav > ul > li { display: inline-block; height: 50px; line-height: 50px; margin-right: 38px; }
 
-.header .header-top .main__nav > ul li:last-of-type { margin-right: 0; }
+.header .header-top .main__nav > ul > li:last-of-type { margin-right: 0; }
 
-.header .header-top .main__nav > ul li a { text-decoration: none; font: 400 1.8rem "Open Sans", sans-serif; color: #4b4b4b; padding-bottom: 6px; }
+.header .header-top .main__nav > ul > li a { text-decoration: none; font: 400 1.8rem "Open Sans", sans-serif; color: #4b4b4b; padding-bottom: 6px; }
 
-.header .header-top .main__nav > ul li a:hover { color: #3366cc; border-bottom: 1px solid #3366cc; }
+.header .header-top .main__nav > ul > li a:hover { color: #3366cc; border-bottom: 1px solid #3366cc; }
 
 .header .header-bottom .title-image { margin: 164px 0 0 -145px; }
 
