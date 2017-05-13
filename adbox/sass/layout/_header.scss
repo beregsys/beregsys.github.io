@@ -45,7 +45,7 @@
                         height: 50px;
                         line-height: 50px;
                         display: inline-block;
-                        &:hover {
+                        .main & {
                             color: #3366cc;
                             border-bottom: 1px solid #3366cc;
                         }
