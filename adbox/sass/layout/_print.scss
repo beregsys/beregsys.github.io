@@ -31,7 +31,7 @@
             position: absolute;
             left: -9999px;
             opacity: 0;
-            -webkit-transition: 0.25s linear opacity;
+            transition: 0.25s linear opacity;
             padding: 8px 18px;
             background: #fcfcfc;
             border-left: 1px solid #d1d1d1;
