@@ -47,16 +47,16 @@
                         margin-right: 0;
                     }
                     a {
-                        &:before {
-                            content: '';
-                            width: 66%;
-                            height: 1px;
-                            position: absolute;
-                            background-color: #3366cc;
-                            bottom: 10px;
-                            opacity: 0;
+                        // &:before {
+                        //     content: '';
+                        //     width: 66%;
+                        //     height: 1px;
+                        //     position: absolute;
+                        //     background-color: #3366cc;
+                        //     bottom: 10px;
+                        //     opacity: 0;
 
-                        }
+                        // }
                         text-decoration: none;
                         font: 400 1.8rem $open-sans;
                         color: #4b4b4b;
