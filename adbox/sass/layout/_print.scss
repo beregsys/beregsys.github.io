@@ -4,6 +4,14 @@
             left: -1px;
             opacity: 1;
         }
+        .service__item:before {
+			content: '';
+			display: inline-block;
+			width: 69px;
+			height: 1px;
+			position: absolute;
+			@include bg-img('services_underline.png');
+        }
         .service__item:after {
 			content: '';
 			display: inline-block;
