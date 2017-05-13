@@ -49,12 +49,12 @@
                     a {
                         &:before {
                             content: '';
-                            width: 100%;
+                            width: 72px;
                             height: 1px;
                             position: absolute;
                             background-color: #3366cc;
                             bottom: 10px;
-                            
+                            display: block;
                         }
                         text-decoration: none;
                         font: 400 1.8rem $open-sans;
