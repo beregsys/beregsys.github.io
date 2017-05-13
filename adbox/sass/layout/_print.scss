@@ -1,4 +1,5 @@
 #print {
+	@include bg-img('print-bg.jpg');
     .main__nav {
     	
         .service__item:hover .service__list {
