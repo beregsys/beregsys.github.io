@@ -33,6 +33,9 @@
                 line-height: normal;
                 padding: 0;
                 white-space: nowrap;
+                &:hover {
+                	color: #3366cc;
+                }
             }
         }
     }
