@@ -1,5 +1,8 @@
 #print {
     .main__nav {
+    	>li:hover {
+
+    	}
         .service__item:hover .service__list {
             left: -1px;
             opacity: 1;
