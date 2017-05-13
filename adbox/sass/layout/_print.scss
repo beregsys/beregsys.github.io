@@ -20,6 +20,9 @@
         	>a {
         		padding: 0 19px;
         	}
+        	&:after {
+        		right: 9px;
+        	}
         }
         .service__list {
             list-style: none;
