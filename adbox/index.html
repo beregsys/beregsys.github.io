@@ -140,7 +140,7 @@
             headerCont = document.getElementById("headerCont");
             console.log(scrollFromTop);
             (scrollFromTop >= 800 && scrollFromTop < 1600 ) ? headerServ.setAttribute('style', 'color: #3366cc;') : headerServ.removeAttribute('style');
-            (scrollFromTop >= 1600) ? headerServ.setAttribute('style', 'color: #3366cc;') : headerServ.removeAttribute('style');
+            (scrollFromTop >= 1600) ? headerServ.setAttribute('style', 'color: #3366cc;') : headerCont.removeAttribute('style');
         };
 
     </script>
