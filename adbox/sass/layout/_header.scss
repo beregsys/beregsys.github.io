@@ -60,10 +60,6 @@
                         &:hover {
                             color: #3366cc;
                             border-bottom: 1px solid #3366cc;
-                            +.active {
-                                color: #4b4b4b;
-                                border-bottom: 1px solid #4b4b4b;
-                            }
                         }
                     }
                 }
