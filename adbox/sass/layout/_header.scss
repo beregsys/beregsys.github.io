@@ -31,11 +31,12 @@
         .phone {
             font: 400 1.8rem $open-sans;
             color: #000;
-            padding-left: 32px;
+            padding-left: 30px;
             margin-left: 60px;
             @include bg-img('phone.png', null, 0, center);
             height: 50px;
             line-height: 50px;
+            letter-spacing: .3px
         }
         .main__nav {
             float: right;
