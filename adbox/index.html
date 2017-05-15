@@ -137,8 +137,10 @@
             var services = document.getElementById("toServ").offsetTop,
             scrollFromTop = window.scrollY
             headerServ = document.getElementById("headerServ");
+            headerCont = document.getElementById("headerCont");
             console.log(scrollFromTop);
             (scrollFromTop >= 800 && scrollFromTop < 1600 ) ? headerServ.setAttribute('style', 'color: #3366cc;') : headerServ.removeAttribute('style');
+            (scrollFromTop >= 1600) ? headerServ.setAttribute('style', 'color: #3366cc;') : headerServ.removeAttribute('style');
         };
 
     </script>
