@@ -48,15 +48,15 @@
                     color: #fff;
                 }
             }
-        }
-        li:nth-child(n+4) {
-            margin-top: -35px;
+            &:nth-child(n+4) {
+                margin-top: -35px;
+            }
         }
     }
 }
 
 .contact {
-	min-height: 572px;
+    min-height: 572px;
     h2 {
         padding: 132px 0 0 28px;
         color: #343434;
@@ -78,50 +78,49 @@
         text-decoration: none;
     }
     .phone {
-        margin-top: 45px;        
-        @include bg-img('contact-phone.png', null, 0, center);        
+        margin-top: 45px;
+        @include bg-img('contact-phone.png', null, 0, center);
     }
     .contact-mail {
-    	margin-top: 38px;
-		@include bg-img('mail-icon.png', null, 0, center);
+        margin-top: 38px;
+        @include bg-img('mail-icon.png', null, 0, center);
         padding-left: 25px;
     }
     .social {
-    	width: 200px;
-    	height: 30px;
-    	margin: 44px auto 0;
-    	display: flex;
-    	justify-content: space-between;
-		li {
-			width: 30px;
-			a {
-				display: block;
-				width: 30px;
-				height: 30px;
-				@include bg-img('social-sprite.png');			
-				&:hover {
-				    background-position: 0 -40px;
-				}
-			}
-			.instagram {
-				background-position: -56px 0;
-				&:hover {
-					background-position: -56px -40px;
-				}
-			}
-			.facebook {
-				background-position: -112px 0;
-				&:hover {
-					background-position: -112px -40px;
-				}
-			}
-			.skype {
-				background-position: -168px 0;
-				&:hover {
-					background-position: -168px -40px;
-				}
-			}
-		}
-		
+        width: 200px;
+        height: 30px;
+        margin: 44px auto 0;
+        display: flex;
+        justify-content: space-between;
+        li {
+            width: 30px;
+            a {
+                display: block;
+                width: 30px;
+                height: 30px;
+                @include bg-img('social-sprite.png');
+                &:hover {
+                    background-position: 0 -40px;
+                }
+            }
+            .instagram {
+                background-position: -56px 0;
+                &:hover {
+                    background-position: -56px -40px;
+                }
+            }
+            .facebook {
+                background-position: -112px 0;
+                &:hover {
+                    background-position: -112px -40px;
+                }
+            }
+            .skype {
+                background-position: -168px 0;
+                &:hover {
+                    background-position: -168px -40px;
+                }
+            }
+        }
     }
 }
