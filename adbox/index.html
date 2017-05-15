@@ -135,9 +135,10 @@
     <script>
         window.onscroll = function(){
             var services = document.getElementById("toServ").offsetTop,
-            scrollFromTop = window.scrollY;
+            scrollFromTop = window.scrollY
+            headerServ = document.getElementById("headerServ");
             console.log(scrollFromTop);
-            (scrollFromTop == 800) ? console.log(true) : console.log();
+            (scrollFromTop == 800) ? headerServ.setAttribute('style', 'background-color: #3366cc;') : console.log();
         };
 
     </script>
