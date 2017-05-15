@@ -144,8 +144,11 @@
         (scrollFromTop >= 1330) ? headerCont.setAttribute('class', 'active'): headerCont.removeAttribute('class', 'active');
     };
     document.getElementById("headerAbout").addEventListener("mouseover", mouseOver);
+    document.getElementById("headerAbout").addEventListener("mouseout", mouseOut);
+    document.getElementById("headerServ").addEventListener("mouseover", mouseOver);
     document.getElementById("headerServ").addEventListener("mouseout", mouseOut);
-    document.getElementById("headerServ").addEventListener("mouseout", mouseOut);
+    document.getElementById("headerCont").addEventListener("mouseover", mouseOver);
+    document.getElementById("headerCont").addEventListener("mouseout", mouseOut);
 
     function mouseOver() {
         document.getElementById("demo").style.color = "red";
