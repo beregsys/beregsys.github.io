@@ -48,7 +48,7 @@
                 }
             }
         }
-        li:nth-of-type(n+3) {
+        li:nth-child(n+3) {
             margin-top: -35px;
         }
     }
