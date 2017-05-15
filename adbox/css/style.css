@@ -36,7 +36,7 @@ h2 { font: 400 6rem "Open Sans", sans-serif; color: #fff; text-align: center; }
 -----------------------------------------------------------------------------*/
 #main .active, #print .active { color: #3366cc; border-bottom: 1px solid #3366cc; }
 
-.header { height: 796px; background: url(../images/header-bg.png) right top no-repeat; }
+.header { height: 796px; background: url(../images/header-bg.png) 786px top no-repeat; }
 
 .header .header-top { height: 50px; box-shadow: 0 -2px 10px #000; background-color: #fcfcfc; position: fixed; width: 100%; }
 
@@ -44,23 +44,23 @@ h2 { font: 400 6rem "Open Sans", sans-serif; color: #fff; text-align: center; }
 
 .header .header-top .logo { margin: 13px 0; display: block; }
 
-.header .header-top .phone { font: 400 1.8rem "Open Sans", sans-serif; color: #000; padding-left: 26px; margin-left: 60px; background: url(../images/phone.png) 0 center no-repeat; height: 50px; line-height: 50px; }
+.header .header-top .phone { font: 400 1.8rem "Open Sans", sans-serif; color: #000; padding-left: 30px; margin-left: 60px; background: url(../images/phone.png) 0 center no-repeat; height: 50px; line-height: 50px; letter-spacing: .3px; }
 
-.header .header-top .main__nav { float: right; }
+.header .header-top .main__nav { float: right; font-size: 0; }
 
-.header .header-top .main__nav > ul > li { display: inline-block; margin-right: 38px; position: relative; height: 50px; line-height: 50px; }
+.header .header-top .main__nav > ul > li { display: inline-block; margin-right: 35px; position: relative; height: 50px; line-height: 50px; }
 
 .header .header-top .main__nav > ul > li:last-of-type { margin-right: 0; }
 
-.header .header-top .main__nav > ul > li a { text-decoration: none; font: 400 1.8rem "Open Sans", sans-serif; color: #4b4b4b; padding: 6px 0; display: inline-block; }
+.header .header-top .main__nav > ul > li a { text-decoration: none; font: 400 1.8rem "Open Sans", sans-serif; color: #4b4b4b; padding: 11px 0 0 0px; display: inline-block; }
 
 .header .header-top .main__nav > ul > li a:hover { color: #3366cc; }
 
-.header .header-bottom .title-image { margin: 164px 0 0 -145px; }
+.header .header-bottom .title-image { margin: 215px 0 0 -50px; }
 
-.header .header-bottom .title { font: 700 2.7rem "Open Sans", sans-serif; margin-top: 43px; }
+.header .header-bottom .title { font: 700 2.7rem "Open Sans", sans-serif; margin-top: 30px; }
 
-.header .header-bottom p { font: 400 1.8rem/2.7rem "Open Sans", sans-serif; color: #585858; width: 450px; margin-top: 30px; }
+.header .header-bottom p { font: 400 1.8rem/2.7rem "Open Sans", sans-serif; color: #585858; width: 450px; margin-top: 23px; letter-spacing: .2px; margin-left: 3px; }
 
 .header .header-bottom p span { font-weight: 600; }
 
@@ -74,11 +74,11 @@ h2 { font: 400 6rem "Open Sans", sans-serif; color: #fff; text-align: center; }
 
 .services { background: url(../images/services-bg.png) 0 0 no-repeat; min-height: 857px; }
 
-.services h2 { padding-top: 160px; }
+.services h2 { padding-top: 162px; padding-left: 24px; }
 
 .services .services-list:first-of-type { padding-top: 61px; }
 
-.services .services-list { text-align: center; }
+.services .services-list { text-align: center; font-size: 0; }
 
 .services .services-list li { width: 220px; height: 253px; display: inline-block; vertical-align: top; }
 
@@ -88,21 +88,25 @@ h2 { font: 400 6rem "Open Sans", sans-serif; color: #fff; text-align: center; }
 
 .services .services-list li .image-wrap img { margin: auto; position: absolute; bottom: 0; left: 0; right: 0; max-height: 100%; max-width: 100%; }
 
-.services .services-list li .service-text { padding-top: 19px; }
+.services .services-list li .service-text { padding-top: 11px; }
 
 .services .services-list li .service-text p { font: 400 1.8rem/2.4rem "Open Sans", sans-serif; color: #fff; }
 
+.services .services-list:last-of-type li { margin-top: -35px; }
+
 .contact { min-height: 572px; }
 
-.contact h2 { padding: 153px 0 63px; color: #343434; }
+.contact h2 { padding: 132px 0 0 28px; color: #343434; }
+
+.contact .contact__wrap { width: 220px; margin: 0 auto; padding-left: 27px; }
 
 .contact .phone, .contact .contact-mail { display: block; text-align: center; font: 400 1.8rem/2.4rem "Open Sans", sans-serif; color: #000; padding-left: 42px; width: 195px; margin: 0 auto; text-decoration: none; }
 
-.contact .phone { margin-top: 63px; background: url(../images/contact-phone.png) 0 center no-repeat; }
+.contact .phone { margin-top: 45px; background: url(../images/contact-phone.png) 0 center no-repeat; }
 
-.contact .contact-mail { margin-top: 40px; background: url(../images/mail-icon.png) 0 center no-repeat; padding-left: 25px; }
+.contact .contact-mail { margin-top: 38px; background: url(../images/mail-icon.png) 0 center no-repeat; padding-left: 25px; }
 
-.contact .social { width: 200px; height: 30px; margin: 46px auto 0; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; }
+.contact .social { width: 200px; height: 30px; margin: 44px auto 0; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; }
 
 .contact .social li { width: 30px; }
 
@@ -124,17 +128,17 @@ h2 { font: 400 6rem "Open Sans", sans-serif; color: #fff; text-align: center; }
 
 /* Footer
 -----------------------------------------------------------------------------*/
-.footer { margin: -175px auto 0; min-width: 320px; max-width: 1920px; height: 175px; position: relative; background: url(../images/footer-bg.png) center 0 no-repeat; }
+.footer { margin: -175px auto 0; min-width: 320px; max-width: 1920px; height: 175px; position: relative; background: url(../images/footer-bg.png) 245px 0 no-repeat; }
 
 .footer .footer-bottom { position: absolute; bottom: 0; right: 0; left: 0; height: 50px; background-color: #000000; opacity: 0.6; }
 
-.footer .footer-bottom .footer-wrap { height: 50px; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
+.footer .footer-bottom .footer-wrap .copyright, .footer .footer-bottom .footer-wrap .up { float: left; }
 
-.footer .footer-bottom .footer-wrap .copyright { font: 400 1.3rem/2.4rem "Roboto", sans-serif; color: #918e90; }
+.footer .footer-bottom .footer-wrap .copyright { font: 400 1.3rem/2.4rem "Roboto", sans-serif; color: #918e90; padding: 13px 0 0 5px; }
 
-.footer .footer-bottom .footer-wrap .up { width: 47px; height: 24px; background: url(../images/arrow.png) 0 0 no-repeat; font: 300 1.3rem/2.4rem "Open Sans", sans-serif; color: #bdbdbd; text-decoration: none; }
+.footer .footer-bottom .footer-wrap .up { width: 47px; height: 24px; background: url(../images/arrow.png) 0 0 no-repeat; font: 300 1.3rem/2.4rem "Open Sans", sans-serif; color: #bdbdbd; text-decoration: none; margin-top: 14px; padding-top: 4px; margin-left: 334px; }
 
-.footer .footer-bottom .footer-wrap .footer-phone { padding-left: 23px; background: url(../images/footer-phone.png) 0 center no-repeat; font: 300 1.5rem/2.4rem "Open Sans", sans-serif; color: #fff; text-decoration: none; }
+.footer .footer-bottom .footer-wrap .footer-phone { padding-left: 24px; background: url(../images/footer-phone.png) 0 center no-repeat; font: 300 1.5rem/2.4rem "Open Sans", sans-serif; color: #fff; text-decoration: none; float: right; margin-top: 14px; margin-right: -4px; }
 
 #print .footer { background: none; }
 
