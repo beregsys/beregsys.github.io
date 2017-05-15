@@ -17,14 +17,13 @@
         background-color: #000000;
         opacity: 0.6;
         .footer-wrap {
-        	height: 50px;
-        	line-height: 50px;
             .copyright, .up {
                 float: left;
             }            
         	.copyright {
         		font: 400 1.3rem/2.4rem $roboto;
         		color: #918e90;
+                padding-top: 19px;
         	}
         	.up {
         		width: 47px;
