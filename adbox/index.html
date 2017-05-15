@@ -134,11 +134,10 @@
     <!-- .footer -->
     <script>
         window.onscroll = function(){
-            var headerAbout =  
-            services = document.getElementById("toServ").offsetTop,
-            scrollFromTop = window.scrollY
-            headerServ = document.getElementById("headerServ");
-            headerCont = document.getElementById("headerCont");
+            var services = document.getElementById("toServ").offsetTop,
+                scrollFromTop = window.scrollY,
+                headerServ = document.getElementById("headerServ"),
+                headerCont = document.getElementById("headerCont");
             console.log(scrollFromTop);
             (scrollFromTop >= 800 && scrollFromTop < 1330 ) ? headerServ.setAttribute('class', 'active') : headerServ.removeAttribute('class', 'active');
             (scrollFromTop >= 1330) ? headerCont.setAttribute('class', 'active') : headerCont.removeAttribute('class', 'active');
