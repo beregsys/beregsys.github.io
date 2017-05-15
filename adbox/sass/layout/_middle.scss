@@ -48,10 +48,10 @@
                     color: #fff;
                 }
             }
-            &:nth-child(n+4) {
-                margin-top: -35px;
-            }
         }
+    }
+    .services-list:last-of-type li {
+        margin-top: -35px;
     }
 }
 
