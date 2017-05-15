@@ -56,8 +56,6 @@ h2 { font: 400 6rem "Open Sans", sans-serif; color: #fff; text-align: center; }
 
 .header .header-top .main__nav > ul > li a:hover { color: #3366cc; border-bottom: 1px solid #3366cc; }
 
-.header .header-top .main__nav > ul > li a:hover + .active { color: #4b4b4b; border-bottom: 1px solid #4b4b4b; }
-
 .header .header-bottom .title-image { margin: 215px 0 0 -50px; }
 
 .header .header-bottom .title { font: 700 2.7rem "Open Sans", sans-serif; margin-top: 30px; }
