@@ -138,7 +138,6 @@
             headerAbout = document.getElementById("headerAbout"),
             headerServ = document.getElementById("headerServ"),
             headerCont = document.getElementById("headerCont");
-        console.log(scrollFromTop);
         (scrollFromTop < 800) ? headerAbout.setAttribute('class', 'active'): headerAbout.removeAttribute('class', 'active');
         (scrollFromTop >= 800 && scrollFromTop < 1330) ? headerServ.setAttribute('class', 'active'): headerServ.removeAttribute('class', 'active');
         (scrollFromTop >= 1330) ? headerCont.setAttribute('class', 'active'): headerCont.removeAttribute('class', 'active');
