@@ -133,9 +133,11 @@
     </footer>
     <!-- .footer -->
     <script>
-        var services = document.getElementById("toServ").offsetTop,
+        window.onscroll(function(){
+            var services = document.getElementById("toServ").offsetTop,
             scrollFromTop = window.scrollY;
-        if()
+            console.log(scrollFromTop);
+        });
 
     </script>
 </body>
