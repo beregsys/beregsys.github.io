@@ -145,17 +145,17 @@
     };
     document.getElementById("headerAbout").addEventListener("mouseover", mouseOver);
     document.getElementById("headerAbout").addEventListener("mouseout", mouseOut);
-    document.getElementById("headerServ").addEventListener("mouseover", mouseOver);
-    document.getElementById("headerServ").addEventListener("mouseout", mouseOut);
-    document.getElementById("headerCont").addEventListener("mouseover", mouseOver);
-    document.getElementById("headerCont").addEventListener("mouseout", mouseOut);
+    // document.getElementById("headerServ").addEventListener("mouseover", mouseOver('headerServ'));
+    // document.getElementById("headerServ").addEventListener("mouseout", mouseOut('headerServ'));
+    // document.getElementById("headerCont").addEventListener("mouseover", mouseOver('headerCont'));
+    // document.getElementById("headerCont").addEventListener("mouseout", mouseOut('headerCont'));
 
     function mouseOver() {
-        document.getElementById("demo").style.color = "red";
+        document.getElementsByClassName("active").style.color = "red";
     }
 
     function mouseOut() {
-        document.getElementById("demo").style.color = "black";
+        document.getElementsByClassName("active").style.color = "black";
     }
     </script>
 </body>
