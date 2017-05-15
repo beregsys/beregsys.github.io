@@ -19,7 +19,7 @@
                     <a href="tel:89080167787 " class="phone">8 (908) 016-77-87 </a>
                     <nav class="main__nav">
                         <ul>
-                            <li><a href="#" class="active" id="headerAbout">О нас</a></li>
+                            <li><a href="#" id="headerAbout">О нас</a></li>
                             <li><a href="#" id="headerServ">Услуги</a></li>
                             <li><a href="#" id="headerCont">Контакты</a></li>
                         </ul>
@@ -136,9 +136,11 @@
         window.onscroll = function(){
             var services = document.getElementById("toServ").offsetTop,
                 scrollFromTop = window.scrollY,
+                headerAbout = document.getElementById("headerAbout"),
                 headerServ = document.getElementById("headerServ"),
                 headerCont = document.getElementById("headerCont");
             console.log(scrollFromTop);
+            (scrollFromTop >= 0 && scrollFromTop < 800 ) ? headerServ.setAttribute('class', 'active') : headerServ.removeAttribute('class', 'active');
             (scrollFromTop >= 800 && scrollFromTop < 1330 ) ? headerServ.setAttribute('class', 'active') : headerServ.removeAttribute('class', 'active');
             (scrollFromTop >= 1330) ? headerCont.setAttribute('class', 'active') : headerCont.removeAttribute('class', 'active');
         };
