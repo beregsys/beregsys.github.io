@@ -48,6 +48,9 @@
                 }
             }
         }
+        li:nth-of-type(4n) {
+            margin-top: -35px;
+        }
     }
 }
 
