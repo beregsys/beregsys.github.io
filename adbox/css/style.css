@@ -38,7 +38,7 @@ h2 { font: 400 6rem "Open Sans", sans-serif; color: #fff; text-align: center; }
 
 .header { height: 796px; background: url(../images/header-bg.png) 786px top no-repeat; }
 
-.header .header-top { height: 50px; box-shadow: 0 -2px 10px #000; background-color: #fcfcfc; position: fixed; width: 100%; }
+.header .header-top { height: 50px; box-shadow: 0 -2px 10px #000; background-color: #fcfcfc; position: fixed; width: 100%; z-index: 10; }
 
 .header .header-top .logo, .header .header-top .phone { float: left; text-decoration: none; }
 
@@ -54,7 +54,9 @@ h2 { font: 400 6rem "Open Sans", sans-serif; color: #fff; text-align: center; }
 
 .header .header-top .main__nav > ul > li a { text-decoration: none; font: 400 1.8rem "Open Sans", sans-serif; color: #4b4b4b; padding: 11px 0 0 0px; display: inline-block; }
 
-.header .header-top .main__nav > ul > li a:hover { color: #3366cc; }
+.header .header-top .main__nav > ul > li a:hover { color: #3366cc; border-bottom: 1px solid #3366cc; }
+
+.header .header-top .main__nav > ul > li a:hover + .active { color: #4b4b4b; border-bottom: 1px solid #4b4b4b; }
 
 .header .header-bottom .title-image { margin: 215px 0 0 -50px; }
 
