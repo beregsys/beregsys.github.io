@@ -8,7 +8,6 @@
 
 /* About us section
 -----------------------------------------------------------------------------*/
-
 .about-us {
     @include bg-img('about-us-map.png', #f6f4f4, 64%, 13%);
     height: 667px;
@@ -27,14 +26,7 @@
         top: 270px;
     }
     &-content {
-        padding-top: 200px;
-        h2 {
-            padding-top: 45px;
-            @include bg-img('h2-bg.png');
-            font: 700 2rem/4.3rem $open-sans;
-            color: #2c2e37;
-            text-transform: uppercase;
-        }
+        padding-top: 200px;        
         p {
             font: 400 1.4rem/2.6rem $open-sans;
             color: #949494;
