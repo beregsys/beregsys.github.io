@@ -1,0 +1,3 @@
+@mixin bg-img($bg-name, $bg-color:null, $position-x:center, $position-y:top) {
+	background: $bg-color url(../images/#{$bg-name}) $position-x $position-y no-repeat;
+}

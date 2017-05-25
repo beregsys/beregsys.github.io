@@ -1,0 +1,53 @@
+//header
+.header {
+    @include bg-img('../images/header-bg.jpg');
+    background-size: cover;
+    min-height: 611px;
+    border-top: 10px solid $active_elements;
+    .logo {
+        margin-top: 150px;
+        font: 6rem $paci;
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        span {
+            color: $active_elements;
+        }
+    }
+    h1 {
+        width: 453px;
+        color: #fff;
+        font: 500 2.4rem/3.6rem $hreg;
+    }
+    .icon__list {
+    	width: 190px;
+    	display: flex;
+    	justify-content: space-between;
+    	list-style: none;
+    	padding: 0;
+    	li {
+			width: 52px;
+			height: 52px;
+			background-color: rgba(3, 3, 3,.7);
+			border-radius: 50%;
+			display: flex;
+			align-items: center;
+			opacity: .7;
+			transition: all .3s ease-in;
+			&:hover {
+				background-color: $active_elements;
+				opacity: 1;
+				cursor: pointer;
+			}            
+			img {
+				display: block;
+				margin: 0 auto;
+                transition: transform .5s ease-in;
+			}
+            &:hover img {
+                transform: rotate(360deg);
+            }
+    	}
+    }
+}
+//end header

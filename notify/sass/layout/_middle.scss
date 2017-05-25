@@ -1,0 +1,195 @@
+//section service
+.service {
+    min-height: 335px;
+    &__list {
+        list-style: none;
+        padding: 60px 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        li {
+            width: 320px;
+            text-align: center;
+            .icon {
+                width: 98px;
+                height: 98px;
+                background-color: $active_elements;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0 auto;
+                img {
+                    transition: transform .5s ease-in;
+                }
+                &:hover img {
+                    transform: rotate(360deg);
+                }
+            }
+            p {
+                font: 600 2.2rem/1.8rem $rale;
+                color: $titles_color;
+            }
+            span {
+                font: 1.6rem/2.6rem $hreg;
+                color: $content_color;
+            }
+        }
+    }
+}
+//end service
+
+//section subscribe
+.subscribe {
+    background-color: $bg_color;
+    min-height: 425px;
+    padding: 60px 0;
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__content {
+        width: 540px;
+        h2 {
+            font: 600 2.2rem/1.8rem $rale;
+            color: $titles_color;
+        }
+        p {
+            font: 1.6rem/2.6rem $hreg;
+            color: $content_color;
+        }
+        input[type="email"],
+        input[type="submit"] {
+            height: 56px;
+            border: none;
+            vertical-align: top;
+            &:focus {
+                outline: none;
+            }
+        }
+        input[type="email"] {
+            width: 305px;
+            background-color: white;
+            border: 1px solid #c8c8c8;
+            border-right: none;
+            border-radius: 15px 0 0 15px;
+            padding-left: 25px;
+            font: 1.8rem/1.8rem $hreg;
+            color: $content_color;
+        }
+        input[type="submit"] {
+            width: 141px;
+            height: 56px;
+            background-color: $active_elements;
+            font: 700 2.2rem/1.8rem $rale;
+            color: #fff;
+            border-radius: 0 15px 15px 0;
+        }
+    }
+}
+
+//end subscribe
+//section review
+.review__list {
+    list-style: none;
+    padding: 175px 0 0 0;
+    margin: 0;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    li {
+        &:first-child {
+            text-align: right;
+        }
+        &:last-child {
+            text-align: left;
+        }
+        width: 50px;
+        height: 50px;
+        .bg_pos {
+            position: relative;
+            margin-top: -52px;
+            .img_hover {
+                width: 50px;
+                height: 50px;
+                opacity: 0;
+                top: 0;
+                left: 0;
+                background-color: $active_elements;
+                position: absolute;
+                transition: opacity .2s ease-in;
+            }
+            &:hover .img_hover {
+                opacity: .6;
+                cursor: pointer;
+            }
+        }
+    }
+    &_name,
+    &_text {
+        display: none;
+        position: absolute;
+        text-align: center;
+    }
+    &_name {
+        top: 140px;
+        left: 500px;
+        width: 200px;
+        font: 700 1.8rem/2rem $rale;
+        color: #2e2e2e;
+        font-family: Raleway;
+    }
+    &_text {
+        top: 35px;
+        width: 825px;
+        left: 185px;
+        font: 1.8rem/3rem $hita;
+        color: $content_color;
+    }
+}
+
+.review {
+	text-align: center;
+	padding-bottom: 60px;
+    h2 {
+        font: 600 2.4rem/2.4rem $rale;
+        color: #000;
+        padding-top: 25px;
+    }
+    p {
+    	font: 1.6rem/2.6rem $hreg;
+        color: $content_color;
+    }
+}
+.social {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	li {
+		width: 34px;
+		text-align: center;
+		margin: 0 5px;
+		a {			
+			width: 34px;
+			height: 34px;
+			border-radius: 50%;
+			background-color: rgba(197, 197, 197, .7);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			transition: background-color .3s ease-in;	
+			&:hover {
+				background-color: rgb(46, 204, 113);
+			}
+            img {
+                transition: transform .5s ease-in;
+            }
+            &:hover img {
+                transform: rotate(360deg);
+            }		
+		}
+	}
+}
+//end review

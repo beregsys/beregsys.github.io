@@ -1,0 +1,23 @@
+//footer
+.footer {
+	min-height: 132px;
+	background-color: $bg_color;
+	&__menu {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		min-height: 132px;
+		li {
+			margin: 0 15px;
+			a {
+				text-decoration: none;
+				font: 1.6rem/2.6rem $hreg;
+				color: $content_color;
+			}
+		}
+	}
+}
+//end footer
