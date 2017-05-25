@@ -15,13 +15,14 @@
         }
     }
     h1 {
-        width: 453px;
+        max-width: 453px;
         color: #fff;
         font: 500 2.4rem/3.6rem $hreg;
     }
     .icon__list {
     	width: 190px;
     	display: flex;
+        flex-flow: row wrap;
     	justify-content: space-between;
     	list-style: none;
     	padding: 0;
@@ -31,6 +32,7 @@
 			background-color: rgba(3, 3, 3,.7);
 			border-radius: 50%;
 			display: flex;
+            flex-flow: row wrap;
 			align-items: center;
 			opacity: .7;
 			transition: all .3s ease-in;
@@ -48,6 +50,17 @@
                 transform: rotate(360deg);
             }
     	}
+    }
+}
+@media (max-width: 1200px) {
+    .header {
+        text-align: center;
+        min-height: 450px;
+        h1,
+        .icon__list {
+            margin-left: auto;
+            margin-right: auto;
+        }
     }
 }
 //end header

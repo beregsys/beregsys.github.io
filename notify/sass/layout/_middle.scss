@@ -6,6 +6,7 @@
         padding: 60px 0;
         margin: 0;
         display: flex;
+        flex-flow: row wrap;
         justify-content: space-between;
         li {
             width: 320px;
@@ -37,8 +38,17 @@
         }
     }
 }
-//end service
 
+@media (max-width: 980px) {
+    .service__list {
+        justify-content: center;
+        li {
+            padding-bottom: 20px;
+        }
+    }
+}
+
+//end service
 //section subscribe
 .subscribe {
     background-color: $bg_color;
@@ -46,10 +56,11 @@
     padding: 60px 0;
     .container {
         display: flex;
+        flex-flow: row wrap;
         justify-content: space-between;
     }
     &__content {
-        width: 540px;
+        max-width: 540px;
         h2 {
             font: 600 2.2rem/1.8rem $rale;
             color: $titles_color;
@@ -86,6 +97,41 @@
             border-radius: 0 15px 15px 0;
         }
     }
+    &__player {
+        max-width: 500px;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 1060px) {
+    .subscribe {
+        text-align: center;
+        form {
+            padding-bottom: 20px;
+        }
+        &__content,
+        &__player {
+            margin: 0 auto;
+        }
+    }
+}
+
+@media (max-width: 470px) {
+    .subscribe__content {
+        input[type="email"],
+        input[type="submit"] {
+            height: 45px;
+        }
+        input[type="email"] {
+            width: 180px;
+        }
+        input[type="submit"] {
+            width: 80px;
+        }
+    }
+    
 }
 
 //end subscribe
@@ -96,7 +142,8 @@
     margin: 0;
     position: relative;
     display: flex;
-    justify-content: space-between;
+    flex-flow: row wrap;
+    justify-content: center;
     li {
         &:first-child {
             text-align: right;
@@ -106,6 +153,7 @@
         }
         width: 50px;
         height: 50px;
+        margin: 2px;
         .bg_pos {
             position: relative;
             margin-top: -52px;
@@ -133,7 +181,9 @@
     }
     &_name {
         top: 140px;
-        left: 500px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
         width: 200px;
         font: 700 1.8rem/2rem $rale;
         color: #2e2e2e;
@@ -141,55 +191,74 @@
     }
     &_text {
         top: 35px;
-        width: 825px;
-        left: 185px;
+        left: 0;
         font: 1.8rem/3rem $hita;
         color: $content_color;
     }
 }
 
 .review {
-	text-align: center;
-	padding-bottom: 60px;
+    text-align: center;
+    padding-bottom: 60px;
     h2 {
         font: 600 2.4rem/2.4rem $rale;
         color: #000;
         padding-top: 25px;
     }
     p {
-    	font: 1.6rem/2.6rem $hreg;
+        font: 1.6rem/2.6rem $hreg;
         color: $content_color;
     }
 }
+
 .social {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-	display: flex;
-	justify-content: center;
-	li {
-		width: 34px;
-		text-align: center;
-		margin: 0 5px;
-		a {			
-			width: 34px;
-			height: 34px;
-			border-radius: 50%;
-			background-color: rgba(197, 197, 197, .7);
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			transition: background-color .3s ease-in;	
-			&:hover {
-				background-color: rgb(46, 204, 113);
-			}
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    li {
+        width: 34px;
+        text-align: center;
+        margin: 0 5px;
+        a {
+            width: 34px;
+            height: 34px;
+            border-radius: 50%;
+            background-color: rgba(197, 197, 197, .7);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background-color .3s ease-in;
+            &:hover {
+                background-color: rgb(46, 204, 113);
+            }
             img {
                 transition: transform .5s ease-in;
             }
             &:hover img {
                 transform: rotate(360deg);
-            }		
-		}
-	}
+            }
+        }
+    }
 }
+
+@media (max-width: 600px) {
+    .review__list {
+        padding-top: 230px;
+        &_name {
+            top: 190px;
+        }
+    }
+}
+@media (max-width: 400px) {
+    .review__list {
+        padding-top: 270px;
+        &_name {
+            top: 235px;
+        }
+    }
+}
+
 //end review
