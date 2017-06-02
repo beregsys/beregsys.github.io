@@ -158,3 +158,41 @@
 	background: #595757 url(../images/loupe.png) no-repeat center;
 	border: none;
 }
+
+.thumbnail {
+	padding: 0;
+	border: none;
+	margin: 50px 0;
+	min-height: 255px;
+	text-align: center;
+	color: #2e2e2e;
+	font-family: MullerNarrow;
+	font-size: 17px;
+	font-weight: 300;
+}
+
+.thumbnail .caption {
+	box-shadow: 0 2px 15px rgba(0, 0, 0, 0.15);
+}
+
+.caption .view,
+.caption .comm {
+	padding-left: 20px;
+	background: url(../images/view-icon.png) no-repeat left center;
+	color: #242424;
+	font-family: MullerNarrow;
+	font-size: 11px;
+}
+
+.caption .comm {
+	background: url(../images/com-icon.png) no-repeat left center;
+	margin-left: 15px;
+}
+
+.thumbnail p {
+	margin-bottom: 0;
+}
+
+.thumbnail img {
+	width: 100%;
+}
