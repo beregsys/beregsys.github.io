@@ -7,6 +7,10 @@
     <!--[if lt IE 9]>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.js"></script>
 	<![endif]-->
+    <link href="http://vjs.zencdn.net/6.1.0/video-js.css" rel="stylesheet">
+
+    <!-- If you'd like to support IE8 -->
+    <script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css">    
     <title>Notify</title>
 </head>
@@ -59,7 +63,15 @@
                 </form>
             </div>
             <div class="subscribe__player fadeInRight wow" data-wow-duration="2s" data-wow-delay=".5s">
-                <img src="images/player.png" alt="">
+                <video id="my-video" class="video-js vjs-default-skin" controls preload="auto" width="500" height="307"
+                poster="images/player.jpg" data-setup="{}">
+                    <source src="video/343291949.mp4" type='video/mp4'>
+                    <p class="vjs-no-js">
+                        To view this video please enable JavaScript, and consider upgrading to a web browser that
+                        <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                    </p>
+                </video>
+                <!-- <img src="images/player.png" alt=""> -->
             </div>
         </div>
     </section>
@@ -223,6 +235,7 @@
     <!-- Scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/wow.min.js"></script>
+    <script src="http://vjs.zencdn.net/6.1.0/video.js"></script>
     <script src="js/main.js"></script>
     <!-- End Scripts -->
 </body>
