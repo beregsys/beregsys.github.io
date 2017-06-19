@@ -71,6 +71,8 @@
                 margin: -40px 0 0 -40px;
                 transition: all .5s ease-in;
                 mask: url(../images/love.svg) no-repeat top center;
+                -webkit-mask-size: cover;
+  mask-size: cover;
                 &:hover {
                     cursor: pointer;
                     transform: scale(1.1);
