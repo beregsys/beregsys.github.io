@@ -67,6 +67,11 @@
                 top: 50%;
                 left: 50%;
                 margin: -40px 0 0 -40px;
+                transition: all .5s ease-in;
+                &:hover {
+                    cursor: pointer;
+                    transform: scale(1.2);
+                }
             }
         }
     }
