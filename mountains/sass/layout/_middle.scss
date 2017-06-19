@@ -72,8 +72,6 @@
                 transition: all .5s ease-in;// background: url(../images/love.svg) no-repeat top center;
                 .love__svg {
                     fill: #fff;
-                    stroke:#fff;
-                    stroke-miterlimit:10;
                 }
                 &:hover {
                     cursor: pointer;
