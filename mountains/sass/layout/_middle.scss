@@ -59,4 +59,9 @@
         text-align: center;
         background-position: center top;
     }
+    .love__bg {
+        @include bg-img('love-bg.png');
+        width: 380px;
+        height: 380px;
+    }
 }
