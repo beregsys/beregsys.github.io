@@ -70,7 +70,7 @@
                 height: 80px;
                 margin: -40px 0 0 -40px;
                 transition: all .5s ease-in;
-                mask: url();
+                mask: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/18515/heart.svg) no-repeat 50% 50%;
                 &:hover {
                     cursor: pointer;
                     transform: scale(1.1);
