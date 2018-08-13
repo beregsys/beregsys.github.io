@@ -1,0 +1,420 @@
+/* Eric Meyer's CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Eric Meyer's CSS Reset */
+
+html {
+	height: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 12px/18px Arial, sans-serif;
+	height: 100%;
+}
+.wrapper {
+	overflow: hidden;
+	width: 100%;
+	min-width: 320px;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	background: url("../images/1-bg.jpg") no-repeat top center;
+}
+
+/* Fonts
+-----------------------------------------------------------------------------*/
+@font-face {
+	font-family: 'Conv_AvantGardeCTT Bold';
+	src: url('fonts/AvantGardeCTT Bold.eot');
+	src: local('☺'), url('fonts/AvantGardeCTT Bold.woff') format('woff'), url('fonts/AvantGardeCTT Bold.ttf') format('truetype'), url('fonts/AvantGardeCTT Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.block {
+	margin: 0 auto;
+	max-width: 1170px;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	font: 16px "Conv_AvantGardeCTT Bold";
+	color: #ffffff;
+	overflow: hidden;
+}
+
+.header .block {
+	border-bottom: 1px solid #ffffff;
+	overflow: hidden;
+}
+
+.logo {
+	float: left;
+}
+
+.logo a {
+	display: block;
+	padding: 30px 15px;
+}
+
+.main-menu {
+	float: left;
+	padding-left: 135px;
+}
+
+.main-menu li {
+	display: inline-block;
+}
+
+.main-menu li a {
+	display: block;
+	padding: 40px 25px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.header-tel {
+	float: right;
+	padding: 40px 15px;
+}
+/* Middle
+-----------------------------------------------------------------------------*/
+.content {
+	padding: 0 0 100px;
+}
+
+/* section crm
+-----------------------------------------------------------------------------*/
+.content .crm {
+	font: 16px "Conv_AvantGardeCTT Bold";
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: center;
+	padding-bottom: 270px;
+}
+
+.content .crm h1 {
+	font-size: 50px;
+	padding-top: 135px;
+}
+
+.content .crm img {
+	margin-top: 45px;
+}
+
+.content .crm p {
+	padding: 85px 0 75px;
+}
+
+.content .crm p span {
+	display: block;
+	padding-bottom: 15px;
+}
+
+.integrate {
+	padding: 25px 80px;
+	background: #311b92;
+	text-decoration: none;
+	-webkit-border-radius: 35px;
+	-moz-border-radius: 35px;
+	border-radius: 35px;
+	color: #ffffff;
+	font: 16px "Conv_AvantGardeCTT Bold";
+	text-transform: uppercase;
+}
+
+/* section you-get
+-----------------------------------------------------------------------------*/
+.you-get {
+	text-align: center;
+	padding-bottom: 115px;
+}
+
+h2 {
+	font: 24px "Conv_AvantGardeCTT Bold";
+	color: #0083fe;
+	text-transform: uppercase;
+}
+
+.you-get ul {
+	padding: 45px 0 110px;
+}
+
+.you-get ul li {
+	display: inline-block;
+	width: 290px;
+	padding: 45px 0;
+}
+
+.you-get .cloud {
+	background: url("../images/cloud.png") no-repeat center;
+	height: 135px;
+	width: 210px;
+	display: flex;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.you-get .cloud img {
+	margin: 0 auto;
+}
+
+.you-get p {
+	font: 16px "Conv_AvantGardeCTT Bold";
+	color: #115893;
+}
+
+/* section how-it-works
+-----------------------------------------------------------------------------*/
+.how-it-works {
+	background: url("../images/how-it-works.jpg") no-repeat top center;
+}
+
+.how-it-works h2 {
+	color: #ffffff;
+	text-align: center;
+	padding-top: 70px;
+}
+
+.how-it-works .steps-int {
+	width: 1120px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 60px 0 80px;
+}
+
+.how-it-works ul {
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	font-family: "Conv_AvantGardeCTT Bold", sans-serif;
+	color: #ffffff;
+	padding: 25px 40px 0 0;
+}
+
+.how-it-works .steps-int ul li {
+	font-size: 16px;
+	padding-bottom: 40px;
+}
+
+.how-it-works .steps-int ul li span {
+	font-size: 24px;
+	padding-right: 20px;
+}
+
+.how-it-works img {
+	display: inline-block;
+}
+
+.how-it-works:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+/* Section gifts
+-----------------------------------------------------------------------------*/
+.gifts {
+	background: url("../images/gifts.jpg") no-repeat center 95px;
+	text-align: center;
+	font-family: "Conv_AvantGardeCTT Bold", sans-serif;
+	color: #ffffff;
+	text-transform: uppercase;
+	padding-top: 80px;
+	margin-bottom: 100px;
+}
+
+.gifts .gifts-title {
+	line-height: 50px;
+	font-size: 61px;
+	width: 310px;
+	margin: 0 auto;
+	color: #311b92;
+	padding-bottom: 125px;
+}
+
+.gifts .gifts-title p {
+	font-size: 56px;
+}
+
+.gifts .gifts-title span {
+	font-size: 24px;
+	display: block;
+}
+
+.gifts ul li {
+	font-size: 16px;
+	padding-bottom: 45px;
+}
+
+.gifts .gifts-free {
+	display: block;
+	color: #ffffff;
+	font-size: 18px;
+	padding: 5px 0 80px;
+}
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	margin: -100px auto 0;
+	min-width: 320px;
+	height: 100px;
+	position: relative;
+	color: #0066a3;
+	font: 16px "Conv_AvantGardeCTT Bold";
+}
+
+.footer .block {
+	border-top: 1px solid #0066a3;
+}
+
+.footer .main-menu li a, .footer .header-tel {
+	color: #0066a3;
+}
+
+
+/*------------------ popup -----------------------------*/
+
+.overlay {
+	background-color: rgba(0, 0, 0, 0.6);
+	bottom: 0;
+	cursor: default;
+	left: 0;
+	opacity: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	visibility: hidden;
+	z-index: 20;
+	-webkit-transition: opacity .5s;
+	-moz-transition: opacity .5s;
+	-ms-transition: opacity .5s;
+	-o-transition: opacity .5s;
+	transition: opacity .5s;
+}
+.overlay:target {
+	visibility: visible;
+	opacity: 1;
+}
+/* Позиционирум медиа-элементы внутри окна */
+.is-image {
+	width: 100%;
+	display: inline-block;
+	height: auto;
+	margin: auto;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 15px;
+	top: 0; left: 0; bottom: 0; right: 0;
+}
+embed, iframe {
+	width: 100%;
+	margin: auto;
+	top: 0; left: 0; bottom: 0; right: 0;
+}
+/* Формируем и позиционируем всплывающее окно */
+.popup {
+	width: 1170px;
+	height:450px;
+	margin: auto;
+	text-align: center;
+	border-radius: 0px;
+	background: url("../images/popup.png") no-repeat center;
+	display: block;
+	left: 0; right: 0;
+	opacity: 0;
+	position: absolute;
+	font-size: 14px;
+	top: 0;
+	padding: 20px 0;
+	visibility: hidden;
+	z-index: 20;
+	/* Устанавливаем эффект перехода появления окна */
+	-webkit-transition: opacity .5s, top .5s;
+	-moz-transition: opacity .5s, top .5s;
+	-ms-transition: opacity .5s, top .5s;
+	-o-transition: opacity .5s, top .5s;
+	transition: opacity .5s, top .5s;
+}
+
+/* Устанавливаем позицию появления окна */
+.overlay:target+.popup {
+	top: 10%;
+	position: fixed;
+	opacity: 1;
+	visibility: visible;
+}
+
+.popup form input {
+	border: none;
+	outline: none;
+}
+
+.popup label {
+	font: 16px "Conv_AvantGardeCTT Bold";
+	color: #ffffff;
+	text-align: center;
+	text-transform: uppercase;
+	display: block;
+	padding-top: 70px;
+}
+
+.popup input[type=phone] {
+	padding: 20px;
+	margin: 40px auto;
+	display: block;
+	width: 420px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+::-webkit-input-placeholder {font: 18px 'Conv_AvantGardeCTT Bold'; color: #311b92; line-height: 18px;}
+::-moz-placeholder          {font: 18px 'Conv_AvantGardeCTT Bold'; color: #311b92; line-height: 18px;}
+:-moz-placeholder           {font: 18px 'Conv_AvantGardeCTT Bold'; color: #311b92; line-height: 18px;}
+:-ms-input-placeholder      {font: 18px 'Conv_AvantGardeCTT Bold'; color: #311b92; line-height: 18px;}

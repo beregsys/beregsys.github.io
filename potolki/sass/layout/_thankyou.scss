@@ -1,0 +1,23 @@
+.thank__you {
+	width: 493px;
+	height: 172px;
+	background-color: rgba(13, 13, 13, .64);
+	border: 2px solid white;
+	margin: 130px auto 0;
+	text-align: center;
+	font: $regular 4.5rem $calibri;
+	color: $white;
+	text-shadow: 0 4px 3px rgba(0, 0, 0, 0.61);
+	h1 {margin-top: 10px;}
+	h2 {
+		font-size: 3.5rem;
+	}
+}
+.gotomain {
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+	font: $regular 2.5rem $calibri;
+	color: $white;
+	text-decoration: none;
+}

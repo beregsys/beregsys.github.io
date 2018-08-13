@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=1000">
+	<title>Ремонт квартир и домов в Волгограде и Волжском </title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/flexslider.css" media="all" />
+	<link href="https://fonts.googleapis.com/css?family=Cuprum:400,700&amp;subset=cyrillic" rel="stylesheet">
+</head>
+<body>
+<div class="lightbox1" style="display: none;">
+		 <div class="lightbox1-wrapper">
+			<h1 class="title">Введите Ваш телефон и мы перезвоним!</h1>
+			<span class="lightbox-close">х</span>	
+			   <form class="form1" action="order.php">
+			   			<input type="text" value="Заказать звонок" class="hidden" name="capt" required>
+						<input type="text" name="phone" placeholder="Введите телефон" required>
+						<input type="submit" class="btn1" value="Оставить заявку">
+				</form>
+		 </div>
+</div>
+<div class="lightbox2" style="display: none;">
+		 <div class="lightbox1-wrapper">
+		 	<h2>Хотите заказать «Дизайнерский» ремонт?</h2>
+			<h1 class="title">Введите свой телефон, мы перезвоним Вам и ответим на все интересующие вопросы!</h1>
+			<span class="lightbox-close">х</span>	
+			   <div class="form">
+						<form action="order.php" class="form2">
+						<input type="text" name="capt" class="hidden" value="Дизайнерский ремонт" required>
+						<input type="text" name="phone" placeholder="Введите телефон" required>
+						<input type="submit" value="Оставить заявку">
+					</form>
+				</div>
+		 </div>
+</div>
+<div class="lightbox3" style="display: none;">
+		 <div class="lightbox1-wrapper">
+		 	<h2>Хотите заказать «Капитальный» ремонт?</h2>
+			<h1 class="title">Введите свой телефон, мы перезвоним Вам и ответим на все интересующие вопросы!</h1>
+			<span class="lightbox-close">х</span>	
+			   <div class="form">
+						<form action="order.php" class="form3">
+						<input type="text" name="capt" class="hidden" value="Капитальный ремонт" required>
+						<input type="text" name="phone" placeholder="Введите телефон" required>
+						<input type="submit" value="Оставить заявку">
+					</form>
+				</div>
+		 </div>
+</div>
+<div class="lightbox4" style="display: none;">
+		 <div class="lightbox1-wrapper">
+		 	<h2>Хотите заказать «Косметический» ремонт?</h2>
+			<h1 class="title">Введите свой телефон, мы перезвоним Вам и ответим на все интересующие вопросы!</h1>
+			<span class="lightbox-close">х</span>	
+			   <div class="form">
+						<form action="order.php" class="form4">
+						<input type="text" name="capt" class="hidden" value="Косметический ремонт" required>
+						<input type="text" name="phone" placeholder="Введите телефон" required>
+						<input type="submit" value="Оставить заявку">
+					</form>
+				</div>
+		 </div>
+</div>
+<div class="lightbox5" style="display: none;">
+		 <div class="lightbox1-wrapper">
+			<h1 class="title">Введите Ваш телефон и мы перезвоним!</h1>
+			<span class="lightbox-close">х</span>	
+			   <div class="form">
+					<form action="order.php" class="form7">
+						<input type="text" name="capt" class="hidden" value="Узнать цену" required>
+						<input type="text" name="phone" placeholder="Введите телефон" required>
+						<input type="submit" value="Оставить заявку">
+					</form>
+				</div>
+		 </div>
+</div>
+<!--Плавающее меню-->
+<div class="top-wr fixed">
+	<div class="main">
+		<ul class="inline-block top">
+			<li class="logo">
+				<a href="#">
+					<img src="images/logo.png" alt="" />
+					<p>Ремонт квартир и домов в Волгограде и Волжском </p>
+				</a>
+			</li>
+			<li>
+				<nav>
+					<ul class="inline-block">
+						<li><a href="#prices">Цены</a></li>
+						<li><a href="#projects">Проекты</a></li>
+						<li><a href="#questions">Вопросы</a></li>
+					</ul>
+				</nav>
+			</li>
+			<li class="tel">
+				<p>Есть вопросы? Звоните</p>
+				<a href="tel:88442459801">8 (8442) 45-98-01</a>
+				<span>Часы работы: ПН-ВС 9:00-21:00</span>
+				<button class="zakaz">Заказать звонок</button>
+			</li>
+		</ul>
+	</div>
+</div>
+<!--Плавающее меню-->
+	<div class="top-wr">
+		<div class="main">
+			<ul class="inline-block top">
+				<li class="logo">
+					<a href="#">
+						<img src="images/logo.png" alt="" />
+						<p>Ремонт квартир, домов Волгоград и Волжский </p>
+					</a>
+				</li>
+				<li>
+					<nav>
+						<ul class="inline-block">
+							<li><a href="#prices">Цены</a></li>
+							<li><a href="#projects">Проекты</a></li>
+							<li><a href="#questions">Вопросы</a></li>
+						</ul>
+					</nav>
+				</li>
+				<li class="tel">
+					<p>Есть вопросы? Звоните</p>
+					<a href="tel:88442459801">8 (8442) 45-98-01</a>
+					<span>Часы работы: ПН-ВС 9:00-21:00</span>
+					<button class="zakaz">Заказать звонок</button>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="slogan-wr">
+		<h1><span>Мы создаём атмосферу счастья, уют и тепло</span><span>в вашем доме</span></h1>
+		<div class="slogan">
+			<div class="main">
+				<div class="preim">
+					<h2>Наши цены на ремонт:</h2>
+					<div class="priem-lists">
+						<ul class="preim-list first-preim">
+							<li class="preim-list__item">Квартира студия</li>
+							<li class="preim-list__item">1 - комнатная квартира</li>
+							<li class="preim-list__item">2 - комнатная квартира</li>
+							<li class="preim-list__item">3 - комнатная квартира</li>
+							<li class="preim-list__item">Коттедж</li>
+						</ul>
+						<ul class="preim-list second-preim">
+							<li class="preim-list__item">100-150 т.р</li>
+							<li class="preim-list__item">150-200 т.р.</li>
+							<li class="preim-list__item">200-300 т.р.</li>
+							<li class="preim-list__item">300-500 т.р.</li>
+							<li class="preim-list__item">500-800 т.р.</li>
+						</ul>
+					</div>
+					<h2>Можем взять ещё только 3 проекта в марте!</h2>
+				</div>
+				<div class="form">
+					<form action="order.php" class="form5">
+						<h3>ЗАКАЖИТЕ ВЫЕЗД СПЕЦИАЛИСТА!</h3>
+						<p>Введите свой телефон и в течение 15 минут с Вами свяжется наш специалист:</p>
+						<input type="text" class="hidden" name="capt" value="ВЫЗВАТЬ СПЕЦИАЛИСТА" required>
+						<input type="text" placeholder="Введите Ваш телефон" name="phone" required>
+						<p class="text-left">
+							Выезд специалиста это:
+							<span>1. БЕСПЛАТНЫЙ замер помещания</span>
+							<span>2. БЕСПЛАТНАЯ консультация</span>
+						</p>
+						<input type="submit" class="btn" value="ВЫЗВАТЬ СПЕЦИАЛИСТА">
+					</form>			
+				</div>
+			</div>
+		</div>
+	</div>
+	<section class="design">
+		<div class="main">
+			<div class="get-design">
+				<p>ПОЛУЧИ</p>
+				<p>ДИЗАЙН-ПРОЕКТ</p>
+				<p>В ПОДАРОК!</p>
+				<span>Акция действует до 31.03.2017!</span>
+			</div>
+			<div class="design-form-wrap">
+				<div class="design-form-title">Отправь заявку сейчас и получи подарок!</div>
+				<form action="order.php" class="design-form">
+					<input type="tel" name="phone" class="design-form__input" placeholder="Введите Ваш телефон" required>
+					<input type="text" class="hidden" name="capt" value="Хочу подарок" required>
+					<input type="submit" class="design-submit" value="Хочу подарок!">
+				</form>
+			</div>
+		</div>
+	</section>
+	<div class="bg-derevo">
+		<div class="main">
+			<div class="bg-derevo-title">КАК МЫ РАБОТАЕМ</div>
+			<ul>
+				<li>
+					<p>Мы не берём авансовых платежей. Работы оплачиваются</p><p><span>только после их выполнения.</span></p>
+				</li>
+				<li>
+					<p>Работаем только <span>по официальному договору</span> и даём <span>3 года гарантии</span></p><p>на все виды работ.</p>
+				</li>
+				<li>
+					<p>Вы изначально <span>знаете сумму</span>, которую нужно потратить на ремонт.</p><p>Мы предоставляем две сметы: на работу и черновые материалы.</p>
+				</li>
+				<li>
+					<p>Смета считается <span>в течение 1 дня</span> и сумма, зафиксированная в ней,</p><p><span>остается неизменной</span> даже при обнаружении скрытых работ.</p>
+				</li>
+			</ul>
+			<div class="bg-derevo-title">Пример рабочей сметы</div>
+			<a href="book/RemBrand_smeta.pdf" target="_blank" class="derevo-button">Скачать</a>
+		</div>
+	</div>
+	<section class="free-book">
+		<div class="main">
+			<div class="book-title">Получите бесплатно книгу с 3 советами как не допустить самые<br>дорогие ошибки во время ремонта квартиры.</div>
+			<div class="book-form-wrap">
+				<div class="pre-form-title">Сэкономьте более <span>100 000 рублей</span><br>И ещё больше нервов.</div>
+				<div class="form-container">
+					<div class="form-title">Заполните форму<br>чтобы получить книгу</div>
+					<form action="order.php" class="book-form">
+						<input type="email" name="email" class="book-form__input" placeholder="Введите Ваш e-mail адрес" required>
+						<input type="tel" name="phone" class="book-form__input" placeholder="Введите Ваш телефон" required>
+						<input type="text" class="hidden" name="capt" value="Получить книгу на почту" required>
+						<input type="submit" class="book-submit" value="Получить книгу на почту">
+					</form>
+					<div class="book-text">Через несколько минут к вам на почту<br>придёт письмо с советами</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="last-projects" id="projects">
+		<div class="main">
+			<h2>ОЗНАКОМЬТЕСЬ С ПОСЛЕДНИМИ ВЫПОЛНЕННЫМИ ПРОЕКТАМИ</h2>
+			<div class="project">
+				<h3>ЖК «Новый»</h3>
+				<ul class="inline-block">
+					<li>
+						Площадь
+						<br/>55 кв.м
+					</li>
+					<li>
+						Срок выполнения
+						<br/>1,5 месяца
+					</li>
+					<li>
+						Стоимость
+						<br/>312 000 руб.
+					</li>
+				</ul>
+				 <div id="slider" class="flexslider">
+					  <ul class="slides">
+					  	<li>
+					      <img src="images/case1/15.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case1/1.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case1/2.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case1/3.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case1/4.jpg" />
+					    </li>
+					     <li>
+					      <img src="images/case1/5.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case1/6.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case1/7.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case1/8.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case1/9.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case1/10.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case1/11.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case1/12.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case1/13.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case1/14.jpg" />
+					    </li>
+					    
+					  </ul>
+					</div>
+					<div id="carousel" class="flexslider">
+					  <ul class="slides">
+					  	<li>
+					      <img src="images/case1/15.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case1/1.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case1/2.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case1/3.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case1/4.jpg" />
+					    </li>
+					     <li>
+					      <img src="images/case1/5.jpg" />
+					    </li>
+					    					    <li>
+					      <img src="images/case1/6.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case1/7.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case1/8.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case1/9.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case1/10.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case1/11.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case1/12.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case1/13.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case1/14.jpg" />
+					    </li>
+					     
+					  </ul>
+					</div>
+				<div class="review">
+					<ul class="inline-block">
+						<li>
+							<p>Посмотрите видео обзор с этого объекта</p>
+							<iframe width="100%" height="296" src="https://www.youtube.com/embed/YKwY9uxH77Y" frameborder="0" allowfullscreen></iframe>
+						</li>
+						<li>
+							<p>Посмотрите видео отзыв с этого объекта</p>
+							<iframe width="100%" height="296" src="https://www.youtube.com/embed/uZrDUpYODxg" frameborder="0" allowfullscreen></iframe></li>
+					</ul>
+				</div>
+			</div>
+			<div class="project">
+				<h3>ЖК «Пархоменко 8»</h3>
+				<ul class="inline-block">
+					<li>
+						Площадь
+						<br/>62.5 кв.м
+					</li>
+					<li>
+						Срок выполнения
+						<br/>2 месяца
+					</li>
+					<li>
+						Стоимость
+						<br/>276 000 руб.
+					</li>
+				</ul>
+				<div id="slider1" class="flexslider">
+					  <ul class="slides">
+					  	 <li>
+					      <img src="images/case2/17.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case2/1.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case2/2.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case2/3.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case2/4.jpg" />
+					    </li>
+					     <li>
+					      <img src="images/case2/5.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case2/6.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case2/7.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case2/8.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case2/9.png" />
+					    </li>
+					    <li>
+					      <img src="images/case2/10.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case2/11.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case2/12.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case2/13.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case2/14.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case2/15.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case2/16.jpg" />
+					    </li>
+					    
+					  </ul>
+					</div>
+					<div id="carousel1" class="flexslider">
+					  <ul class="slides">
+					  	 <li>
+					      <img src="images/case2/17.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case2/1.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case2/2.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case2/3.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case2/4.jpg" />
+					    </li>
+					     <li>
+					      <img src="images/case2/5.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case2/6.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case2/7.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case2/8.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case2/9.png" />
+					    </li>
+					    <li>
+					      <img src="images/case2/10.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case2/11.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case2/12.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case2/13.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case2/14.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case2/15.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case2/16.jpg" />
+					    </li>
+					    
+					  </ul>
+					</div>
+				<div class="review">
+					<ul class="inline-block">
+						<li>
+							<p>Посмотрите видео обзор с этого объекта</p>
+							<iframe width="100%" height="296" src="https://www.youtube.com/embed/E-Ga2x4NcH0" frameborder="0" allowfullscreen></iframe>
+						</li>
+						<li>
+							<p>Посмотрите видео отзыв с этого объекта</p>
+							<iframe width="100%" height="296" src="https://www.youtube.com/embed/E8TdFgJLioA" frameborder="0" allowfullscreen></iframe>
+					</ul>
+				</div>
+			</div>
+			<div class="project">
+				<h3>ЖК «Бизнес класса»</h3>
+				<ul class="inline-block">
+					<li>
+						Площадь
+						<br/>77.45 кв.м
+					</li>
+					<li>
+						Срок выполнения
+						<br/>3 месяца
+					</li>
+					<li>
+						Стоимость
+						<br/>483 036 руб.
+					</li>
+				</ul>
+				<div id="slider2" class="flexslider">
+					  <ul class="slides">
+					  	 <li>
+					      <img src="images/case3/24.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case3/1.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case3/2.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case3/3.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case3/4.jpg" />
+					    </li>
+					     <li>
+					      <img src="images/case3/5.jpg" />
+					    </li>
+					     <li>
+					      <img src="images/case3/6.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case3/7.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case3/8.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case3/9.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case3/10.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case3/11.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case3/12.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case3/13.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case3/14.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case3/15.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case3/16.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case3/17.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case3/18.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case3/19.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case3/20.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case3/21.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case3/22.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case3/23.jpg" />
+					    </li>
+					    
+					  </ul>
+					</div>
+					<div id="carousel2" class="flexslider">
+					  <ul class="slides">
+					  	 <li>
+					      <img src="images/case3/24.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case3/1.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case3/2.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case3/3.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case3/4.jpg" />
+					    </li>
+					     <li>
+					      <img src="images/case3/5.jpg" />
+					    </li>
+					     <li>
+					      <img src="images/case3/6.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case3/7.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case3/8.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case3/9.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case3/10.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case3/11.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case3/12.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case3/13.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case3/14.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case3/15.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case3/16.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case3/17.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case3/18.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case3/19.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case3/20.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case3/21.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case3/22.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/case3/23.jpg" />
+					    </li>
+					  </ul>
+					</div> 
+			</div> 
+		</div>
+		
+		</div>
+	<div class="also-wr">
+		<div class="main">
+			<h2>ТАК ЖЕ МЫ ДЕЛАЕМ</h2>
+			<p>РЕМОНТ ПОД КЛЮЧ:</p>
+			<ul class="inline-block">
+				<li>
+					<img src="images/foto1.png" alt="">
+					<p>Санузлов</p>
+				</li>
+				<li>
+					<img src="images/foto2.png" alt="">
+					<p>Кухни</p>
+				</li>
+				<li>
+					<img src="images/foto3.png" alt="">
+					<p>Комнат</p>
+				</li>
+			</ul>
+			<button class="zakaz1">УЗНАТЬ ЦЕНУ</button>
+		</div>
+	</div>
+	<div class="prices-wr" id="prices">
+		<div class="main">
+			<h2>ЦЕНЫ НА ОСНОВНЫЕ ВИДЫ РАБОТ</h2>
+			<ul class="inline-block">
+				<li>
+					<h3>Дизайнерский</h3>
+					<p>Полный комплекс работ по  проекту, а также предметы интерьера и мебель</p>
+					<div class="price">от 6 900 руб./м2</div>
+					<ul>
+						<li>Все работы пакета "Капитальный"</li>
+						<li>Индивидуальный проект</li>
+						<li>Авторский надзор</li>
+						<li>Самые передовые технологии</li>
+					</ul>
+					<button class="n2">Узнать цену</button>
+				</li>
+				<li>
+					<h3>Капитальный</h3>
+					<p>Полный комплекс работ, включая черновые и чистовые работы</p>
+					<div class="price">от 4 900 руб./м2</div>
+					<ul>
+						<li>Демонтаж/возведение перегородок</li>
+						<li>Все инженерные коммуникации</li>
+						<li>Выравнивание стен, полов, потолков</li>
+						<li>Все работы по чистовым материалам</li>
+					</ul>
+					<button class="n3">Узнать цену</button>
+				</li>
+				<li>
+					<h3>Косметический</h3>
+					<p>Чтобы освежить интерьер при небольшом бюджете</p>
+					<div class="price">от 2 900 руб./м2</div>
+					<ul>
+						<li>Поклейка обоев</li>
+						<li>Перекраска стен</li>
+						<li>Замена полов</li>
+						<li>Замена плитки (на пол/стены)</li>
+					</ul>
+					<button class="n4">Узнать цену</button>
+				</li>
+			</ul>
+		</div>
+		
+	</div>
+	<div class="questions-wr" id="questions">
+		<div class="main">
+			<div class="question">
+				<h2>ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ</h2>
+				<p class="quest">Мы видели, что у других дешевле</p>
+				<p class="answer">Скорее всего, конкуренты выставили цены без учёта каких-либо  работ или с изначально заниженным объёмом</p>
+				<p class="quest">Сколько стоит ремонт?</p>
+				<p class="answer">Точная стоимость будет известна только после составления сметы. У нас услуга 
+				предоставляется бесплатно. Конечная стоимость ремонта складывается из сроков работ, 
+				площади помещения, вида отделки и стоимости материалов</p>
+				<p class="quest">Почему мы должны обращаться в компанию, а не к частному мастеру?</p>
+				<p class="answer">Работая с компанией вы заключаете договор в котором прописываются все условия работы, обязательства каждой стороны и гарантии. Работая с частым мастером вы никак не защищены 
+				и можете доверить ему лишь на слово. </p>
+				<p class="quest">Кто выполняет работы?</p>
+				<p class="answer">Все работы выполняются профессиональными специалистами. Сантехники, электрики, отделочники и другие рабочие обладают опытом работы более 5 лети находятся в постоянном штате компании. </p>
+				<p class="quest">Строительные материалы мне нужно закупать самостоятельно?</p>
+				<p class="answer">Мы сами закупим расходные и строительные материалы, доставим и поднимем их до Вашего объекта</p>
+
+			</div>
+		</div>
+		
+	</div>
+	<footer>
+		<div class="main">
+			<ul class="inline-block">
+				<li>
+					<h3>Остались вопросы?</h3>
+					<form action="order2.php" class="form6">
+						<p>Введите свой телефон и получите консультацию специалиста в течение 2 часов</p>
+						<textarea name="text" placeholder="Задайте свой вопрос"></textarea>
+						<input type="text" name="phone" placeholder="Введите  номер Вашего телефона" required>
+						<input type="text" name="capt" class="hidden" value="ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ" required>
+						<input type="submit" class="btn" value="ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ">
+						<span>Мы заботимся о Вашей конфиденциальности Ваши данные не будут переданы третьим лицам!</span>
+					</form>
+				</li>
+				<li>
+					<ul>
+						<li>Наш офис находится по адресу:<br/>г. Волгоград ул. Пугачевская 4</li>
+						<li>Время работы:  <br/>Пн-Пт с 10:00 до 19:00</li>
+					</ul>
+					<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=umPTSxdt-kbpZcCdSd7UFF4e3XA72j75&amp;width=430&amp;height=340&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
+				</li>
+			</ul>
+			<a href="#" class="up">наверх</a>
+		</div>
+	</footer>
+	<script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+	<script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
+	<script type="text/javascript" src="js/jquery.flexslider.js"></script>
+	<script type="text/javascript" src="js/jquery.validate.js"></script>
+	<script type="text/javascript" src="js/script.js" ></script>
+	
+	<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter41103269 = new Ya.Metrika({
+                    id:41103269,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/41103269" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-87987919-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = location.protocol + '//vk.com/rtrg?r=h0c0/sj4HGfP7CZbjpK7yPSckm13upv1wz1QQUytaw7M2T1zAaAzOk8tFvQ0TN1fabaFYj7pLnpTPv5I/XYPlWe3bC6NOXrVknJdkamVhivnz6tXZnDgndnDFT6*XK1c2TR6R4e232UFOec8puvk38wtilHUZa082Z7xU25PKo4-&pixel_id=1000046531';</script>
+
+<!-- Rating@Mail.ru counter -->
+<script type="text/javascript">
+var _tmr = window._tmr || (window._tmr = []);
+_tmr.push({id: "2838138", type: "pageView", start: (new Date()).getTime()});
+(function (d, w, id) {
+  if (d.getElementById(id)) return;
+  var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
+  ts.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//top-fwz1.mail.ru/js/code.js";
+  var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+  if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+})(document, window, "topmailru-code");
+</script><noscript><div style="position:absolute;left:-10000px;">
+<img src="//top-fwz1.mail.ru/counter?id=2838138;js=na" style="border:0;" height="1" width="1" alt="Рейтинг@Mail.ru" />
+</div></noscript>
+<!-- //Rating@Mail.ru counter -->
+	
+	
+	<script type="text/javascript" src="//cdn.callbackhunter.com/cbh.js?hunter_code=fa0394e91bd6e39478083b05398728e1" charset="UTF-8"></script>
+
+	
+</body>

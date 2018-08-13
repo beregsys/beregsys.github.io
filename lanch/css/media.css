@@ -1,0 +1,197 @@
+@media (max-width: 1450px) {
+	.advant_veg {width: 650px;top: 70px;}
+}
+@media (max-width: 1170px) {
+	.header__logo{margin-left: 28px;}
+	.main-nav__item:nth-of-type(1),
+	.main-nav__item:nth-of-type(2),
+	.main-nav__item {
+		width: auto;
+		text-align: center;
+	}
+	.main-nav {
+		text-align: center;
+	}
+	.contacts {
+		height: auto;
+		padding-bottom: 20px;
+	}
+	.contact-wrap, .form-wrap, .map-wrap {
+		display: block;
+		margin: 0 auto;
+	}
+	.map-wrap {
+		margin: 20px auto;
+	}
+	.order {
+		background-size: cover;
+	}
+	.order .order-form__input {
+		display: block;
+		margin: 15px auto;
+	}
+	.lunch-list__item {margin-left: 20px;}
+	.advant_veg {width: 520px;top: 130px;}
+	.vnutr .contacts .container {
+		padding: 0 15px 15px;
+	}
+	.dish-list__item {padding-bottom: 25px;}
+}
+@media (max-width: 1100px) {
+	.copyright {
+		margin: 0 auto;
+	    text-align: center;
+	    float: none;
+	    height: auto;
+    	line-height: normal;
+    	padding-bottom: 10px;
+	}
+	.footer-menu {
+		float: none;
+	    margin: 0 auto;
+	    height: auto;
+	    line-height: normal;
+	    padding-top: 0;
+	}
+	.footer-menu__item {
+	    margin: 0;
+	    display: block;
+	    text-align: center;
+	    padding-bottom: 10px;
+	}
+	.webdev {
+		float: none;
+	    text-align: center;
+	    height: auto;
+	    line-height: normal;
+	    width: auto;
+	}
+	.footer {
+		height: auto;
+		padding: 15px 0;
+	}
+}
+@media (max-width: 1020px) {
+	.header__middle {display: none;}
+	.header {height: auto;}
+	.desire {padding-top: 60px;}
+	.desire-wrap {float: none;margin: 0 auto;}
+	.advant_veg {width: 400px;top: 160px;}
+}
+@media (max-width: 850px) {
+	.advant_veg {width: 350px;top: 160px;}
+}
+@media (max-width: 800px) {
+	.advant_veg {
+		display: none;
+	}
+	.advant-list {
+		float: none;
+		margin: 0 auto;
+	}
+	.list-container:nth-child(2) {margin: 0;}
+}
+@media (max-width: 760px) {
+	#toggle {display: block;}
+	.header__bottom {
+		height: auto;
+	}
+	.main-nav__item, .main-nav__item:first-of-type, .main-nav__item:nth-of-type(2) {
+		display: block;
+	}
+	.main-nav {display: none;margin-top: 0;}
+	.main-nav__link {padding: 10px;}
+	nav {height: 48px;}
+	.header__top {display: none;}
+	.logo-mob {
+		display: table-cell;
+	    color: #fff;
+	    font-size: 1.6rem;
+	    text-transform: uppercase;
+	    vertical-align: middle;
+	    padding-left: 20px;
+	    height: 48px;
+	}
+	.logo-mob span {line-height: normal;}
+}
+@media (min-width: 760px) {
+	.main-nav {display: block;}
+}
+@media (max-width: 630px) {
+	.offer-list__item {
+		width: 210px;
+		display: block;
+		margin: 0 auto;
+	}
+	.counter {
+		height: auto;
+		background-size: cover;
+	}
+	.counter__text {
+		display: block;
+	}
+	.counter__text-bg {display: inline-block;}
+	.count-cont, .count-cont__item, .counter__text {
+		line-height: 60px;
+		height: 60px;
+	}
+	.header__logo {
+		margin: 15px auto 0;
+		float: none;
+		text-align: center;
+	}
+	.header__contact {
+		float: none;
+		width: 230px;
+		margin: 0 auto;
+	}
+	.footer-menu {
+		width: auto;
+	}
+	.footer-menu__item {
+		margin: 0;
+		display: block;
+		text-align: center;
+	}
+}
+@media (max-width: 550px) {
+	.desire-wrap {
+		width: auto;
+		margin: 0 20px;
+	}
+}
+@media (max-width: 490px) {
+	.map-wrap {
+		width: auto;
+	}
+	.delivery-content {
+		width: auto;
+		max-width: 490px;
+		margin: 0 10px;
+	}
+	.delivery-button {
+		font-size: 1.8rem;
+	}
+	.advant-list {width: auto;}
+	.advant-list li {padding: 0 10px 40px;}
+	.advant__img {width: 84px;/*display: block;margin: 0 auto;*/}
+	.advant__text {width: 70%;font-size: 1.5rem;}
+	.advant .container {height: auto;}
+	.delivery {
+		height: auto;
+    	padding-bottom: 20px;
+	}
+}
+@media (max-width: 400px) {
+	.desire-block {padding: 25px 0 25px 20px;}
+	.desire-title,.desire-text{text-align: center;}
+	.form-wrap {width: auto;}
+	.delivery-button {font-size: 1.4rem;}
+	.list-container {width: 320px;padding: 0 10px}
+	.list-container span,.vnutr .list-container span {width: 280px;}
+	.counter__text,.title {font-size: 2.5rem;}
+	.order .order-form__input {width: auto;}
+	.advant__text{margin-left: 10px;width: 65%;}
+	.dish-list__item {margin: 0 5px;}
+	.dish-wrap, .dish-text {width: 130px;}
+}

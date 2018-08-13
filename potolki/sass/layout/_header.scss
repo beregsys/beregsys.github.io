@@ -1,0 +1,36 @@
+.header {
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	align-items: center;
+	text-align: center;
+	font: $regular 1.5rem $calibri;
+	.logo,
+	.callback {
+		flex: 0 0 290px;
+	}
+	.logo {
+	    display: flex;
+	    align-items: center;
+	    text-align: left;
+	    a {
+	    	margin: 5px 10px 0 5px;
+	    }
+
+	}
+	.callback {
+		padding: 0 15px 0 75px;
+		a, span {
+			display: block;
+		}
+		a {
+			font-size: 2rem;
+			text-decoration: none;
+			color: $white;
+			&:focus {
+				outline: none;
+			}
+		}
+	}
+}

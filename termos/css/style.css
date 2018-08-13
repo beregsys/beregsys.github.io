@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,700|Open+Sans:400,600,700');@font-face{font-family:"ProximaNovaBold";src:url("../fonts/ProximaNovaBold/ProximaNova-Bold.eot");src:url("../fonts/ProximaNovaBold/ProximaNova-Bold.eot?#iefix")format("embedded-opentype"), url("../fonts/ProximaNovaBold/ProximaNova-Bold.woff") format("woff"), url("../fonts/ProximaNovaBold/ProximaNova-Bold.ttf") format("truetype");font-style:normal;font-weight:normal;}
+@font-face{font-family:"ProximaNovaExtrabld";src:url("../fonts/ProximaNovaExtrabld/ProximaNova-Extrabld.eot");src:url("../fonts/ProximaNovaExtrabld/ProximaNova-Extrabld.eot?#iefix")format("embedded-opentype"), url("../fonts/ProximaNovaExtrabld/ProximaNova-Extrabld.woff") format("woff"), url("../fonts/ProximaNovaExtrabld/ProximaNova-Extrabld.ttf") format("truetype");font-style:normal;font-weight:normal;}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section{display:block;}
+body{line-height:1;}
+ol,
+ul{list-style:none;}
+blockquote,
+q{quotes:none;}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+*{box-sizing:border-box;}
+html{height:100%;font:10px Arial, sans-serif;}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary{display:block;}
+body{width:100%;height:100%;}
+.wrapper{max-width:1920px;margin:0 auto;min-height:100%;height:auto !important;height:100%;}
+.container{margin:0 auto;padding:0;max-width:1170px;}
+.header{height:766px;background:url(../images/header-bg.jpg) no-repeat center top;background-size:cover;font-family:'Open Sans', sans-serif;font-size:2rem;}
+.logo{float:left;padding:32px 12px;letter-spacing:2px;background-color:#ff5300;font:3.2rem 'Fira Sans', sans-serif;color:#fff;}
+nav{padding:35px 0 0 11px;color:#fff;float:left;}
+.main__nav-item{display:inline-block;}
+.main__nav-item a{text-decoration:none;display:block;font:600 1.6rem 'Open Sans', sans-serif;color:#fff;padding:10px 13px;}
+.main__nav-item a span{border-bottom:1px solid #fff;}
+.main__nav-item a:hover{background-color:#0178d6;border-radius:20px;border:1px solid #86c3f3;cursor:pointer;padding:9px 12px;}
+.main__nav-item a:hover span{border:none;}
+.phone{padding:5px 0 0 40px;float:right;margin-top:30px;font:700 2.4rem 'Open Sans', sans-serif;color:#fff;background:url(../images/phone.png) no-repeat left top;}
+.header__top:after{content:'';display:table;clear:both;}
+.header__bottom{margin-top:199px;text-align:center;}
+.header__text{font:7rem ProximaNovaExtrabld, sans-serif;color:#fff;text-transform:uppercase;}
+.header__text:nth-of-type(2){margin-top:-5px;}
+.header__text span{background-color:#ff5300;}
+.line{border-bottom:3px solid #ffbf00;width:244px;margin:7px auto 0;}
+.small__text{max-width:970px;margin:18px auto 0;font:400 2rem 'Open Sans', sans-serif;color:#fff;}
+.header__link{font:700 2rem 'Open Sans', sans-serif;color:#fff;padding:8px 23px;border:2px solid #fff;border-radius:22px;text-decoration:none;margin-top:29px;display:inline-block;}
+.hamburger{background:rgba(0, 0, 0,.5);position:absolute;right:0;line-height:45px;padding:5px 15px 5px 15px;color:#fff;border:0;font-size:1.8em;font-weight:normal;cursor:pointer;outline:none;z-index:100;display:none;}
+.content{padding:0 0 125px;}
+.advantages{background:url(../images/advantages-bg.png) repeat-x left top;margin-top:-5px;color:#313133;padding-bottom:83px;}
+h2{font:3.2rem 'ProximaNovaExtrabld', sans-serif;text-transform:uppercase;text-align:center;padding-top:46px;}
+.advantages__list{text-align:center;padding-top:45px;}
+.advantages__list-item{width:398px;display:inline-block;position:relative;vertical-align:top;}
+.img__container{height:113px;width:113px;border:1px solid #dba400;background-color:#ffbf00;vertical-align:middle;display:table-cell;border-radius:50%;}
+.advantages__list-img{width:113px;margin:0 auto;}
+.advantages__list-header{font:2.2rem 'ProximaNovaBold', sans-serif;padding-top:6px;}
+.advantages__list-text{font:1.4rem 'Open Sans', sans-serif;padding:6px 36px;line-height:2.1rem;}
+.advantages__list-item .advantages__line{position:absolute;right:4px;top:30px;height:142px;border-right:1px solid #cacaca;}
+.advantages__list-item:nth-of-type(2) .advantages__line{right:-5px;}
+.assortment .container{max-width:1200px;}
+.assortment h2{padding-top:37px;}
+.products{padding-top:25px;}
+.product__item{display:inline-block;width:374px;margin:0 13px 25px;vertical-align:top;}
+.product__img{border:1px solid #dce0e5;padding:2px 1px 4px;}
+.product__img a:focus{outline:none;}
+.product__desc{border:1px solid #dce0e5;border-top:none;padding:9px 13px;}
+.product__name{font:2rem 'ProximaNovaBold', sans-serif;line-height:2.2rem;}
+.product__size{padding:5px 0;font:1.4rem 'Open Sans', sans-serif;color:#333333;}
+.product__size span{color:#a0a9b2;}
+.product__buy{height:50px;position:relative;}
+.product__buy:after{content:'';display:table;clear:both;}
+.product__button{position:absolute;display:block;padding:7px 0;width:125px;background-color:#0178d6;font:700 1.8rem 'Open Sans',sans-serif;color:#fff;bottom:6px;left:-3px;border-radius:20px;text-align:center;text-decoration:none;}
+.product__button:focus{outline:none;}
+.product__price{position:absolute;font:3.5rem 'ProximaNovaExtrabld', sans-serif;color:#ff4900;bottom:-4px;right:-2px;}
+.product__price span{font-size:2rem;}
+.webdev__text{font:1.4rem 'Open Sans', sans-serif;color:#313133;margin:4px 12px 36px;padding:7px 10px;border-left:6px solid #ffbf00;}
+.callback{background:url(../images/callback-bg.png) repeat-x left top;height:285px;}
+.callback h2{padding-top:40px;}
+.callback__form{padding-top:35px;text-align:center;}
+.callback input{padding:11px 16px;border:1px solid #a0a9b2;width:367px;margin-right:30px;font:600 1.4rem 'Open Sans', sans-serif;color:#313133;outline:none;}
+.callback input[type='email'],
+.callback input[type='submit']{margin-right:0;}
+.callback input[type='submit']{display:block;margin:34px auto 0;width:210px;border-radius:25px;border:none;background-color:#0178d6;font:700 1.8rem 'Open Sans', sans-serif;color:#fff;cursor:pointer;}
+.callback input[type='submit']:active{transform:translate(2px, -2px);}
+.reliability{border-bottom:2px solid #dde2e6;background:url(../images/reliability-bg.jpg) center center no-repeat;background-size:cover;}
+.reliability__container{position:relative;text-align:center;margin-top:43px;margin-bottom:50px;}
+.reliability__item{position:absolute;text-align:left;color:#313133;width:295px;}
+.reliability__item p{font:2rem 'ProximaNovaBold', sans-serif;}
+.reliability__item span{font:1.4rem 'Open Sans', sans-serif;}
+.first{top:60px;right:185px;}
+.second{top:160px;left:153px;}
+.third{bottom:116px;right:157px;}
+.delivery{background:url(../images/delivery-bg.jpg) center bottom no-repeat;color:#313133;padding-bottom:240px;}
+.delivery:after{content:'';display:table;clear:both;}
+.delivery h2{margin-top:7px;}
+.delivery__russia,
+.accept__payment{width:350px;margin-top:63px;}
+.delivery__russia{float:left;margin-left:20px;}
+.delivery__russia ul,
+.accept__payment ul{margin:8px 0 0 42px;}
+.delivery__russia p,
+.accept__payment p{padding:5px 42px 0;background:url(../images/stopwatch.png) left center no-repeat;font:2.8rem 'ProximaNovaBold', sans-serif;}
+.delivery__russia ul li,
+.accept__payment ul li{padding:5px 0 5px 34px;background:url(../images/check.png) left center no-repeat;font:600 1.8rem 'Open Sans', sans-serif;}
+.accept__payment{float:right;width:380px;}
+.accept__payment p{padding:4px 54px 0;background:url(../images/money-bag.png) 10px center no-repeat;}
+.accept__payment ul{margin:8px 0px 0 55px;}
+.footer{max-width:1920px;margin:-125px auto 0;height:125px;background:#383838;position:relative;padding-top:35px;font:1.4rem 'Open Sans', sans-serif;color:#fff;}
+.copyright{float:left;}
+.copyright span,
+.phones span,
+.dev__link a{font-weight:600;}
+.phones{width:167px;margin:0 auto;}
+.phones p:nth-of-type(2){margin-top:3px;}
+.dev__link{float:right;}
+.dev__link a{color:#fff;}
+.dev__link a:hover{text-decoration:none;}
+.form__title{width:80%;margin:0 auto;padding-bottom:15px;}
+.form__title h3{font:2rem 'ProximaNovaBold', sans-serif;line-height:2.2rem;}
+.mfp-inline-holder .mfp-content{max-width:400px;}
+.white-popup-block{padding:30px 0;background-color:#FFBF00;border-radius:15px;}
+.white-popup-block input,
+.white-popup-block textarea{display:block;margin:0 auto 15px;width:80%;padding:10px;font:600 1.4rem 'Open Sans', sans-serif;resize:none;outline:none;}
+.white-popup-block .product__button{position:static;width:175px;text-transform:uppercase;;margin-bottom:0;cursor:pointer;font:700 1.8rem 'Open Sans',sans-serif;border:none;}
+.thank-you{padding:30px;background-color:#FFBF00;text-align:center;border-radius:15px;font:700 1.8rem 'Open Sans',sans-serif;}

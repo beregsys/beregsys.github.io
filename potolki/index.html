@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Потолки</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="main__container">
+		<div class="wrapper">
+			<header class="header">
+				<div class="logo">
+					<a href="#">
+						<img src="images/logo.png" alt="">
+					</a>
+					<p>Установка натяжных потолков в Волгограде и Волжском</p>
+				</div>
+				<div class="content">
+					<p>Более 280 расцветок в каталоге</p>
+					<p>Более 1500 установленных потолков</p>
+					<p>Расчет стоимости в вашем присутсвии</p>
+					<p>Гарантия - 15 лет</p>
+				</div>
+				<div class="callback">
+					<p>Есть вопросы? Звоните:</p>
+					<a class="popup-with-form" href="#callback">8 (8442) 45-98-01</a>
+					<span>Часы работы: ПН-ВС 8:00-21:00</span>
+				</div>
+			</header>
+			<main>
+				<section class="content">
+					<h1>Установим натяжной потолок по индивидуальному<br>заказу за 3 часа</h1>
+					<p>С нами ваш ремонт закончится, так и не успев начаться.</p>
+					<a class="popup-with-form" href="#callback">Вызвать замерщика бесплатно</a>
+					<ul>
+						<li>Работаем без предоплаты!</li>
+						<li>Монтируем аккуратно и чисто</li>
+						<li>Создаём для вас потолки по уникальному дизайну</li>
+						<li>Передовые системы монтажа с использованием только качественных комплектующих</li>
+					</ul>
+				</section>
+				<section class="form__wrapper">
+					<h2>Узнайте стоимость вашего</h2>
+					<p>натяжного потолка с установкой</p>
+					<form id="price">
+						<div class="fields__wrap">
+							<label for="field1">Площадь помещения(м2)</label>
+							<input type="text" id="field1" name="square" required>
+						</div>
+						<div class="fields__wrap">
+							<label for="field2">Количество углов(шт.)</label>
+							<input type="text" id="field2" name="corners" required>
+						</div>
+						<div class="fields__wrap">
+							<label for="field3">Кол-во светильников(шт.)</label>
+							<input type="text" id="field3" name="lamp" required>
+						</div>
+						<div class="fields__wrap">
+							<label for="#field4">Кол-во люстр(шт.)</label>
+							<input type="text" id="field4" name="luster" required>
+						</div>
+						<input type="tel" name="tel" placeholder="Введите ваш телефон" required>
+						<input type="hidden" name="form" value="Узнать стоимость">
+						<input type="submit" value="Узнать стоимость">
+					</form>
+					
+				</section>
+			</main>	
+		</div>
+	</div>
+	<!-- Popup form -->
+	<div id="callback" class="mfp-hide white-popup-block popup">
+		<h2>Вызвать замерщика бесплатно</h2>
+		<p>Пожалуйста, введите свой номер и менеджер свяжется с вами в течение 10 минут для уточнения удобного времени замера</p>
+		<form id="free">
+			<input type="tel" name="tel" placeholder="Введите  телефон" required>
+			<input type="hidden" name="form" value="Вызвать замерщика">
+			<input type="submit" value="Вызвать замерщика">
+		</form>
+	</div>
+	
+
+	<!-- End popup form -->
+	<!-- Scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/main.min.js"></script>
+	<!-- End scripts -->
+</body>
+</html>

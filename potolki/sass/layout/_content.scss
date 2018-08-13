@@ -1,0 +1,112 @@
+main {
+	display: flex;
+	justify-content: space-between;
+	padding: 130px 20px 25px 40px;
+	font: $regular 2rem $calibri;
+	.content {		
+		h1 {
+			width: 450px;
+			font-size: 3.5rem;
+			text-shadow: 0 4px 3px rgba(0, 0, 0, 0.61);
+		}
+		p {
+			padding: 10px 0px 15px;
+		}
+		a {
+			display: block;
+			text-align: center;
+			width: 340px;
+			height: 43px;
+			@include bg-img('button-sprite.png', null, left, top);
+			box-shadow: 0 12px 25px rgba(0, 0, 0, 0.46), 0 0 25px rgba(255, 255, 255, 0.73);
+			font: $bold 2.6rem/4.3rem $cuprum;
+			color: $black;
+			text-decoration: none;
+			&:hover {
+				background-position: left bottom;
+			}
+			&:focus {
+				outline: none;
+			}
+		}
+		ul {
+			width: 465px;
+			padding-top: 35px;
+			li {
+				padding: 0 0 15px 30px;
+    			position: relative;
+				&::before {
+					content: '';
+					vertical-align: middle;
+					width: 10px;
+					height: 10px;
+					border-radius: 50%;
+					background-color: $white;
+					position: absolute;
+					left: 0;
+    				top: 8px;
+				}
+			}
+		}
+	}
+	.form__wrapper {
+		width: 330px;
+		height: 400px;
+		background-color: $white;
+		border: 2px solid #5959da;
+		padding: 5px 0 20px;
+		color: $black;
+		h2, p {text-align: center;}
+		h2 {
+			font-size: 2.6rem;
+		}
+		form {
+			padding: 20px 25px 0 14px;
+			.fields__wrap {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				margin-bottom: 24px;
+				input {
+					width: 41px;
+					height: 18px;
+					border: 1px solid #5959da;
+					text-align: center;
+					&:focus {
+						outline: none;
+					}
+				}				
+			}
+			input[type="tel"] {
+				width: 244px;
+				height: 33px;
+				background-color: white;
+				border: 1px solid #000002;
+				display: block;
+				margin: 20px auto;
+				text-align: center;				
+			}
+			input[type="submit"] {
+				width: 244px;
+				height: 43px;
+				box-shadow: 0 12px 25px rgba(0, 0, 0, 0.46), 0 0 25px rgba(255, 255, 255, 0.73);
+				margin: 0 auto;
+				display: block;
+				border: none;
+				text-align: center;
+				font: $bold 2.6rem/4.3rem $cuprum;
+				@include bg-img('button-sprite.png', null, right, top);
+				text-decoration: none;
+				color: $black;
+				&:hover {
+					background-position: right bottom;
+					cursor: pointer;				
+				}
+				&:focus {
+					outline: none;
+				}	
+			}			
+		}
+		
+	}
+}

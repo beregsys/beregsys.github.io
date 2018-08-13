@@ -1,0 +1,66 @@
+@media (max-width:1200px){.advantages{background-size:contain;}
+.advantages__line{display:none;}
+.advantages__list-item{width:auto;max-width:350px;}
+.products{text-align:center;}
+.product__item{text-align:left;}
+.callback h2{padding-top:15px;}
+.callback form{padding-top:10px;}
+.callback input{display:block;margin:0 auto 10px;}
+.callback input[type='email'],
+.callback input[type='submit']{margin:0 auto;}
+.callback input[type='submit']{margin-top:10px;}
+.reliability__container{width:860px;margin:0 auto 20px;}
+.reliability__container img{width:100%;}
+.first{top:14%;right:3%;}
+.second{top:35%;left:0%;}
+.third{bottom:22%;right:0%;}
+}
+@media (max-width:1000px){.header__text{font-size:6rem;}
+.logo{float:none;width:300px;text-align:center;margin:0 auto;display:block;}
+nav{padding:0;padding-top:60px;color:#fff;float:none;width:auto;margin:0 auto;text-align:center;}
+.phone{float:none;width:250px;margin:0;position:absolute;top:120px;left:50%;margin-left:-125px;}
+.header__bottom{margin-top:20px;}
+}
+@media (max-width:900px){.reliability__container{width:80%;padding-top:20px;}
+.reliability__container img{display:none;}
+.reliability__item{position:static;margin:0 auto;}
+.delivery{background:url(../images/delivery-map.jpg) center top no-repeat;padding-bottom:100px;}
+}
+@media (max-width:800px){.header{height:auto;padding-bottom:20px;}
+.header__text{font-size:4rem;}
+.small__text{font-size:1.8rem;}
+.delivery{padding-bottom:40px;}
+.delivery__russia, .accept__payment{width:365px;margin-top:63px;margin:25px auto 0;}
+.delivery__russia{float:none;margin:20px auto;}
+.accept__payment{float:none;}
+.accept__payment p{background-position:left center;padding:4px 42px 0;}
+.accept__payment ul{margin:8px 0px 0 42px;}
+.footer{padding-top:5px;height:auto;}
+.copyright{float:none;width:200px;margin:10px auto 0;text-align:center;}
+.dev__link{float:none;text-align:center;position:absolute;width:260px;left:50%;bottom:10px;margin-left:-130px;}
+.phones{width:200px;margin:10px auto 0;padding-bottom:35px;text-align:center;}
+}
+@media (max-width:800px){.header__text{font-size:3rem;}
+}
+@media (min-width:600px){nav .main__nav{display:block !important;}
+}
+@media (max-width:600px){.header{background-size:initial;}
+.logo{float:left;padding:10px 15px;font-size:2.7rem;width:auto;}
+.main__nav-item{width:100%;}
+.main__nav-item a{border-bottom:none;}
+.main__nav-item{margin-bottom:10px;}
+.hamburger{display:block;}
+nav{position:relative;padding-top:0;z-index:100;}
+nav .main__nav{display:none;background:rgba(0, 0, 0, .5);position:absolute;left:0;right:0;}
+.phone{top:70px;}
+.header__bottom{margin-top:100px;}
+.main__nav-item{width:180px;margin:0 auto;display:block;}
+.main__nav-item a:hover{}
+}
+@media (max-width:400px){.product__item{width:90%;}
+.product__img img{width:100%;}
+.callback input{width:90%;}
+.delivery__russia,
+.accept__payment{width:90%;}
+.reliability__container{width:100%;}
+}

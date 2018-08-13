@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&subset=cyrillic');
+
+/*-- CallBack form --*/
+
+#calculation .modal-dialog,
+#base .modal-dialog,
+#callBack .modal-dialog {
+	margin-top: 150px;
+}
+
+#calculation .modal-content,
+#base .modal-content,
+#callBack .modal-content{
+	padding: 25px 0;
+	background: #dfdfdf;
+	width: 410px;
+	margin: 0 auto;
+	border-radius: 0
+}
+
+#calculation form,
+#base form,
+#callBack form {
+	width: auto;
+    height: auto;
+    margin: auto;
+}
+
+#base form input,
+#callBack form input {
+	font-family: 'PT Sans', sans-serif;
+	display: block;
+	width: 260px;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	text-align: center;
+	border: 0;
+	padding: 12px 0;
+	outline: none;
+	border-radius: 0;
+	height: auto;
+    line-height: inherit;
+}
+
+#base form input[type=submit],
+#callBack form input[type=submit] {
+	width: 155px;
+	margin-top: 20px;
+	background-color: #ec402f;
+	margin-bottom: 0;
+	color: #fff;
+}
+
+#base form input[type=submit] {
+	width: 260px;
+}
+
+/*-- calculation form --*/
+
+#calculation {
+	font: 20px 'PT Sans', sans-serif;
+}
+
+#calculation .modal-dialog {
+	width: 800px;
+}
+
+#calculation .modal-content {
+	width: 800px;
+}
+
+#calculation form input {
+	width: auto;
+	border-radius: 0;
+	padding: 0;
+	margin: 0;
+}
+
+#calculation form input[type=text],
+#calculation form input[type=tel] {
+	display: block;
+	width: 370px;
+}
+
+#calculation .table {
+	display: table;
+}
+
+#calculation .row {
+	display: table-row;
+	margin-bottom: 20px;
+}
+
+#calculation .cell {
+	display: table-cell;
+	vertical-align: middle;
+	width: 50%;
+}
+
+#calculation .cell:first-child {
+	text-align: right;
+	padding-right: 20px;
+	height: 60px;
+}
+
+#calculation .cell .under {
+	display: block;
+	font-size: 14px;
+}
+
+#calculation input[type=radio] {
+	display: inline-block;
+	vertical-align: middle;
+	visibility: hidden;
+	margin-right: -20px;
+}
+
+#calculation .object-type label {
+	font-size: 16px;
+	display: inline;
+	font-weight: normal;
+	cursor: pointer;
+}
+
+#calculation .checkbox_img {
+	display: inline-block;
+    padding: 0px;
+    height:30px;
+    width:30px;
+    background: #fff;
+    cursor: pointer;
+}
+
+#calculation .checked {
+	background: url(../img/checked.jpg);
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size:30px 30px;
+    transition: background-image 2s;
+}
+
+#calculation .object-type .cell:first-child {
+	vertical-align: top;
+	padding-top: 5px;
+}
+
+#calculation .dimensions {
+	width: 124px;
+	display: inline-block;
+}
+
+#calculation form .dimensions input[type=text] {
+	width: 112px;
+}
+
+#calculation .dimensions span {
+	display: block;
+	text-align: center;
+}
+
+#calculation form .dim-row .cell {
+	vertical-align: top;
+}
+
+#calculation .row.object-type.bottom .cell:first-child {
+	vertical-align: middle;
+}
+
+#calculation .form_name,
+#calculation .form_phone {
+	font-weight: 700;
+}
+
+#calculation .form_phone {
+    box-shadow: inset 0px -2px #201600;
+    height: 100px;
+}
+
+#calculation .form_phone .cell {
+	vertical-align: top;
+}
+
+#calculation .calc_submit {
+	width: 250px;
+    height: 60px;
+    background: #ff3e2a;
+    font-size: 22px;
+    color: #fff;
+    margin: 0 auto;
+
+}
+
+.thank-you {
+	padding: 50px 0;
+	font: 700 21px 'PT Sans', sans-serif; 
+	text-align: center;
+}
