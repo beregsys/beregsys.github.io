@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script><![endif]-->
+    <title>Городская юридическая консультация по семейным спорам и расторжению брака</title>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+<div class="wrapper">
+
+    <header class="header">
+
+        <div class="header__top">
+
+            <div class="logo">
+                <a href="/" class="logo__link">
+                    <img src="images/logo.png" alt="" class="logo__img">
+                </a>
+                <div class="logo__text">
+                    <div class="logo__text-bold">Московский центр правовой защиты</div>
+                    <div class="logo__text-normal">Департамент семейного права</div>
+                </div>
+            </div>
+
+            <ul class="callback">
+                <li class="callback__item">
+                    <a href="tel:+84951234567" class="callback__phone">8 495 <span class="callback__phone-medium">123 45 67</span></a>
+                </li>
+                <li class="callback__item">
+                    <a href="#callback" class="callback__button open-callback-popup">ОБРАТНАЯ СВЯЗЬ</a>
+                </li>
+                <li class="callback__item">
+                    <div class="callback__hours">Ежедневно с 10:00 до 19:00</div>
+                    <div class="callback__subway">ст. м. Тульская</div>
+                </li>
+            </ul>
+
+        </div>
+
+        <div class="header__bottom">
+
+            <div class="container">
+                <div class="consult">
+                    <h1>
+                        Городская юридическая
+                        консультация по семейным
+                        спорам и расторжению брака
+                    </h1>
+
+                    <div class="consult__phone__container">
+                        <a href="tel:+84951234567" class="consult__phone">8 495 <span class="consult__phone-medium">123 45 67</span></a>
+                        <div class="consult__phone__text">Единая горячая линия для граждан РФ <span class="consult__phone__text-light">по семейным спорам и
+                            расторжению брака</span>
+                        </div>
+                    </div>
+
+                    <div class="lawyer">
+                        <div class="lawyer__img__container"></div>
+                        <div class="lawyer__text">
+                            <div class="lawyer__text-normal">Дежурный юрист по семейному праву</div>
+                            <div class="lawyer__text-bold">Перминов Алексей Батькович</div>
+                        </div>
+                        <ul class="lawyer__list">
+                            <li class="lawyer__list-item">Стаж работы 21 год</li>
+                            <li class="lawyer__list-item">Юридический факультет Московского государственного университета</li>
+                            <li class="lawyer__list-item">Количество успешно завершенных дел – более 500</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="consult__form">
+                    <div class="consult__form__title">
+                        Узнайте пути решения вашего
+                        семейного спора прямо сейчас
+                    </div>
+                    <form id="form1" method="POST" action="javascript:void(0);" onSubmit="ajaxsend_form('1');">
+                        <input type="hidden" name="typeofform[Форма]" class="typeofform" value="Получить консультацию">
+                        <input type="text" name="name[Имя]" id="name" placeholder="Имя*" data-required="true">
+                        <input type="tel" name="phone[Телефон]" id="phone" placeholder="Телефон*" data-required="true" class="phone-inp">
+                        <textarea name="problem[Описание проблемы]" id="problem" rows="4" placeholder="Опишите проблему"></textarea>
+                        <input type="submit" value="ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ">
+                    </form>
+                    <div class="consult__form__conf">
+                        Конфиденциальность гарантирована в соответствии с ст. 8
+                        Федерального закона от 31.05.2002 г. № 63-ФЗ «Об адвокатской
+                        деятельности и адвокатуре в РФ»
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <main class="content">
+        <section class="first">
+            <div class="first-bold">Проект реализован в рамках</div>
+            <div class="first-reg">Федерального закона Российской Федерации от 21 ноября 2011 г. № 324-ФЗ «О бесплатной юридической помощи в Российской Федерации»</div>
+            <div class="first-lig">(Принят Государственной Думой 2 ноября 2011 года и одобрен Советом Федерации 9 ноября 2011 года)</div>
+        </section>
+
+        <section class="second">
+            <div class="second__title">Выберите волнующий Вас вопрос<span class="second__title-bold">и получите комплексную консультацию</span></div>
+            <ul class="cases">
+                <li class="cases__item">
+                    <img src="images/case_1.jpg" alt="" class="cases__item__cover">
+                    <div class="case__title">РАСТОРЖЕНИЕ БРАКА</div>
+                    <a href="#consult_case" class="case__more open-consult-popup">подробнее</a>
+                    <div class="case__bg-hover"></div>
+                </li>
+                <li class="cases__item">
+                    <img src="images/case_2.jpg" alt="" class="cases__item__cover">
+                    <div class="case__title">РАЗДЕЛ ИМУЩЕСТВА</div>
+                    <a href="#consult_case" class="case__more open-consult-popup">подробнее</a>
+                    <div class="case__bg-hover"></div>
+                </li>
+                <li class="cases__item">
+                    <img src="images/case_3.jpg" alt="" class="cases__item__cover">
+                    <div class="case__title">ЛИШЕНИЕ РОДИТЕЛЬСКИХ ПРАВ</div>
+                    <a href="#consult_case" class="case__more open-consult-popup">подробнее</a>
+                    <div class="case__bg-hover"></div>
+                </li>
+                <li class="cases__item">
+                    <img src="images/case_4.jpg" alt="" class="cases__item__cover">
+                    <div class="case__title">СПОРЫ О ДЕТЯХ</div>
+                    <a href="#consult_case" class="case__more open-consult-popup">подробнее</a>
+                    <div class="case__bg-hover"></div>
+                </li>
+                <li class="cases__item">
+                    <img src="images/case_5.jpg" alt="" class="cases__item__cover">
+                    <div class="case__title">АЛИМЕНТЫ</div>
+                    <a href="#consult_case" class="case__more open-consult-popup">подробнее</a>
+                    <div class="case__bg-hover"></div>
+                </li>
+                <li class="cases__item">
+                    <img src="images/case_6.jpg" alt="" class="cases__item__cover">
+                    <div class="case__title">БРАЧНЫЙ ДОГОВОР</div>
+                    <a href="#consult_case" class="case__more open-consult-popup">подробнее</a>
+                    <div class="case__bg-hover"></div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="third">
+            <div class="third__title">Юристы Центра помогут преодолеть<span class="third__title-bold">эмоционально сложный период с наименьшими потерями</span></div>
+            <div class="container">
+                <ul class="steps">
+                    <li class="steps__item">
+                        <div class="steps__item__container">
+                            <img src="images/step1.png" alt="" class="steps__item__img">
+                        </div>
+                        <div class="steps__item__text">Мы проведем переговоры с другой 
+                        стороной для урегулирования споров 
+                        в досудебном и судебном порядке
+                        </div>
+                    </li>
+                    <li class="steps__item">
+                        <div class="steps__item__container">
+                            <img src="images/step2.png" alt="" class="steps__item__img">
+                        </div>
+                        <div class="steps__item__text">Проанализируем документы по вашему 
+                        делу и разработаем тактический план 
+                        защиты ваших прав
+                        </div>
+                    </li>
+                    <li class="steps__item">
+                        <div class="steps__item__container">
+                            <img src="images/step3.png" alt="" class="steps__item__img">
+                        </div>
+                        <div class="steps__item__text">Составим и подадим иски, 
+                        заявления, жалобы за вас. 
+                        Соберем доказательства по делу
+                        </div>
+                    </li>
+                    <li class="steps__item">
+                        <div class="steps__item__container">
+                            <img src="images/step4.png" alt="" class="steps__item__img">
+                        </div>
+                        <div class="steps__item__text">Представим и отстоим ваши права 
+                        и интересы в суде всех инстанций
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="fourth">
+            <div class="container">
+                <div class="fourth__title">Уже после первой бесплатной консультации<span class="fourth__title-bold">Вы будете знать какой сделать следующий правильный шаг</span></div>
+                <form id="form2" method="POST" action="javascript:void(0);" onSubmit="ajaxsend_form('2');" class="fourth__form">
+                    <input type="hidden" name="typeofform[Форма]" class="typeofform" value="Получить консультацию">
+                    <ul class="fourth__form__list">
+                        <li class="fourth__form__list-item"><input name="name[Имя]" type="text" data-required="true" placeholder="Имя*" class="fourth__form__name"></li>
+                        <li class="fourth__form__list-item"><input name="phone[Телефон]" type="tel" data-required="true" placeholder="Телефон*" class="fourth__form__tel phone-inp"></li>
+                        <li class="fourth__form__list-item"><input type="submit" value="ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ" class="fourth__form__button"></li>
+                    </ul>
+                </form>
+            </div>
+        </section>
+
+        <section class="fifth">
+            <div class="container">
+                <div class="fifth__left">
+                    <div class="consult__title">
+                        <span class="next__line">Московский</span>
+                        центр правовой защиты
+                    </div>
+                    <div class="callback__subway fifth__subway">г. Москва, ул. Северная д. 23</div>
+                    <div class="consult__phone__container fifth-clear">
+                        <a href="tel:+84951234567" class="consult__phone">8 495 <span class="consult__phone-medium">123 45 67</span></a>
+                        <div class="consult__phone__text fifth__text">Единая горячая линия для граждан РФ <span class="consult__phone__text-light">по семейным спорам и
+                            расторжению брака</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="consult__form fifth__form">
+                    <div class="consult__form__title fifth__title">
+                        <span class="fifth-bold">Остались вопросы?</span>
+                        Позвоните нашему юристу
+                        и он вам обязательно ответит
+                    </div>
+                    <form id="form3" method="POST" action="javascript:void(0);" onSubmit="ajaxsend_form('3');">
+                        <input type="hidden" name="typeofform[Форма]" class="typeofform" value="Получить консультацию">
+                        <input type="text" name="name[Имя]" id="name" placeholder="Имя*" data-required="true" class="">
+                        <input type="tel" name="phone[Телефон]" id="phone" placeholder="Телефон*" data-required="true" class="phone-inp">
+                        <input type="submit" value="ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <ul class="footer__list">
+            <li class="footer__list-item">
+                <div class="copyright">
+                    <div class="copyright__text">ООО «Первое юридическое консультативное бюро» 2014-2016 &copy;</div>
+                    <div class="copyright__text">ОГРН: 1234567890</div>
+                </div>
+            </li>
+            <li class="footer__list-item">
+                <a href="#" class="policy open-polytic">Политика конфиденциальности</a>
+            </li>
+            <li class="footer__list-item">
+                <div class="contact">
+                    <a href="tel:+84951234567" class="contact__phone">8 495 123 45 67</a>
+                    <a href="mailto:info@pykb.ru" class="contact__mail">info@pykb.ru</a>
+                </div>
+            </li>
+            <li class="footer__list-item"></li>
+        </ul>
+    </footer>
+    <div class="dialogs">
+        <div class="close-bg"></div>
+        <div class="vertical-align-table">
+            <div class="vertical-align-row">
+                <div class="vertical-align">
+                    <div class="popup callback__form">
+                        <div class="close"></div>
+                        <div class="form-box">
+                            <div class="fourth__title callback__form__title">Единая Справочная Служба Центра правовой защиты</div>
+                            <form id="form4" method="POST" action="javascript:void(0);" onSubmit="ajaxsend_form('4');" class="fourth__form">
+                            <input type="hidden" name="typeofform[Форма]" class="typeofform" value="Обратная связь">
+                                <ul class="fourth__form__list">
+                                    <li class="fourth__form__list-item"><input name="name[Имя]" type="text" data-required="true" placeholder="Имя*" class="fourth__form__name"></li>
+                                    <li class="fourth__form__list-item"><input name="phone[Телефон]" type="tel" data-required="true" placeholder="Телефон*" class="fourth__form__tel phone-inp"></li>
+                                    <li class="fourth__form__list-item"><input type="submit" value="ПЕРЕЗВОНИТЕ МНЕ" class="fourth__form__button"></li>
+                                </ul>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="popup consult__case">
+                        <div class="close"></div>
+                        <div class="text-box">
+                            <div class="consult__case__title"></div>
+                            <div class="case__container">
+                                <div class="case__container__img"></div>
+                                <div class="case__block i1">
+                                    <div class="case__list__title">Какие вопросы поможем решить?</div>
+                                    <ul class="lawyer__list case__list">
+                                        <li class="lawyer__list-item">Развод по взаимному согласию</li>
+                                        <li class="lawyer__list-item">Развод без согласия супруга</li>
+                                        <li class="lawyer__list-item">Развод с иностранцем</li>
+                                        <li class="lawyer__list-item">Дистанционный развод (если вы находитесь за пределами РФ)</li>
+                                        <li class="lawyer__list-item">Развод с супругом место жительства которого не известно</li>
+                                        <li class="lawyer__list-item">Расторжение брака при отсутствии Московской прописки</li>
+                                        <li class="lawyer__list-item">Развод в Московской области</li>
+                                    </ul>
+                                    <div class="lawyer">
+                                        <div class="lawyer__img__container"></div>
+                                        <div class="lawyer__text">
+                                            <div class="lawyer__text-normal">Дежурный юрист по семейному праву</div>
+                                            <div class="lawyer__text-bold">Перминов Алексей Батькович</div>
+                                        </div>
+                                        <ul class="lawyer__list">
+                                            <li class="lawyer__list-item">Стаж работы 21 год</li>
+                                            <li class="lawyer__list-item">Юридический факультет Московского государственного университета</li>
+                                            <li class="lawyer__list-item">Количество успешно завершенных дел – более 500</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="case__block i2">
+                                    <div class="case__list__title">Какие вопросы поможем решить?</div>
+                                    <ul class="lawyer__list case__list">
+                                        <li class="lawyer__list-item">Составление соглашения о разделе совместно нажитого имущества</li>
+                                        <li class="lawyer__list-item">Раздел имущества в судебном порядке</li>
+                                        <li class="lawyer__list-item">Раздел имущества в гражданском браке</li>
+                                        <li class="lawyer__list-item">Оценка стоимости недвижимости</li>
+                                        <li class="lawyer__list-item">Оформление мирового соглашения</li>
+                                        <li class="lawyer__list-item">Раздел ООО, ИП и т.д.</li>
+                                        <li class="lawyer__list-item">Раздел общей ссуды в банке и т.д.</li>
+                                        <li class="lawyer__list-item">Регистрация права собственности в Росреестре.</li>
+                                    </ul>
+                                    <div class="lawyer">
+                                        <div class="lawyer__img__container"></div>
+                                        <div class="lawyer__text">
+                                            <div class="lawyer__text-normal">Дежурный юрист по семейному праву</div>
+                                            <div class="lawyer__text-bold">Перминов Алексей Батькович</div>
+                                        </div>
+                                        <ul class="lawyer__list">
+                                            <li class="lawyer__list-item">Стаж работы 21 год</li>
+                                            <li class="lawyer__list-item">Юридический факультет Московского государственного университета</li>
+                                            <li class="lawyer__list-item">Количество успешно завершенных дел – более 500</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="case__block i3">
+                                    <div class="case__list__title">Какие вопросы поможем решить?</div>
+                                    <ul class="lawyer__list case__list">
+                                        <li class="lawyer__list-item">Обращение в органы опеки и попечительства</li>
+                                        <li class="lawyer__list-item">Решение судебных споров</li>
+                                    </ul>
+                                    <div class="lawyer">
+                                        <div class="lawyer__img__container"></div>
+                                        <div class="lawyer__text">
+                                            <div class="lawyer__text-normal">Дежурный юрист по семейному праву</div>
+                                            <div class="lawyer__text-bold">Перминов Алексей Батькович</div>
+                                        </div>
+                                        <ul class="lawyer__list">
+                                            <li class="lawyer__list-item">Стаж работы 21 год</li>
+                                            <li class="lawyer__list-item">Юридический факультет Московского государственного университета</li>
+                                            <li class="lawyer__list-item">Количество успешно завершенных дел – более 500</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="case__block i4">
+                                    <div class="case__list__title">Какие вопросы поможем решить?</div>
+                                    <ul class="lawyer__list case__list">
+                                        <li class="lawyer__list-item">Определение времени общения с ребенком</li>
+                                        <li class="lawyer__list-item">Определение порядка общения с детьми</li>
+                                        <li class="lawyer__list-item">Определение места жительства детей</li>
+                                        <li class="lawyer__list-item">Получение согласия на выезд ребенка за границу</li>
+                                        <li class="lawyer__list-item">Определение и оспаривание отцовства</li>
+                                    </ul>
+                                    <div class="lawyer">
+                                        <div class="lawyer__img__container"></div>
+                                        <div class="lawyer__text">
+                                            <div class="lawyer__text-normal">Дежурный юрист по семейному праву</div>
+                                            <div class="lawyer__text-bold">Перминов Алексей Батькович</div>
+                                        </div>
+                                        <ul class="lawyer__list">
+                                            <li class="lawyer__list-item">Стаж работы 21 год</li>
+                                            <li class="lawyer__list-item">Юридический факультет Московского государственного университета</li>
+                                            <li class="lawyer__list-item">Количество успешно завершенных дел – более 500</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="case__block i5">
+                                    <div class="case__list__title">Какие вопросы поможем решить?</div>
+                                    <ul class="lawyer__list case__list">
+                                        <li class="lawyer__list-item">Алименты в браке</li>
+                                        <li class="lawyer__list-item">Алименты с неработающего</li>
+                                        <li class="lawyer__list-item">Алименты на родителей</li>
+                                        <li class="lawyer__list-item">Уменьшение размеров алиментов</li>
+                                        <li class="lawyer__list-item">Освобождение от уплаты алиментов</li>
+                                        <li class="lawyer__list-item">Взыскание алиментов в порядке приказного производства</li>
+                                        <li class="lawyer__list-item">Взыскание алиментов в твердой денежной сумме</li>
+                                    </ul>
+                                    <div class="lawyer">
+                                        <div class="lawyer__img__container"></div>
+                                        <div class="lawyer__text">
+                                            <div class="lawyer__text-normal">Дежурный юрист по семейному праву</div>
+                                            <div class="lawyer__text-bold">Перминов Алексей Батькович</div>
+                                        </div>
+                                        <ul class="lawyer__list">
+                                            <li class="lawyer__list-item">Стаж работы 21 год</li>
+                                            <li class="lawyer__list-item">Юридический факультет Московского государственного университета</li>
+                                            <li class="lawyer__list-item">Количество успешно завершенных дел – более 500</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="case__block i6">
+                                    <div class="case__list__title">Какие вопросы поможем решить?</div>
+                                    <ul class="lawyer__list case__list">
+                                        <li class="lawyer__list-item">Составление брачного договора (контракта)</li>
+                                        <li class="lawyer__list-item">Расторжение (оспаривание) брачного договора (контракта)</li>
+                                    </ul>
+                                    <div class="lawyer">
+                                        <div class="lawyer__img__container"></div>
+                                        <div class="lawyer__text">
+                                            <div class="lawyer__text-normal">Дежурный юрист по семейному праву</div>
+                                            <div class="lawyer__text-bold">Перминов Алексей Батькович</div>
+                                        </div>
+                                        <ul class="lawyer__list">
+                                            <li class="lawyer__list-item">Стаж работы 21 год</li>
+                                            <li class="lawyer__list-item">Юридический факультет Московского государственного университета</li>
+                                            <li class="lawyer__list-item">Количество успешно завершенных дел – более 500</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="you__get__container">
+                                <div class="you__get__title">Что вы получите</div>
+                                <ul class="steps">
+                                    <li class="steps__item">
+                                        <div class="steps__item__container">
+                                            <img src="images/you_get1.png" alt="" class="steps__item__img">
+                                        </div>
+                                        <div class="steps__item__text">Бесплатную консультацию</div>
+                                    </li>
+                                    <li class="steps__item">
+                                        <div class="steps__item__container">
+                                            <img src="images/you_get2.png" alt="" class="steps__item__img">
+                                        </div>
+                                        <div class="steps__item__text">Юридический анализ текущей ситуации</div>
+                                    </li>
+                                    <li class="steps__item">
+                                        <div class="steps__item__container">
+                                            <img src="images/you_get3.png" alt="" class="steps__item__img">
+                                        </div>
+                                        <div class="steps__item__text">Пошаговую инструкцию ваших действий</div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="case__form__container">
+                                <form id="form5" method="POST" action="javascript:void(0);" onSubmit="ajaxsend_form('5');" class="fourth__form">
+                                    <ul class="fourth__form__list">
+                                        <input type="hidden" name="typeofform[Форма]" class="typeofform">
+                                        <li class="fourth__form__list-item"><input name="name[Имя]" type="text" data-required="true" placeholder="Имя*" class="fourth__form__name"></li>
+                                        <li class="fourth__form__list-item"><input name="phone[Телефон]" type="tel" data-required="true" placeholder="Телефон*" class="fourth__form__tel phone-inp"></li>
+                                        <li class="fourth__form__list-item"><input type="submit" value="ПЕРЕЗВОНИТЕ МНЕ" class="fourth__form__button"></li>
+                                    </ul>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="popup polytic-popup">
+                            <div class="form-box">
+                                <div class="close"></div>
+                                <div class="text-wrp">
+                                    <h3>Политика конфиденциальности</h3>
+                                    <p>Соблюдение Вашей конфиденциальности важно для нас. По этой причине, мы разработали Политику Конфиденциальности, которая описывает, как мы используем и храним Вашу информацию. Пожалуйста, ознакомьтесь с нашими правилами соблюдения конфиденциальности и сообщите нам, если у вас возникнут какие-либо вопросы.</p>
+                                    
+                                    <h3>СБОР И ИСПОЛЬЗОВАНИЕ ПЕРСОНАЛЬНОЙ ИНФОРМАЦИИ</h3>
+
+                                    <p>Под персональной информацией понимаются данные, которые могут быть использованы для идентификации определенного лица либо связи с ним.<br>
+                                    От вас может быть запрошено предоставление вашей персональной информации в любой момент, когда вы связываетесь с нами.<br>
+                                    Ниже приведены некоторые примеры типов персональной информации, которую мы можем собирать, и как мы можем использовать такую информацию.</p>
+                                    <p>Какую персональную информацию мы собираем:</p>
+                                    <p>Когда вы оставляете заявку на сайте, мы можем собирать различную информацию, включая ваши имя, номер телефона, адрес электронной почты и т.д.</p>
+                                    <p>Как мы используем вашу персональную информацию:</p>
+                                    <p>Собираемая нами персональная информация позволяет нам связываться с вами и сообщать об уникальных предложениях, акциях, других мероприятиях и ближайших событиях.</p>
+                                    <p>Время от времени, мы можем использовать вашу персональную информацию для отправки важных уведомлений и сообщений.
+                                    Мы также можем использовать персональную информацию для внутренних целей, таких как проведения аудита, анализа данных и различных исследований в целях улучшения услуг, предоставляемых нами и предоставления Вам рекомендаций относительно наших услуг.</p>
+                                    <p>Если вы принимаете участие в розыгрыше призов, конкурсе или сходном стимулирующем мероприятии, мы можем использовать предоставляемую вами информацию для управления такими программами.</p>
+                                    
+                                    <h3>РАСКРЫТИЕ ИНФОРМАЦИИ ТРЕТЬИМ ЛИЦАМ</h3>
+
+                                    <p>Мы не раскрываем полученную от Вас информацию третьим лицам.
+                                    Исключения:</p>
+                                    <p>В случае если необходимо — в соответствии с законом, судебным порядком, в судебном разбирательстве, и/или на основании публичных запросов или запросов от государственных органов на территории РФ — раскрыть вашу персональную информацию. Мы также можем раскрывать информацию о вас если мы определим, что такое раскрытие необходимо или уместно в целях безопасности, поддержания правопорядка, или иных общественно важных случаях.</p>
+                                    <p>В случае реорганизации, слияния или продажи мы можем передать собираемую нами персональную информацию соответствующему третьему лицу – правопреемнику.</p>
+                                    
+                                    <h3>ЗАЩИТА ПЕРСОНАЛЬНОЙ ИНФОРМАЦИИ</h3>
+
+                                    <p>Мы предпринимаем меры предосторожности — включая административные, технические и физические — для защиты вашей персональной информации от утраты, кражи, и недобросовестного использования, а также от несанкционированного доступа, раскрытия, изменения и уничтожения.</p>
+                                    
+                                    <h3>СОБЛЮДЕНИЕ ВАШЕЙ КОНФИДЕНЦИАЛЬНОСТИ НА УРОВНЕ КОМПАНИИ</h3>
+
+                                    <p>Для того чтобы убедиться, что ваша персональная информация находится в безопасности, мы доводим нормы соблюдения конфиденциальности и безопасности до наших сотрудников, и строго следим за исполнением мер соблюдения конфиденциальности.</p>
+                                    </div>
+                                </div>
+                        </div>
+                    <div class="thanks-popup" id="thanks-popup">
+                        <div class="close-bg"></div>
+                        <div class="form-box">
+                            <div class="close"></div>
+                            <div class="text-wrp">
+                                <h2>Спасибо за заявку!</h2>
+                                <p>Мы скоро с вами свяжемся!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Scripts-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="js/jquery.maskedinput.js"></script>
+<script src="js/main.js"></script>
+<script src="js/form.js"></script>
+</body>
+</html>
