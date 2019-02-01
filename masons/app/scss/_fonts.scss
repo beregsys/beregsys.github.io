@@ -1,7 +1,0 @@
-@import "_mixins/font-face";
-
-@include font-face("Manrope", "../fonts/manrope/Manroperegular");
-@include font-face("PlayFairItalicBold", "../fonts/PlayFairItalicBlack/playfairdisplayblackitalic", bold);
-@include font-face("PlayFairItalicRegular", "../fonts/PlayFairItalicNormal/playfairdisplayitalic");
-@include font-face("PtSansRegular", "../fonts/PtSansRegular/ptsans");
-
