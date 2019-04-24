@@ -36,10 +36,11 @@ body {
 	}
 }
 
-.text-center {
-	text-align: center;
-}
-
 b, strong {
 	font-weight: bold;
+}
+
+.wrapper {
+	max-width: 1092px;
+	margin: 0 auto;
 }
