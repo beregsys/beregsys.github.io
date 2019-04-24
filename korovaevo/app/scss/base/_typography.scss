@@ -1,4 +1,7 @@
 @import "../mixins/font-face";
 
-@include font-face("roboto-example", "../../fonts/RobotoRegular/RobotoRegular");
-@include font-face("roboto-example", "../../fonts/RobotoBold/RobotoBold", bold);
+// @include font-face("ping-regular", "../fonts/PingRegular/PingRegular");
+// @include font-face("ping-regular-italic", "../fonts/PingRegular/PingRegularItalic");
+
+@include font-face("ping-regular", "../fonts/PingRegular/PingRegular");
+@include font-face("ping-regular-italic", "../fonts/PingRegular/PingRegularItalic");
