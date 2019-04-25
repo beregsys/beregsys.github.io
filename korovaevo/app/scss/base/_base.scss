@@ -7,14 +7,15 @@
 	color: #fff;
 }
 
+html {
+	font-size: 62.5%;
+}
+
 body {
-	font-size: 16px;
 	min-width: 320px;
 	position: relative;
 	line-height: 1.65;
-	font-family: $default-font;
 	overflow-x: hidden;
-	color: $text;
 	input, textarea {
 		border: #666 1px solid;
 		outline: none;

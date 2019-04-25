@@ -1,11 +1,13 @@
-$default-font: "ping-regular", sans-serif;
-$accent: orange;
-$text: #333;
+$primary-font: "ping-regular", sans-serif;
+$accent: blue;
+$primary-color: #FDFDFF;
+$blue-light-color: #35699F;
+$blue-dark-color: #1C5693;
 
 // Customization Bootstrap vars from "app/libs/bootstrap/scss/_variables.scss"
-$grid-gutter-width: 30px;
-$grid-columns: 12;
+// $grid-gutter-width: 30px;
+// $grid-columns: 12;
 $grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px);
 $container-max-widths: (sm: 540px, md: 720px, lg: 960px, xl: 1140px);
 
-$gutter: $grid-gutter-width;
+// $gutter: $grid-gutter-width;

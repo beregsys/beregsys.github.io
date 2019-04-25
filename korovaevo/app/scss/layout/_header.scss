@@ -1,0 +1,35 @@
+// Header styles
+.header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 60px;
+  z-index: 100;
+}
+
+.main-menu {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  max-width: 420px;
+  justify-content: space-between;
+
+  a {
+    &:link,
+    &:visited {
+      color: rgba($primary-color, .7);
+      font-size: 1.5rem;
+    }
+
+    &:hover {
+      text-decoration: none;
+      color: rgba($primary-color, .8);
+      border-bottom: 1px solid rgba($primary-color, .8);
+    }
+
+    &:active {
+      border-bottom: none;
+      color: $primary-color;
+    }
+  }
+}
