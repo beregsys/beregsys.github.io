@@ -4,4 +4,30 @@
   padding-top: 25vh;
   position: relative;
 
+  &__car-bg {
+    position: absolute;
+    content: '';
+    width: 40vw;
+    height: 100vh;
+    background: url(../img/main-section-car-bg.jpg) no-repeat;
+    top: 0;
+    right: 0;
+    background-size: cover;
+    z-index: 10;
+  }
+
+  .decoration {
+    position: relative;
+
+    &::before {
+      position: absolute;
+      content: '';
+      width: 31rem;
+      height: 52rem;
+      background: url(../img/main-section-decoration.png) no-repeat top center;
+      left: -9.75rem;
+      top: 16rem;
+      z-index: 20;
+    }
+  }
 }
