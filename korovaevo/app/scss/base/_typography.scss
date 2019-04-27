@@ -5,7 +5,7 @@
 
 @include font-face("ping-regular", "../fonts/PingRegular/PingRegular");
 @include font-face("ping-regular-italic", "../fonts/PingRegular/PingRegularItalic");
-
+@include font-face("ping-bold", "../fonts/PingBold/PingBold");
 
 body {
   font-size: 1.6rem;
@@ -21,4 +21,38 @@ h1 {
 p {
   font-size: 1.8rem;
   line-height: 2rem;
+}
+
+
+.main-slider {
+  &__title {
+    font-size: 2.4rem;
+    line-height: 4rem;
+  }
+
+  &__desc {
+    font-size: 1.3rem;
+    color: rgba($primary-color, .75);
+    line-height: 2rem;
+  }
+
+  &__phones {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+
+  &__show-more:visited,
+  &__show-more:link {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: rgba($primary-color, .85);
+    border-bottom: 1px dashed rgba($primary-color, .85);
+    display: inline-block;
+  }
+
+  &__show-more:hover {
+    text-decoration: none;
+    color: $primary-color;
+    border-bottom-color: $primary-color;
+  }
 }

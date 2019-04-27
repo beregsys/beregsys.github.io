@@ -1,0 +1,134 @@
+.main-slider {
+  z-index: 30;
+
+  &__item {
+    position: relative;
+    display: flex;
+    // min-height: 60rem;
+    // padding-bottom: 350px;
+  }
+
+  &__phones {
+    list-style: none;
+    padding: 0;
+  }
+
+  &__map {
+    //position: absolute;
+    height: 43rem;
+    width: 48rem;
+    // right: 34rem;
+    // bottom: 9rem;
+  }
+
+  // .owl-dots {
+  //   position: absolute;
+  //   left: 0;
+  //   right: 0;
+  //   bottom: 6.5rem;
+
+  //   .owl-dot {
+  //     position: relative;
+  //     margin-right: 15px;
+  //     outline: none;
+      
+  //     span {
+  //       width: 15px;
+  //       height: 15px;
+  //       border: 2px solid $primary-color;
+  //       border-radius: 50%;
+  //       display: block;
+  //       margin: 0 auto;
+  //       transition: all .5s ease-in;
+  //     }
+
+  //     &::after {
+  //       content: '';
+  //       width: 25px;
+  //       height: 25px;
+  //       border-radius: 50%;
+  //       background-color: transparent;
+  //       border: 2px solid $primary-color;
+  //       left: 50%;
+  //       top: 50%;
+  //       transform: translate(-50%, -50%);
+  //       position: absolute;
+  //       opacity: 0;
+  //       transition: all .5s ease-in;
+  //     }
+      
+  //   }
+
+  //   .owl-dot.active {
+  //     span {
+  //       background-color: $primary-color;
+  //     }
+      
+  //     &::after {
+  //       opacity: 1;
+  //       // transform: scale(1.2);
+  //     }
+
+      
+  //   }
+
+  // }
+}
+
+.main-slider__nav {
+  display: flex;
+  width: 28rem;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 22rem;
+  z-index: 100;
+}
+
+.dots-wrapper {
+  height: 7rem;
+  background: $yellow-color;
+  box-shadow: 0 -1rem 5rem rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+
+.slider-dots {
+  display: flex;
+  height: 7rem;
+  align-items: center;
+  justify-content: flex-start;
+
+  &__item {
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 2px solid $primary-color;
+    border-radius: 50%;
+    transition: all .5s ease-in;
+    cursor: pointer;
+    margin-right: 2rem;
+    position: relative;
+
+    &::after {
+      content: '';
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      background-color: transparent;
+      border: 2px solid $primary-color;
+      // left: 50%;
+      // top: 50%;
+      transform: translate(-28%, -28%);
+      position: absolute;
+      opacity: 0;
+      transition: all .5s ease-in;
+    }
+  }
+
+  &__item.active {
+    background-color: $primary-color;
+
+    &::after {
+      opacity: 1;
+    }
+  }
+}
