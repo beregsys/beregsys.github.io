@@ -1,10 +1,14 @@
 $primary-font: "ping-regular", sans-serif;
 $primary-font-bold: "ping-bold", sans-serif;
-$accent: blue;
+$primary-font-medium: "ping-medium", sans-serif;
+$primary-font-light: "ping-light", sans-serif;
+$accent: #1D5794;
 $primary-color: #FDFDFF;
 $yellow-color: #F6CF00;
-$blue-light-color: #35699F;
-$blue-dark-color: #1C5693;
+$blue-gradient-light-color: #35699F;
+$blue-gradient-dark-color: #1C5693;
+$blue-light-color: #738CA6;
+$blue-dark-color: #1D5794;
 
 // Customization Bootstrap vars from "app/libs/bootstrap/scss/_variables.scss"
 // $grid-gutter-width: 30px;

@@ -3,3 +3,13 @@
 .u-margin-bottom-medium { margin-bottom: 5rem; } 
 .u-margin-bottom-small { margin-bottom: 3.5rem; } 
 .u-margin-bottom-tiny { margin-bottom: 2rem; }
+
+.u-block-width-small { max-width: 55rem; margin: 0 auto; }
+.u-block-width-medium { max-width: 58rem; margin: 0 auto;}
+.u-block-width-big { max-width: 69.2rem; margin: 0 auto; }
+
+.u-unstyled-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

@@ -4,8 +4,10 @@
 // @include font-face("ping-regular-italic", "../fonts/PingRegular/PingRegularItalic");
 
 @include font-face("ping-regular", "../fonts/PingRegular/PingRegular");
-@include font-face("ping-regular-italic", "../fonts/PingRegular/PingRegularItalic");
+// @include font-face("ping-regular-italic", "../fonts/PingRegular/PingRegularItalic");
 @include font-face("ping-bold", "../fonts/PingBold/PingBold");
+@include font-face("ping-medium", "../fonts/PingMedium/PingMedium");
+@include font-face("ping-light", "../fonts/PingLight/PingLight");
 
 body {
   font-size: 1.6rem;
@@ -54,5 +56,22 @@ p {
     text-decoration: none;
     color: $primary-color;
     border-bottom-color: $primary-color;
+  }
+}
+
+.manufacture-section {
+  color: $blue-dark-color;
+
+  &__heading {
+    font-size: 3.4rem;
+    line-height: 5rem;
+    font-family: $primary-font-bold;
+  }
+  &__desc {
+    padding-top: 2rem;
+    font-size: 2rem;
+    line-height: 3rem;
+    color: $blue-light-color;
+    font-family: $primary-font-medium;
   }
 }

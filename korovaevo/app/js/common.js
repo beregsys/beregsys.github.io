@@ -27,6 +27,15 @@ $(function() {
 				owl.trigger('prev.owl.carousel', [300]);
 		});
 
+		var gallery = $('.gallery-slider');
+
+		gallery.owlCarousel({
+			items:1,
+			lazyLoad:true,
+			loop:true,
+			margin:10,
+			nav:true
+		});
 		
 
 
