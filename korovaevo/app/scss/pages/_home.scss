@@ -83,6 +83,38 @@
 }
 
 .gallery-section {
-  background-color: black;
+  position: relative;
+
+  .gallery-slider-navigation {
+    position: absolute;
+    bottom: 10rem;
+    z-index: 20;
+    left: 50%;
+    width: 70rem;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+
+    .btn {
+      width: 19.4rem;
+
+      &:first-child {
+        text-align: right;
+      }
+    }
+
+    .btn-icon--prev {
+      &::before {
+        margin-right: 4rem;
+      }
+    }
+
+    .btn-icon--next {
+      &::after {
+        margin-left: 4rem;
+      }
+    }
+
+  }
 }
 

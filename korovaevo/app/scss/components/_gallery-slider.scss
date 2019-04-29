@@ -1,32 +1,73 @@
-.gallery-slider__bg {
+.gallery-slider {
   position: relative;
-  background-size: cover;
-  background-repeat: no-repeat;
-  &::after {
-    position: absolute;
-    content: '';
+
+  &::before {
+    top: 11rem;
     left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0,.5);
+    content: '';
+    position: absolute;
+    width: 28rem;
+    height: 51rem;
+    display: block;
+    background-image: url(../img/piece-diamond-1.png),
+                      url(../img/piece-diamond.png);
+    background-position: 0 0, right bottom;
+    background-repeat: no-repeat;
+    z-index: 10;
   }
+
+  &::after {
+    width: 12.5rem;
+    height: 26rem;
+    position: absolute;
+    top: 8rem;
+    right: 9rem;
+    content: '';
+    background: url(../img/piece-diamond-right.png) no-repeat left top;
+    z-index: 10;
+  }
+
+  &__bg {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    &::after {
+      position: absolute;
+      content: '';
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      background-color: rgba(0,0,0,.4);
+      //background: rgba(0,0,0,.4) url(../img/pattern.png);
+    }
+  }
+
+  &__item {
+    height: 68rem;
+    position: relative;
+  }
+
+  &__content {
+    position: absolute;
+    top: 16rem;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+  }
+
+  .section__heading {
+    margin-top: 16rem;
+  }
+
+  .section__desc {
+    margin-top: 4rem;
+  }
+
+
 }
-.owl-carousel .owl-item .owl-lazy[src^=""], 
-.owl-carousel .owl-item .owl-lazy:not([src]) {
+.gallery-slider.owl-carousel .owl-item .owl-lazy[src^=""], 
+.gallery-slider.owl-carousel .owl-item .owl-lazy:not([src]) {
   max-height: 100%;
   height: 68rem;
-}
-
-.gallery-slider__item {
-  height: 68rem;
-  position: relative;
-}
-
-.gallery-slider__content {
-  position: absolute;
-  top: 16rem;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  text-align: center;
 }

@@ -16,13 +16,12 @@ $(function() {
 		});
 
 		// Go to the next item
-		$('.btn-next').click(function(e) {
+		$('.main-slider__nav .btn-next').click(function(e) {
 			e.preventDefault();
-			
 			owl.trigger('next.owl.carousel');
 		})
 	// Go to the previous item
-		$('.btn-prev').click(function(e) {
+		$('.main-slider__nav .btn-prev').click(function(e) {
 			e.preventDefault();
 				owl.trigger('prev.owl.carousel', [300]);
 		});
@@ -33,8 +32,18 @@ $(function() {
 			items:1,
 			lazyLoad:true,
 			loop:true,
-			margin:10,
-			nav:true
+			nav:false,
+			dots:false
+		});
+
+		$('.gallery-slider-navigation .btn-next').click(function(e) {
+			e.preventDefault();
+			gallery.trigger('next.owl.carousel');
+		})
+	// Go to the previous item
+		$('.gallery-slider-navigation .btn-prev').click(function(e) {
+			e.preventDefault();
+				gallery.trigger('prev.owl.carousel', [300]);
 		});
 		
 

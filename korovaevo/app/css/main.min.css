@@ -756,22 +756,29 @@ p {
   border-bottom-color: #FDFDFF;
 }
 
-.manufacture-section {
-  color: #1D5794;
-}
-
-.manufacture-section__heading {
+.section__heading {
   font-size: 3.4rem;
   line-height: 5rem;
   font-family: "ping-bold", sans-serif;
 }
 
-.manufacture-section__desc {
+.section__heading span {
+  font-size: 6rem;
+}
+
+.section__desc {
   padding-top: 2rem;
   font-size: 2rem;
   line-height: 3rem;
-  color: #738CA6;
   font-family: "ping-medium", sans-serif;
+}
+
+.manufacture-section {
+  color: #1D5794;
+}
+
+.manufacture-section .section__desc {
+  color: #738CA6;
 }
 
 .u-center-text {
@@ -796,12 +803,12 @@ p {
 }
 
 .u-block-width-medium {
-  max-width: 58rem;
+  max-width: 59rem;
   margin: 0 auto;
 }
 
 .u-block-width-big {
-  max-width: 69.2rem;
+  max-width: 70rem;
   margin: 0 auto;
 }
 
@@ -1007,6 +1014,35 @@ p {
   margin-top: 2rem;
 }
 
+.gallery-slider {
+  position: relative;
+}
+
+.gallery-slider::before {
+  top: 11rem;
+  left: 0;
+  content: '';
+  position: absolute;
+  width: 28rem;
+  height: 51rem;
+  display: block;
+  background-image: url(../img/piece-diamond-1.png), url(../img/piece-diamond.png);
+  background-position: 0 0, right bottom;
+  background-repeat: no-repeat;
+  z-index: 10;
+}
+
+.gallery-slider::after {
+  width: 12.5rem;
+  height: 26rem;
+  position: absolute;
+  top: 8rem;
+  right: 9rem;
+  content: '';
+  background: url(../img/piece-diamond-right.png) no-repeat left top;
+  z-index: 10;
+}
+
 .gallery-slider__bg {
   position: relative;
   -webkit-background-size: cover;
@@ -1021,13 +1057,7 @@ p {
   right: 0;
   top: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.owl-carousel .owl-item .owl-lazy[src^=""],
-.owl-carousel .owl-item .owl-lazy:not([src]) {
-  max-height: 100%;
-  height: 68rem;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .gallery-slider__item {
@@ -1043,6 +1073,20 @@ p {
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.gallery-slider .section__heading {
+  margin-top: 16rem;
+}
+
+.gallery-slider .section__desc {
+  margin-top: 4rem;
+}
+
+.gallery-slider.owl-carousel .owl-item .owl-lazy[src^=""],
+.gallery-slider.owl-carousel .owl-item .owl-lazy:not([src]) {
+  max-height: 100%;
+  height: 68rem;
 }
 
 .header {
@@ -1160,7 +1204,42 @@ p {
 }
 
 .gallery-section {
-  background-color: black;
+  position: relative;
+}
+
+.gallery-section .gallery-slider-navigation {
+  position: absolute;
+  bottom: 10rem;
+  z-index: 20;
+  left: 50%;
+  width: 70rem;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.gallery-section .gallery-slider-navigation .btn {
+  width: 19.4rem;
+}
+
+.gallery-section .gallery-slider-navigation .btn:first-child {
+  text-align: right;
+}
+
+.gallery-section .gallery-slider-navigation .btn-icon--prev::before {
+  margin-right: 4rem;
+}
+
+.gallery-section .gallery-slider-navigation .btn-icon--next::after {
+  margin-left: 4rem;
 }
 
 /*==========  Desktop First  ==========*/
