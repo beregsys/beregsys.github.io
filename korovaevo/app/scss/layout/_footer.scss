@@ -1,0 +1,51 @@
+.footer {
+  background: linear-gradient(130.47deg, $blue-gradient-dark-color 0%, $blue-gradient-light-color 100%);
+  padding: 10rem 0; 
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    flex: 1;
+  }
+
+  a {
+    &:hover {
+      color: $primary-color;
+    }
+  }
+
+  &__nav {
+    font: 1.5rem/2rem $primary-font;
+    li {
+      margin-bottom: 1.6rem;
+    }
+  }
+
+  &__copyright {
+    text-align: center;
+
+    .copyright__text {
+      margin-top: 2.5rem;
+
+      p {
+        font: 1.4rem/1.5rem $primary-font;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &__contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    a {
+      margin-bottom: 1.2rem;
+      font-size: 1.5rem;
+    }
+  }
+
+}

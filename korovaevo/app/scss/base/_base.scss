@@ -42,6 +42,10 @@ b, strong {
 	font-weight: bold;
 }
 
+a {
+	color: $primary-color;
+}
+
 .wrapper {
 	max-width: 1092px;
 	margin: 0 auto;

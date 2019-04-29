@@ -1,6 +1,13 @@
 .main-slider {
   z-index: 30;
 
+  // &::after,
+  // &::before {
+  //   content: 'Назад';
+  //   position: absolute;
+  //   border: 2px solid $primary-color;
+  // }
+
   &__item {
     position: relative;
     display: flex;
@@ -11,6 +18,13 @@
   &__phones {
     list-style: none;
     padding: 0;
+    max-height: 6rem;
+    overflow: hidden;
+    transition: max-height 1s;
+  }
+
+  &__show-phones {
+    max-height: inherit;
   }
 
   &__map {
