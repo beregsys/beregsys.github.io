@@ -33,16 +33,16 @@
 <body>
 
 	<!-- Header start -->
-	<header class="header">
+	<header class="header ">
 		<a href="#" class="header__logo"><img src="img/brand@3x.svg" alt=""></a>
 		<div class="header__hamburger"></div>
 		<div class="wrapper">
 				<nav>
 					<ul class="main-menu">
-						<li><a href="#" class="main-menu__link">Главная</a></li>
-						<li><a href="#" class="main-menu__link">Производство</a></li>
-						<li><a href="#" class="main-menu__link">Галерея</a></li>
-						<li><a href="#" class="main-menu__link">Контакты</a></li>
+						<li><a href="/" class="main-menu__link">Главная</a></li>
+						<li><a href="#manufacture" class="main-menu__link">Производство</a></li>
+						<li><a href="#gallery" class="main-menu__link">Галерея</a></li>
+						<li><a href="#footer" class="main-menu__link">Контакты</a></li>
 					</ul>
 				</nav>
 		</div>
@@ -55,10 +55,10 @@
 
 		<!-- Main section start -->
 		<section class="main-section">
+			<div class="main-section__car-bg">
+				<div class="decoration"></div>
+			</div>
 			<div class="wrapper u-margin-bottom-medium">
-					<div class="main-section__car-bg">
-						<div class="decoration"></div>
-					</div>
 					<div class="main-section__text-box">
 						<h1>Хлебозаводы «Короваево»</h1>
 						<p>там, где начинается родина...</p>
@@ -87,7 +87,7 @@
 							</ul>
 							
 							<a href="#" class="main-slider__show-more u-margin-bottom-small jsShowMore">Показать все номера</a>
-							
+							<a href="https://www.google.com/maps/place/Khlebozavod+Saltovskyy,+Chastnoe+Ao/@49.9909255,36.3262591,17z/data=!4m13!1m7!3m6!1s0x41270a1ef198382b:0xccb5a922c1097732!2z0YPQuy4g0JPQstCw0YDQtNC10LnRhtC10LIt0KjQuNGA0L7QvdC40L3RhtC10LIsIDEsINCl0LDRgNGM0LrQvtCyLCDQpdCw0YDRjNC60L7QstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCA2MTAwMA!3b1!8m2!3d49.9909255!4d36.3284478!3m4!1s0x41270a1ef1bfffff:0xe4d2764304ebb190!8m2!3d49.989949!4d36.3284229" class="main-slider__show-on-map" target="_blank">Показать на карте</a>
 						</div>
 						<div class="main-slider__map">
 							<div id="map-canvas" class="map"></div>
@@ -178,10 +178,12 @@
 		<!-- ./Main section end -->
 
 		<!-- Manufacture section start -->
-		<section class="manufacture-section">
-			<h2 class="section__heading u-center-text u-block-width-medium">Более <span>32 лет</span> эффективного производства</h2>
-			<div class="section__desc u-center-text u-block-width-small">Долгий, упорный и стремтильный путь от сбора урожая до изготовления продукции</div>
-			
+		<section class="manufacture-section" id="manufacture">
+			<div class="wrapper">
+				<h2 class="section__heading u-center-text u-block-width-medium">Более <span>32 лет</span> эффективного производства</h2>
+				<div class="section__desc u-center-text u-block-width-small">Долгий, упорный и стремтильный путь от сбора урожая до изготовления продукции</div>
+			</div>
+		
 			<div class="wrapper">
 
 				<ul class="manufacture-section__list u-unstyled-list">
@@ -224,36 +226,40 @@
 		<!-- ./Manufacture section end -->
 
 		<!-- Gallery section start -->
-		<section class="gallery-section">
+		<section class="gallery-section" id="gallery">
 			<div class="gallery-slider owl-carousel">
 
 				<div class="gallery-slider__item">
-					<div class="gallery-slider__bg owl-lazy" data-src="img/gallery-slide.jpg"></div>
-					<div class="gallery-slider__content">
-							<h2 class="section__heading u-block-width-medium">
-								Плодородная земля, которая даёт жизнь
-							</h2>
-							<p class="section__desc u-block-width-big">Каждое поле в «Короваево» проходит тщательную оброботку всеми необзходимыми удобрениями. Технологии стартапа OneSoil позволяют достигать максимально эффективного использования</p>
+					<div class="gallery-slider__bg owl-lazy" data-src="img/gallery-slide.jpg">
+						<div class="gallery-slider__content">
+								<h2 class="section__heading u-block-width-medium">
+									Плодородная земля, которая даёт жизнь
+								</h2>
+								<p class="section__desc u-block-width-big">Каждое поле в «Короваево» проходит тщательную оброботку всеми необзходимыми удобрениями. Технологии стартапа OneSoil позволяют достигать максимально эффективного использования</p>
+						</div>
+					</div>
+					
+				</div>
+
+				<div class="gallery-slider__item">
+					<div class="gallery-slider__bg owl-lazy" data-src="img/gallery-slide.jpg">
+						<div class="gallery-slider__content">
+								<h2 class="section__heading u-block-width-medium">
+									Плодородная земля, которая даёт жизнь
+								</h2>
+								<p class="section__desc u-block-width-big">Каждое поле в «Короваево» проходит тщательную оброботку всеми необзходимыми удобрениями. Технологии стартапа OneSoil позволяют достигать максимально эффективного использования</p>
+						</div>
 					</div>
 				</div>
 
 				<div class="gallery-slider__item">
-					<div class="gallery-slider__bg owl-lazy" data-src="img/gallery-slide.jpg"></div>
-					<div class="gallery-slider__content">
+					<div class="gallery-slider__bg owl-lazy" data-src="img/gallery-slide.jpg">
+						<div class="gallery-slider__content">
 							<h2 class="section__heading u-block-width-medium">
 								Плодородная земля, которая даёт жизнь
 							</h2>
 							<p class="section__desc u-block-width-big">Каждое поле в «Короваево» проходит тщательную оброботку всеми необзходимыми удобрениями. Технологии стартапа OneSoil позволяют достигать максимально эффективного использования</p>
-					</div>
-				</div>
-
-				<div class="gallery-slider__item">
-					<div class="gallery-slider__bg owl-lazy" data-src="img/gallery-slide.jpg"></div>
-					<div class="gallery-slider__content">
-							<h2 class="section__heading u-block-width-medium">
-								Плодородная земля, которая даёт жизнь
-							</h2>
-							<p class="section__desc u-block-width-big">Каждое поле в «Короваево» проходит тщательную оброботку всеми необзходимыми удобрениями. Технологии стартапа OneSoil позволяют достигать максимально эффективного использования</p>
+						</div>
 					</div>
 				</div>
 
@@ -269,7 +275,7 @@
 	<!-- ./Main end -->
 
 	<!-- Footer start -->
-	<footer class="footer">
+	<footer class="footer" id="footer">
 		
 		<div class="wrapper">
 

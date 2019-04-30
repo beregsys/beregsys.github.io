@@ -26,6 +26,35 @@
       display: none;
     }
   }
+
+  &__show-on-map {
+    &:link,
+    &:visited {
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 6rem;
+      height: 4rem;
+      background: $yellow-color;
+      box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.2);
+      border-radius: 2px;
+      text-align: center;
+      font: 1.5rem $primary-font-bold;
+      color: $blue-darkest-color;
+      display: none;
+
+      @include media-breakpoint-down(md) {
+        display: flex;
+      }
+    }
+
+    &:active {
+      transform: translateY(2px);
+    }
+    &:hover {
+      text-decoration: none;
+    }
+    
+  }
 }
 
 .main-slider.owl-carousel {

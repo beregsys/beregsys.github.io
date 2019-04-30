@@ -18,6 +18,11 @@ body {
 h1 {
   font-size: 4.4rem;
   line-height: 6rem;
+
+  @include media-breakpoint-down(md) {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
 }
 
 p {
@@ -63,8 +68,18 @@ p {
   font-size: 3.4rem;
   line-height: 5rem;
   font-family: $primary-font-bold;
+
+  @include media-breakpoint-down(md) {
+    font-size: 2.7rem;
+    line-height: 3.5rem;
+  }
+
   span {
     font-size: 6rem;
+
+    @include media-breakpoint-down(md) {
+      font-size: inherit;
+    }
   }
 }
 .section__desc {
@@ -72,6 +87,11 @@ p {
   font-size: 2rem;
   line-height: 3rem;
   font-family: $primary-font-medium;
+
+  @include media-breakpoint-down(md) {
+    padding-top: 3rem;
+    font-size: 1.8rem;
+  }
 }
 
 .manufacture-section {

@@ -2,9 +2,18 @@
   background: linear-gradient(130.47deg, $blue-gradient-dark-color 0%, $blue-gradient-light-color 100%);
   padding: 10rem 0; 
 
+  @include media-breakpoint-down(md) {
+    padding: 6rem 0;
+  }
+
   &__wrapper {
     display: flex;
     justify-content: space-between;
+
+    @include media-breakpoint-down(md) {
+      flex-direction: column;
+      align-items: center;
+    }
   }
 
   &__item {
@@ -19,6 +28,11 @@
 
   &__nav {
     font: 1.5rem/2rem $primary-font;
+
+    @include media-breakpoint-down(md) {
+      display: none;
+    }
+
     li {
       margin-bottom: 1.6rem;
     }
@@ -26,6 +40,11 @@
 
   &__copyright {
     text-align: center;
+
+    @include media-breakpoint-down(md) {
+      order: 1;
+      margin-top: 9rem;
+    }
 
     .copyright__text {
       margin-top: 2.5rem;
@@ -41,6 +60,11 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+
+    @include media-breakpoint-down(md) {
+      align-items: center;
+      order: 0;
+    }
 
     a {
       margin-bottom: 1.2rem;

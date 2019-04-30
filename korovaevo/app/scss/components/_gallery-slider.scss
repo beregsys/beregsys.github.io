@@ -53,6 +53,10 @@
   &__item {
     height: 68rem;
     position: relative;
+
+    @include media-breakpoint-down(md) {
+      height: auto;
+    }
   }
 
   &__content {
@@ -61,20 +65,81 @@
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
+    z-index: 5;
+
+    @include media-breakpoint-down(md) {
+      top: 6.5rem;
+      transform: translate(-50%);
+      width: 100%;
+      padding: 0 2rem;
+    }
   }
 
   .section__heading {
     margin-top: 16rem;
+
+    @include media-breakpoint-down(md) {
+      margin-top: 0;
+    }
   }
 
   .section__desc {
     margin-top: 4rem;
+
+    @include media-breakpoint-down(md) {
+      margin-top: 0;
+      padding-top: 4rem;
+    }
   }
 
+  &-navigation {
+    position: absolute;
+    bottom: 10rem;
+    z-index: 20;
+    left: 50%;
+    width: 70rem;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+
+    @include media-breakpoint-down(md) {
+      width: auto;
+      bottom: 3rem;
+    }
+
+    .btn {
+      width: 19.4rem;
+
+      &:first-child {
+        text-align: right;
+      }
+    }
+
+    .btn-icon--prev {
+      &::before {
+        margin-right: 4rem;
+      }
+
+      @include media-breakpoint-down(md) {
+        display: none;
+      }
+    }
+
+    .btn-icon--next {
+      &::after {
+        margin-left: 4rem;
+      }
+    }
+
+  }
 
 }
 .gallery-slider.owl-carousel .owl-item .owl-lazy[src^=""], 
 .gallery-slider.owl-carousel .owl-item .owl-lazy:not([src]) {
   max-height: 100%;
   height: 68rem;
+
+  @include media-breakpoint-down(md) {
+    height: 60rem;
+  }
 }

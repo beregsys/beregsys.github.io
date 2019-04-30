@@ -31,6 +31,7 @@
     right: 2rem;
     top: 2rem;
     display: none;
+    z-index: 20;
 
     @include media-breakpoint-down(md) {
       display: block;
@@ -68,5 +69,15 @@
       border-bottom: none;
       color: $primary-color;
     }
+  }
+}
+
+.open {
+  .header__logo {
+    display: none;
+  }
+  .header__hamburger {
+    background-image: url(../img/cross@3x.svg);
+    background-position: center;
   }
 }

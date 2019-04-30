@@ -23,7 +23,8 @@
       position: static;
       display: block;
       width: auto;
-      height: 60vh;
+      height: 50vh;
+      background-position: center;
     }
   }
 
@@ -45,11 +46,22 @@
       }
     }
   }
+
+  &__text-box {
+    @include media-breakpoint-down(md) {
+      margin-top: 4rem;
+    }
+  }
 }
 
 .manufacture-section {
   position: relative;
   padding: 23rem 0 12.5rem;
+
+  @include media-breakpoint-down(md) {
+    padding: 18.5rem 0 8rem;
+
+  }
 
   &::before,
   &::after {
@@ -67,6 +79,14 @@
   &::before {
     left: 0;
     background: url(../img/manufacture-left-decoration.png) no-repeat left top;
+
+    @include media-breakpoint-down(md) {
+      content: '';
+      background: url(../img/manufacture-mobile-top.png) no-repeat center top;
+      height: 13.5rem;
+      width: 100%;
+
+    }
   }
 
   &::after {
@@ -79,53 +99,23 @@
     display: flex;
     justify-content: space-around; 
 
+    @include media-breakpoint-down(md) {
+      flex-wrap: wrap;
+      margin-top: 5rem;
+    }
+
     &__item {
       width: 26rem;
+      @include media-breakpoint-down(md) {
+        &:not(:last-child) {
+          margin-bottom: 6rem;
+        }
+      }
     }
   }
 }
 
 .gallery-section {
   position: relative;
-
-  .gallery-slider-navigation {
-    position: absolute;
-    bottom: 10rem;
-    z-index: 20;
-    left: 50%;
-    width: 70rem;
-    transform: translateX(-50%);
-    display: flex;
-    justify-content: space-between;
-
-    @include media-breakpoint-down(md) {
-      width: auto;
-    }
-
-    .btn {
-      width: 19.4rem;
-
-      &:first-child {
-        text-align: right;
-      }
-    }
-
-    .btn-icon--prev {
-      &::before {
-        margin-right: 4rem;
-      }
-
-      @include media-breakpoint-down(md) {
-        display: none;
-      }
-    }
-
-    .btn-icon--next {
-      &::after {
-        margin-left: 4rem;
-      }
-    }
-
-  }
 }
 
