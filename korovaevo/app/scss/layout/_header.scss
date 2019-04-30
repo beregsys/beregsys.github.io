@@ -73,11 +73,35 @@
 }
 
 .open {
+  position: relative;
+  padding-top: 0;
   .header__logo {
     display: none;
   }
   .header__hamburger {
     background-image: url(../img/cross@3x.svg);
     background-position: center;
+  }
+
+  nav {
+    padding: 18.5rem 0;
+  }
+
+  .main-menu {
+    display: flex;
+    
+    height: 27rem;
+    flex-direction: column;
+    justify-content: space-between;
+
+    li {
+      text-align: center;
+      a:link,
+      a:visited {
+        font: 2.3rem $primary-font-bold;
+        color: $mobile-menu-color;
+      }
+    }
+    
   }
 }

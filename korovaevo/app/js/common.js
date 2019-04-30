@@ -65,11 +65,19 @@ $(function() {
 
 		//scroll to blocks 
 		$("nav a").on("click", function() {
-			var scrollTo = $(this).attr("href");
-			var offset = (scrollTo === "#js-contact") ? $(document).height() : 0;
+			var scrollTo = $(this).attr("href"),
+					offset = 0;
+			//var offset = (scrollTo === "#js-contact") ? $(document).height() : 0;
 			$('html, body').animate({
 					scrollTop: $(scrollTo).offset().top + offset
 			}, 1000);
+			$('.header__hamburger').click();
+		});
+
+		// mobile menu toggle class
+		$('.header__hamburger').on('click', function(){
+			console.log($(this));
+			$('.header').toggleClass('open');
 		});
 
 		
