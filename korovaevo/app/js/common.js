@@ -1,16 +1,13 @@
 $(function() {
 	$(document).ready(function(){
-		// $('.main-slider').owlCarousel({
-		// 	items   : 1,
-		// });
-
-		var owl = $('.main-slider');
-		owl.owlCarousel({
-			items         : 1,
-			dotsContainer : '.slider-dots',
-			//dots          : false
-		});
-
+		
+		if( $(window).width() > 900 ) {
+			var owl = $('.main-slider');
+			owl.owlCarousel({
+				items         : 1,
+				dotsContainer : '.slider-dots'
+			});
+		}
 		$('.slider-dots__item').click(function(){
 			owl.trigger('to.owl.carousel', [$(this).index(), 300]);
 		});

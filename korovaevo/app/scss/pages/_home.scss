@@ -1,35 +1,30 @@
 .main-section {
-  // height: 100vh;
   min-height: 68rem;
   background: linear-gradient(to right bottom, $blue-gradient-dark-color, $blue-gradient-light-color);
-  // padding-top: 25vh;
   padding-top: 16rem;
   position: relative;
 
-  // &::after {
-  //   content: '';
-  //   left: 0;
-  //   right: 0;
-  //   bottom: 0;
-  //   display: block;
-  //   height: 7rem;
-  //   background: $yellow-color;
-  //   box-shadow: 0 -1rem 5rem rgba(0, 0, 0, 0.1);
-  //   position: absolute;
-  // }
+  @include media-breakpoint-down(md) {
+    padding-top: 0;
+  }
 
   &__car-bg {
     position: absolute;
     content: '';
-    // width: 40vw;
     width: 30%;
-    // height: 100vh;
     height: 100%;
     background: url(../img/main-section-car-bg.jpg) no-repeat;
     top: 0;
     right: 0;
     background-size: cover;
     z-index: 10;
+
+    @include media-breakpoint-down(md) {
+      position: static;
+      display: block;
+      width: auto;
+      height: 60vh;
+    }
   }
 
   .decoration {
@@ -44,6 +39,10 @@
       left: -9.75rem;
       top: 16rem;
       z-index: 20;
+
+      @include media-breakpoint-down(md) {
+        content: none;
+      }
     }
   }
 }
@@ -59,6 +58,10 @@
     width: 28rem;
     height: 68rem;
     top: 0;
+
+    @include media-breakpoint-down(md) {
+      content: none;
+    }
   }
 
   &::before {
@@ -95,6 +98,10 @@
     display: flex;
     justify-content: space-between;
 
+    @include media-breakpoint-down(md) {
+      width: auto;
+    }
+
     .btn {
       width: 19.4rem;
 
@@ -106,6 +113,10 @@
     .btn-icon--prev {
       &::before {
         margin-right: 4rem;
+      }
+
+      @include media-breakpoint-down(md) {
+        display: none;
       }
     }
 
