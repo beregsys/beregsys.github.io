@@ -1,5 +1,6 @@
 .main-slider {
   z-index: 30;
+  max-width: 100rem;
 
   &__item {
     position: relative;
@@ -81,6 +82,7 @@
     right: 0;
     display: flex;
     justify-content: space-between;
+    z-index: -1;
 
     .owl-prev,
     .owl-next {
@@ -97,7 +99,7 @@
     }
 
     .owl-next {
-      margin-right: 10rem;
+       margin-right: -15rem;
     }
 
 
