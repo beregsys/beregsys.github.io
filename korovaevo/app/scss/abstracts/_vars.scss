@@ -5,8 +5,8 @@ $primary-font-light: "ping-light", sans-serif;
 $accent: #1D5794;
 $primary-color: #FDFDFF;
 $yellow-color: #F6CF00;
-$blue-gradient-light-color: #35699F;
-$blue-gradient-dark-color: #1C5693;
+$blue-gradient-light-color: lighten(#35699F, 5%);
+$blue-gradient-dark-color: lighten(#1C5693, 5%);
 $blue-light-color: #738CA6;
 $blue-dark-color: #1D5794;
 $blue-darkest-color: #124479;
@@ -15,7 +15,7 @@ $mobile-menu-color: #30659D;
 // Customization Bootstrap vars from "app/libs/bootstrap/scss/_variables.scss"
 // $grid-gutter-width: 30px;
 // $grid-columns: 12;
-$grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px);
+$grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1600px);
 //$container-max-widths: (sm: 540px, md: 720px, lg: 960px, xl: 1140px);
 
 // $gutter: $grid-gutter-width;

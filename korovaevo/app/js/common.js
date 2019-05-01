@@ -5,7 +5,9 @@ $(function() {
 			var owl = $('.main-slider');
 			owl.owlCarousel({
 				items         : 1,
-				dotsContainer : '.slider-dots'
+				dotsContainer : '.slider-dots',
+				nav: true,
+				navText: ["<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><path d='M217.9 256L345 129c9.4-9.4 9.4-24.6 0-33.9-9.4-9.4-24.6-9.3-34 0L167 239c-9.1 9.1-9.3 23.7-.7 33.1L310.9 417c4.7 4.7 10.9 7 17 7s12.3-2.3 17-7c9.4-9.4 9.4-24.6 0-33.9L217.9 256z'/></svg>","<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><path d='M294.1 256L167 129c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.3 34 0L345 239c9.1 9.1 9.3 23.7.7 33.1L201.1 417c-4.7 4.7-10.9 7-17 7s-12.3-2.3-17-7c-9.4-9.4-9.4-24.6 0-33.9l127-127.1z'/></svg>"]
 			});
 		}
 		$('.slider-dots__item').click(function(){
@@ -59,8 +61,6 @@ $(function() {
 					neededHeight = listHeight - defaultHeight,
 					list = $('.main-slider__nav');
 			(neededHeight) ? list.css('bottom', neededHeight + 'px' ) : list.css('bottom', '');
-			// console.log(navPos.top = 595);
-			
 		});
 
 		//scroll to blocks 
@@ -70,12 +70,13 @@ $(function() {
 			$('html, body').animate({
 					scrollTop: $(scrollTo).offset().top + offset
 			}, 1000);
-			$('.header__hamburger').click();
+			if( $(window).width() < 900 ) {
+				$('.header__hamburger').click();
+			}
 		});
 
 		// mobile menu toggle class
 		$('.header__hamburger').on('click', function(){
-			console.log($(this));
 			$('.header').toggleClass('open');
 		});
 
@@ -85,17 +86,60 @@ $(function() {
 
 });
 
-var map;
+var mapKharkov, mapPoltava, mapKremen, mapKropyv, mapDoneck;
 function initMap() {
-	map = new google.maps.Map(document.getElementById('map-canvas'), {
+	mapKharkov = new google.maps.Map(document.getElementById('map-canvas-kharkov'), {
 		center: {lat: 49.990101, lng: 36.328416},
-		zoom: 15,
+		zoom: 10,
 		disableDefaultUI: true
 	});
 
-	var marker = new google.maps.Marker({
+	mapPoltava = new google.maps.Map(document.getElementById('map-canvas-poltava'), {
+		center: {lat: 49.555881, lng: 34.503576},
+		zoom: 10,
+		disableDefaultUI: true
+	});
+
+	mapKremen = new google.maps.Map(document.getElementById('map-canvas-kremen'), {
+		center: {lat: 49.061218, lng: 33.425571},
+		zoom: 10,
+		disableDefaultUI: true
+	});
+
+	mapKropyv = new google.maps.Map(document.getElementById('map-canvas-kropyv'), {
+		center: {lat: 48.521723, lng: 32.213045},
+		zoom: 10,
+		disableDefaultUI: true
+	});
+
+	mapDoneck = new google.maps.Map(document.getElementById('map-canvas-doneck'), {
+		center: {lat: 48.590028, lng: 38.004926},
+		zoom: 10,
+		disableDefaultUI: true
+	});
+
+	var markerKharkov = new google.maps.Marker({
 		position: {lat: 49.990101, lng: 36.328416},
-		map: map,
-		title: 'Hello World!'
+		map: mapKharkov
+	});
+
+	var markerPoltava = new google.maps.Marker({
+		position: {lat: 49.555881, lng: 34.503576},
+		map: mapPoltava
+	});
+
+	var markerKremen = new google.maps.Marker({
+		position: {lat: 49.061218, lng: 33.425571},
+		map: mapKremen
+	});
+
+	var markerKropyv = new google.maps.Marker({
+		position: {lat: 48.521723, lng: 32.213045},
+		map: mapKropyv
+	});
+
+	var markerDoneck = new google.maps.Marker({
+		position: {lat: 48.590028, lng: 38.004926},
+		map: mapDoneck
 	});
 }

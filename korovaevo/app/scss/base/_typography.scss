@@ -54,7 +54,11 @@ p {
     line-height: 2rem;
     color: rgba($primary-color, .85);
     border-bottom: 1px dashed rgba($primary-color, .85);
-    display: inline-block;
+    display: none;
+    
+    @include media-breakpoint-down(md) {
+      display: inline-block;
+    }
   }
 
   &__show-more:hover {

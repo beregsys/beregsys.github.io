@@ -96,6 +96,10 @@
     flex-direction: column;
     justify-content: space-between;
 
+    @include media-breakpoint-down(md) {
+      max-width: inherit;
+    }
+
     li {
       text-align: center;
       a:link,
