@@ -71,7 +71,7 @@
     height: 68rem;
     top: 0;
 
-    @include media-breakpoint-down(xxl) {
+    @include media-breakpoint-down(xl) {
       content: none;
     }
   }

@@ -1623,7 +1623,12 @@ p {
   width: 28rem;
   height: 68rem;
   top: 0;
-  content: none;
+}
+
+@media (max-width: 1599.98px) {
+  .manufacture-section::before, .manufacture-section::after {
+    content: none;
+  }
 }
 
 .manufacture-section::before {
