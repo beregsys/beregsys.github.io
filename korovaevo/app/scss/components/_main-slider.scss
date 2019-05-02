@@ -89,13 +89,18 @@
     .owl-next {
       width: 10rem;
       height: 9rem;
-
+      transition: all .4s;
       &:focus {
         outline: none;
       }
       svg {
         fill: $primary-color;
       }
+    }
+
+    .owl-prev.disabled,
+    .owl-next.disabled {
+      opacity: 0;
     }
 
 

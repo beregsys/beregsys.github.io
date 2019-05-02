@@ -1122,6 +1122,9 @@ p {
 .main-slider .owl-nav .owl-next {
   width: 10rem;
   height: 9rem;
+  -webkit-transition: all .4s;
+  -o-transition: all .4s;
+  transition: all .4s;
 }
 
 .main-slider .owl-nav .owl-prev:focus,
@@ -1132,6 +1135,11 @@ p {
 .main-slider .owl-nav .owl-prev svg,
 .main-slider .owl-nav .owl-next svg {
   fill: #FDFDFF;
+}
+
+.main-slider .owl-nav .owl-prev.disabled,
+.main-slider .owl-nav .owl-next.disabled {
+  opacity: 0;
 }
 
 @media (max-width: 991.98px) {
