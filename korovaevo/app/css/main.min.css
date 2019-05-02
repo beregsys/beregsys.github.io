@@ -1104,7 +1104,7 @@ p {
 
 .main-slider .owl-nav {
   position: absolute;
-  top: 30%;
+  bottom: 0;
   left: 0;
   right: 0;
   display: -webkit-box;
@@ -1115,14 +1115,13 @@ p {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  z-index: -1;
+  z-index: 20;
 }
 
 .main-slider .owl-nav .owl-prev,
 .main-slider .owl-nav .owl-next {
   width: 10rem;
-  height: 10rem;
-  margin-left: -15rem;
+  height: 9rem;
 }
 
 .main-slider .owl-nav .owl-prev:focus,
@@ -1133,10 +1132,6 @@ p {
 .main-slider .owl-nav .owl-prev svg,
 .main-slider .owl-nav .owl-next svg {
   fill: #FDFDFF;
-}
-
-.main-slider .owl-nav .owl-next {
-  margin-right: -9rem;
 }
 
 @media (max-width: 991.98px) {
